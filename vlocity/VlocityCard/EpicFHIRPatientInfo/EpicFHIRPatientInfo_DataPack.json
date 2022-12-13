@@ -1,0 +1,47 @@
+{
+    "%vlocity_namespace%__Author__c": "LizChristenbury",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "recordId",
+                    "val": "001Dn000007CVX8IAO"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "ContextId": "{recordId}",
+                    "DataType": "Demographics",
+                    "env": "Sandbox"
+                },
+                "ipMethod": "EpicFHIR_GetData",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "EpicFHIRPatientInfo.json",
+    "%vlocity_namespace%__Description__c": "Shows the patient's info including name, birthdate, PCP, and gender",
+    "%vlocity_namespace%__GlobalKey__c": "EpicFHIRPatientInfo/LizChristenbury/2/1670877459380",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "{\"Age\":35,\"BirthDate\":\"1987-09-12\",\"PreferredLang\":\"English\",\"PCP\":\"Physician Family Medicine, MD\",\"Gender\":\"female\",\"MaritalStatus\":\"Married\",\"Deceased\":\"false\",\"Name\":\"Camila Maria Lopez\",\"OldAddress\":\"3268 West Johnson St. Apt 117, GARLAND, DALLAS, TX, 75043, US\",\"HomeAddress\":\"3268 West Johnson St. Apt 117, GARLAND, DALLAS, TX, 75043, US\",\"Email\":\"knixontestemail@epic.com\",\"WorkPhone\":\"469-888-8888\",\"HomePhone\":\"469-555-5555\",\"MyChart\":\"FHIRCAMILA\",\"EPI\":203713,\"InternalID\":\"     Z6129\",\"FHIR\":\"TnOZ.elPXC6zcBNFMcFA7A5KZbYxo2.4T-LylRk4GoW4B\",\"BirthSex\":\"F\",\"SexForClinicalUse\":\"female\",\"LegalSex\":\"female\",\"Ethnicity\":\"Unknown\"}",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 2,
+    "IsLocked": false,
+    "MayEdit": true,
+    "Name": "EpicFHIRPatientInfo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/EpicFHIRPatientInfo"
+}

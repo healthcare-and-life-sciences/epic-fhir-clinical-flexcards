@@ -1,0 +1,51 @@
+<Bundle xmlns="http://hl7.org/fhir">
+    <type value="searchset" />
+    <total value="1" />
+    <link>
+        <relation value="self" />
+        <url value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/AllergyIntolerance?patient=erXuFYUfucBZaryVksYEcMg3" />
+    </link>
+    <entry>
+        <link>
+            <relation value="self" />
+            <url value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/AllergyIntolerance/eARZpey6BWRZxRZkRpc8OFJ46j3QOFrduk77hYQKWRQnp6GRlpYc2I3BfUN6pz4Anz77ow8.GJh54fUVfm3O8Vw3" />
+        </link>
+        <fullUrl value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/AllergyIntolerance/eARZpey6BWRZxRZkRpc8OFJ46j3QOFrduk77hYQKWRQnp6GRlpYc2I3BfUN6pz4Anz77ow8.GJh54fUVfm3O8Vw3" />
+        <resource>
+            <AllergyIntolerance>
+                <id value="eARZpey6BWRZxRZkRpc8OFJ46j3QOFrduk77hYQKWRQnp6GRlpYc2I3BfUN6pz4Anz77ow8.GJh54fUVfm3O8Vw3" />
+                <clinicalStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" />
+                        <version value="4.0.0" />
+                        <code value="active" />
+                        <display value="Active" />
+                    </coding>
+                </clinicalStatus>
+                <verificationStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification" />
+                        <version value="4.0.0" />
+                        <code value="unconfirmed" />
+                        <display value="Unconfirmed" />
+                    </coding>
+                </verificationStatus>
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="1631000175102" />
+                        <display value="Patient not asked" />
+                    </coding>
+                    <text value="Not on File" />
+                </code>
+                <patient>
+                    <reference value="Patient/erXuFYUfucBZaryVksYEcMg3" />
+                    <display value="Lopez, Camila Maria" />
+                </patient>
+            </AllergyIntolerance>
+        </resource>
+        <search>
+            <mode value="match" />
+        </search>
+    </entry>
+</Bundle>

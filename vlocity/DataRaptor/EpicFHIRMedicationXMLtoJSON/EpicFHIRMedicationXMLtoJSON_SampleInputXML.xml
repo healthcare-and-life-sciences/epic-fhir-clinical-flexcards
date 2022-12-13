@@ -1,0 +1,194 @@
+<Bundle xmlns="http://hl7.org/fhir">
+    <type value="searchset" />
+    <total value="1" />
+    <link>
+        <relation value="self" />
+        <url value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/MedicationRequest?patient=erXuFYUfucBZaryVksYEcMg3&amp;status=active&amp;category=Community" />
+    </link>
+    <entry>
+        <link>
+            <relation value="self" />
+            <url value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/MedicationRequest/ePDJ.zsf3Jfg2.MKkAMgW9EcIbsaiB.y-OTrPS5v2h8Q3" />
+        </link>
+        <fullUrl value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/MedicationRequest/ePDJ.zsf3Jfg2.MKkAMgW9EcIbsaiB.y-OTrPS5v2h8Q3" />
+        <resource>
+            <MedicationRequest>
+                <id value="ePDJ.zsf3Jfg2.MKkAMgW9EcIbsaiB.y-OTrPS5v2h8Q3" />
+                <identifier>
+                    <use value="usual" />
+                    <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.798268" />
+                    <value value="1066899" />
+                </identifier>
+                <status value="active" />
+                <intent value="order" />
+                <category>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category" />
+                        <code value="community" />
+                        <display value="Community" />
+                    </coding>
+                    <text value="Community" />
+                </category>
+                <medicationReference>
+                    <reference value="Medication/ej-bgums0x4N6E0.QqIjJb3kGhOQBVK3lIYjcil9mb9j-ukNrz6P2y90AiDm3R20Y3" />
+                    <display value="drospirenone-ethinyl estradiol (YAZ,GIANVI) tablet 3-0.02 mg" />
+                </medicationReference>
+                <subject>
+                    <reference value="Patient/erXuFYUfucBZaryVksYEcMg3" />
+                    <display value="Lopez, Camila Maria" />
+                </subject>
+                <encounter>
+                    <reference value="Encounter/elMz2mwjsRvKnZiR.0ceTUg3" />
+                    <identifier>
+                        <use value="usual" />
+                        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8" />
+                        <value value="27558" />
+                    </identifier>
+                    <display value="Office Visit" />
+                </encounter>
+                <authoredOn value="2019-05-28" />
+                <requester>
+                    <reference value="Practitioner/eM5CWtq15N0WJeuCet5bJlQ3" />
+                    <type value="Practitioner" />
+                    <display value="Physician Family Medicine, MD" />
+                </requester>
+                <recorder>
+                    <reference value="Practitioner/eM5CWtq15N0WJeuCet5bJlQ3" />
+                    <type value="Practitioner" />
+                    <display value="Physician Family Medicine, MD" />
+                </recorder>
+                <reasonCode>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="69878008" />
+                        <display value="Polycystic ovaries (disorder)" />
+                    </coding>
+                    <coding>
+                        <system value="http://hl7.org/fhir/sid/icd-9-cm/diagnosis" />
+                        <code value="256.4" />
+                        <display value="PCOS (polycystic ovarian syndrome)" />
+                    </coding>
+                    <coding>
+                        <system value="http://hl7.org/fhir/sid/icd-10-cm" />
+                        <code value="E28.2" />
+                        <display value="PCOS (polycystic ovarian syndrome)" />
+                    </coding>
+                    <text value="PCOS (polycystic ovarian syndrome)" />
+                </reasonCode>
+                <courseOfTherapyType>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy" />
+                        <code value="continuous" />
+                        <display value="Continuous long term therapy" />
+                    </coding>
+                    <text value="Continuous long term therapy" />
+                </courseOfTherapyType>
+                <dosageInstruction>
+                    <text value="Take 1 tablet by mouth 1 (one) time each day., Starting Tue 5/28/2019, Until Wed 5/27/2020, Normal" />
+                    <patientInstruction value="Take 1 tablet by mouth 1 (one) time each day." />
+                    <timing>
+                        <repeat>
+                            <boundsPeriod>
+                                <start value="2019-05-28" />
+                            </boundsPeriod>
+                            <count value="365" />
+                            <timeOfDay value="09:00:00" />
+                        </repeat>
+                        <code>
+                            <text value="0900" />
+                        </code>
+                    </timing>
+                    <asNeededBoolean value="false" />
+                    <route>
+                        <coding>
+                            <system value="http://snomed.info/sct" />
+                            <code value="260548002" />
+                            <display value="Oral (qualifier value)" />
+                        </coding>
+                        <coding>
+                            <system value="urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025" />
+                            <code value="15" />
+                            <display value="Oral" />
+                        </coding>
+                        <text value="Oral" />
+                    </route>
+                    <method>
+                        <coding>
+                            <system value="http://snomed.info/sct" />
+                            <code value="419652001" />
+                            <display value="Take" />
+                        </coding>
+                        <text value="Take" />
+                    </method>
+                    <doseAndRate>
+                        <type>
+                            <coding>
+                                <system value="http://epic.com/CodeSystem/dose-rate-type" />
+                                <code value="calculated" />
+                                <display value="calculated" />
+                            </coding>
+                            <text value="calculated" />
+                        </type>
+                        <doseQuantity>
+                            <value value="1" />
+                            <unit value="tablet" />
+                            <system value="http://unitsofmeasure.org" />
+                            <code value="{tbl}" />
+                        </doseQuantity>
+                    </doseAndRate>
+                    <doseAndRate>
+                        <type>
+                            <coding>
+                                <system value="http://epic.com/CodeSystem/dose-rate-type" />
+                                <code value="admin-amount" />
+                                <display value="admin-amount" />
+                            </coding>
+                            <text value="admin-amount" />
+                        </type>
+                        <doseQuantity>
+                            <value value="1" />
+                            <unit value="tablet" />
+                            <system value="http://unitsofmeasure.org" />
+                            <code value="{tbl}" />
+                        </doseQuantity>
+                    </doseAndRate>
+                    <doseAndRate>
+                        <type>
+                            <coding>
+                                <system value="http://epic.com/CodeSystem/dose-rate-type" />
+                                <code value="ordered" />
+                                <display value="ordered" />
+                            </coding>
+                            <text value="ordered" />
+                        </type>
+                        <doseQuantity>
+                            <value value="1" />
+                            <unit value="tablet" />
+                            <system value="http://unitsofmeasure.org" />
+                            <code value="{tbl}" />
+                        </doseQuantity>
+                    </doseAndRate>
+                </dosageInstruction>
+                <dispenseRequest>
+                    <validityPeriod>
+                        <start value="2019-05-28" />
+                    </validityPeriod>
+                    <numberOfRepeatsAllowed value="12" />
+                    <quantity>
+                        <value value="28" />
+                        <unit value="tablet" />
+                    </quantity>
+                    <expectedSupplyDuration>
+                        <value value="28" />
+                        <unit value="Day" />
+                        <system value="http://unitsofmeasure.org" />
+                        <code value="d" />
+                    </expectedSupplyDuration>
+                </dispenseRequest>
+            </MedicationRequest>
+        </resource>
+        <search>
+            <mode value="match" />
+        </search>
+    </entry>
+</Bundle>

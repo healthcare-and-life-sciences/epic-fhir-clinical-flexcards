@@ -1,0 +1,20 @@
+{
+    "Coverage": {
+        "Beneficiary": "Text",
+        "Identifier": {
+            "Type": "Text",
+            "Use": "Text",
+            "Value": "Text"
+        },
+        "Payor": "Text",
+        "PayorId": "Text",
+        "PeriodStart": "Text",
+        "Relationship": "Text",
+        "Subscriber": "Text",
+        "Type": {
+            "Display": "Text",
+            "Name": "Text",
+            "Type": "Text"
+        }
+    }
+}

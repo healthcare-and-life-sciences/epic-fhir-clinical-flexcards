@@ -1,0 +1,17 @@
+{
+    "Activity": {
+        "DoNotPerform": "Text",
+        "End": "Text",
+        "Goal": "Text",
+        "Kind": "Text",
+        "Start": "Text",
+        "Status": "Text",
+        "Title": "Text"
+    },
+    "Author": "Text",
+    "CarePlanName": "Text",
+    "EndDate": "Text",
+    "StartDate": "Text",
+    "Status": "Text",
+    "Title": "Text"
+}

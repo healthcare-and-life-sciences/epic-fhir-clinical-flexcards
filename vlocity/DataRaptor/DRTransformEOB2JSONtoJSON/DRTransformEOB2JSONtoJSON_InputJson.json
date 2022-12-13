@@ -1,0 +1,210 @@
+{
+    "BenefitAmount": "$1,380.00",
+    "ClaimNumber": "1000003786",
+    "Copay": "$280.00",
+    "Deductible": "$1,000.00",
+    "Facility": "Lakeside Hospital",
+    "Insurer": "MC Payor",
+    "InsurerID": "7443",
+    "Item": [
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$84.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Coinsurance Amount"
+                },
+                {
+                    "Amount": "$1,000.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Deductible Amount"
+                },
+                {
+                    "Amount": "$460.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "2300.00",
+            "ServiceID": "0500",
+            "ServiceName": "OUTPATIENT SERVICES - GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "01/01/2017"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$16.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Coinsurance Amount"
+                },
+                {
+                    "Amount": "$40.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "200.00",
+            "ServiceID": "0320",
+            "ServiceName": "RADIOLOGY – DIAGNOSTIC – GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$35.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Co-payment Amount"
+                },
+                {
+                    "Amount": "$460.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "2300.00",
+            "ServiceID": "0500",
+            "ServiceName": "OUTPATIENT SERVICES - GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$35.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Co-payment Amount"
+                },
+                {
+                    "Amount": "$40.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "200.00",
+            "ServiceID": "0320",
+            "ServiceName": "RADIOLOGY – DIAGNOSTIC – GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$35.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Co-payment Amount"
+                },
+                {
+                    "Amount": "$460.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "2300.00",
+            "ServiceID": "0500",
+            "ServiceName": "OUTPATIENT SERVICES - GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$35.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Co-payment Amount"
+                },
+                {
+                    "Amount": "$40.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "200.00",
+            "ServiceID": "0320",
+            "ServiceName": "RADIOLOGY – DIAGNOSTIC – GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$35.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Co-payment Amount"
+                },
+                {
+                    "Amount": "$460.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "2300.00",
+            "ServiceID": "0500",
+            "ServiceName": "OUTPATIENT SERVICES - GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$35.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Co-payment Amount"
+                },
+                {
+                    "Amount": "$40.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "200.00",
+            "ServiceID": "0320",
+            "ServiceName": "RADIOLOGY – DIAGNOSTIC – GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$35.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Co-payment Amount"
+                },
+                {
+                    "Amount": "$460.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "2300.00",
+            "ServiceID": "0500",
+            "ServiceName": "OUTPATIENT SERVICES - GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        },
+        {
+            "Adjudication": [
+                {
+                    "Amount": "$35.00",
+                    "Category": "Patient Responsibility",
+                    "Reason": "Co-payment Amount"
+                },
+                {
+                    "Amount": "$40.00",
+                    "Category": "Contractual Obligation",
+                    "Reason": "Chgs excd fee sch/max allowable"
+                }
+            ],
+            "NetAmount": "200.00",
+            "ServiceID": "0320",
+            "ServiceName": "RADIOLOGY – DIAGNOSTIC – GENERAL",
+            "ServicePeriodEnd": "09/01/2018",
+            "ServicePeriodStart": "09/01/2018"
+        }
+    ],
+    "PatientName": "Fhir, Member",
+    "Payee": "Lakeview Billing Provider",
+    "Provider": "Lakeview Billing Provider",
+    "TotalCostOfService": "$12,500.00"
+}

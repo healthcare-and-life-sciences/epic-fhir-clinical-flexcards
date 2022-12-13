@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "Adjudication": {
+            "CO": "Text",
+            "CoInsurance": "Text",
+            "Copay": "Text",
+            "Deductible": "Text"
+        },
+        "Copay": "Text",
+        "NetAmount": "2300.00",
+        "ServiceID": "0500",
+        "ServiceName": "Text",
+        "ServicePeriodEnd": "09/01/2018",
+        "ServicePeriodStart": "01/01/2017"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AppointmentType": "Text",
+    "Comments": "Text",
+    "DurationMinutes": "Text",
+    "End": "Text",
+    "Id": "Text",
+    "Participants": {
+        "Name": "Text",
+        "Required": "Text",
+        "Status": "Text"
+    },
+    "Reason": "Text",
+    "ServiceType": "Text",
+    "Specialty": "Text",
+    "Start": "Text",
+    "Status": "Text"
+}

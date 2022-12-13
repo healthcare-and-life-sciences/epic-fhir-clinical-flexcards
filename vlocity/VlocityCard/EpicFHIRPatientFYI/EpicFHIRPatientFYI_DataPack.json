@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Author__c": "LizChristenbury",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "[\n  {\n    \"Date\": \"05/03/2021\",\n    \"FlagName\": \"Jennifer enjoys hiking.\",\n    \"Type\": \"General\",\n    \"Status\": \"active\"\n  },\n  {\n    \"Date\": \"04/03/2018\",\n    \"FlagName\": \"Patient is temporarily living with sister. Double check appointment and pharmacy locations during visits.\",\n    \"Type\": \"General\",\n    \"Status\": \"inactive\"\n  }\n]",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "EpicFHIRPatientFYI.json",
+    "%vlocity_namespace%__Description__c": "Shows a patient's FYI flags",
+    "%vlocity_namespace%__GlobalKey__c": "EpicFHIRPatientFYI/LizChristenbury/2/1670602095317",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "[{\"Date\":\"05/03/2021\",\"FlagName\":\"Jennifer enjoys hiking.\",\"Type\":\"General\",\"Status\":\"active\"},{\"Date\":\"04/03/2018\",\"FlagName\":\"Patient is temporarily living with sister. Double check appointment and pharmacy locations during visits.\",\"Type\":\"General\",\"Status\":\"inactive\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 2,
+    "IsLocked": false,
+    "MayEdit": true,
+    "Name": "EpicFHIRPatientFYI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/EpicFHIRPatientFYI"
+}

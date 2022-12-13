@@ -1,0 +1,156 @@
+{
+    "entry": [
+        {
+            "fullUrl": "https://hostname/instance/api/FHIR/R4/MedicationRequest/e3z3q7cdqUZggo48677dtjX3R6Au9JglZpGYbtJNIhoc3",
+            "link": [
+                {
+                    "relation": "self",
+                    "url": "https://hostname/instance/api/FHIR/R4/MedicationRequest/e3z3q7cdqUZggo48677dtjX3R6Au9JglZpGYbtJNIhoc3"
+                }
+            ],
+            "resource": {
+                "authoredOn": "2018-09-20T15:41:39Z",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "outpatient",
+                                "display": "Outpatient",
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "dosageInstruction": [
+                    {
+                        "asNeededBoolean": false,
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "unit": "mg",
+                                    "value": 15
+                                },
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "code": "calculated",
+                                            "display": "calculated",
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                }
+                            },
+                            {
+                                "doseQuantity": {
+                                    "code": "{tbl}",
+                                    "system": "http://unitsofmeasure.org",
+                                    "unit": "tablet",
+                                    "value": 1
+                                },
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "code": "admin-amount",
+                                            "display": "admin-amount",
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                }
+                            },
+                            {
+                                "doseQuantity": {
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "unit": "mg",
+                                    "value": 10
+                                },
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "code": "ordered",
+                                            "display": "ordered",
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                }
+                            }
+                        ],
+                        "route": {
+                            "coding": [
+                                {
+                                    "code": "15",
+                                    "display": "Oral",
+                                    "system": "urn:oid:1.2.840.114350.1.13.861.1.7.4.798268.7025"
+                                },
+                                {
+                                    "code": "260548002",
+                                    "display": "Oral",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "timing": {
+                            "code": {
+                                "text": "2100"
+                            },
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2018-09-21T04:00:00Z"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "encounter": {
+                    "reference": "Encounter/eiUjKDnCzAklY4taV-ZqAfRDw-CztkJ5lLnQ5bCBa9Dw3"
+                },
+                "id": "e3z3q7cdqUZggo48677dtjX3R6Au9JglZpGYbtJNIhoc3",
+                "identifier": [
+                    {
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.798268",
+                        "use": "usual",
+                        "value": "2454978"
+                    }
+                ],
+                "intent": "order",
+                "medicationReference": {
+                    "display": "oxybutynin (DITROPAN XL) CR tablet",
+                    "reference": "Medication/eFnx9hyX.YTNJ407PR9g4zpiT8lXCElOXkldLgGDYrAU-fszvYmrUZlYzRfJl-qKj3"
+                },
+                "recorder": {
+                    "display": "Epic User",
+                    "reference": "Practitioner/ef81ZrgFqs7ufzYI2X9ixcA3"
+                },
+                "requester": {
+                    "display": "Epic User",
+                    "reference": "Practitioner/ef81ZrgFqs7ufzYI2X9ixcA3"
+                },
+                "resourceType": "MedicationRequest",
+                "status": "active",
+                "subject": {
+                    "display": "Friend, All",
+                    "reference": "Patient/ecfCE.KpaQpPtHuipuBpYVg3"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ],
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://hostname/instance/api/FHIR/R4/MedicationRequest?patient=ecfCE.KpaQpPtHuipuBpYVg3&status=active"
+        }
+    ],
+    "resourceType": "Bundle",
+    "total": 1,
+    "type": "searchset"
+}

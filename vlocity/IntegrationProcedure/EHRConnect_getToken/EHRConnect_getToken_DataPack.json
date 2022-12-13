@@ -1,0 +1,32 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "EHRConnect_getToken_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "EHRConnect_getToken_Element_DRGetExistingToken.json",
+        "EHRConnect_getToken_Element_SetFiveMinutes.json",
+        "EHRConnect_getToken_Element_SetValues.json",
+        "EHRConnect_getToken_Element_TokenExpired.json",
+        "EHRConnect_getToken_Element_getToken.json",
+        "EHRConnect_getToken_Element_SaveToken.json",
+        "EHRConnect_getToken_Element_SendNewToken.json",
+        "EHRConnect_getToken_Element_TokenValid.json",
+        "EHRConnect_getToken_Element_SendValidToken.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "EHRConnect_getToken",
+    "%vlocity_namespace%__PropertySet__c": "EHRConnect_getToken_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "getToken",
+    "%vlocity_namespace%__Type__c": "EHRConnect",
+    "IsLocked": false,
+    "MayEdit": true,
+    "Name": "GetEpicAPIToken",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure"
+}

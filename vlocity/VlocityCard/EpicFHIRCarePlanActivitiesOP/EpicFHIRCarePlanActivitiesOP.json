@@ -1,0 +1,336 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": "",
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n  {\n    \"Activity\": [\n      {\n        \"End\": \"07/15/2020\",\n        \"Start\": \"07/15/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"BTR Goal 1\",\n        \"Title\": \"BTR Task 1\",\n        \"Kind\": \"Task\"\n      },\n      {\n        \"End\": \"07/15/2020\",\n        \"Start\": \"07/15/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"BTR Goal 1\",\n        \"Title\": \"BTR Task 2\",\n        \"Kind\": \"Task\"\n      },\n      {\n        \"End\": \"07/15/2020\",\n        \"Start\": \"07/15/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"BTR Goal 1\",\n        \"Title\": \"BTR Task 3\",\n        \"Kind\": \"Task\"\n      },\n      {\n        \"End\": \"07/15/2020\",\n        \"Start\": \"07/15/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"BTR Goal 1\",\n        \"Title\": \"BTR Task 4\",\n        \"Kind\": \"Task\"\n      }\n    ],\n    \"Author\": \"C Ccc\",\n    \"EndDate\": \"07/15/2020\",\n    \"StartDate\": \"07/15/2020\",\n    \"CarePlanName\": \"BTR Care Plan 1\",\n    \"Status\": \"completed\"\n  },\n  {\n    \"Activity\": [\n      {\n        \"End\": \"07/20/2020\",\n        \"Start\": \"07/16/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"JRS Two Task Goal\",\n        \"Title\": \"JRS 29 ASSIGN TO CURRENT USER\",\n        \"Kind\": \"Task\"\n      },\n      {\n        \"End\": \"07/22/2020\",\n        \"Start\": \"07/16/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"JRS Two Task Goal\",\n        \"Title\": \"JRS 29 ASSIGN TO CARE MANAGER\",\n        \"Kind\": \"Task\"\n      }\n    ],\n    \"Author\": \"C Ccc\",\n    \"EndDate\": \"07/22/2020\",\n    \"StartDate\": \"07/16/2020\",\n    \"CarePlanName\": \"JRS Care Plan\",\n    \"Status\": \"completed\"\n  }\n]",
+            "dsDelay": "",
+            "resultVar": "[0][\"Activity\"]"
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "isRepeatable": false,
+    "lwc": {
+        "DeveloperName": "cfEpicFHIRCarePlanActivitiesOP_1_LizChristenbury",
+        "Id": "0RbDn000001yVAVKA2",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfEpicFHIRCarePlanActivitiesOP_1_LizChristenbury",
+        "NamespacePrefix": "c"
+    },
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "flexIcon",
+                                    "elementLabel": "Block-0-Icon-0",
+                                    "key": "element_element_block_0_0_flexIcon_0_0",
+                                    "name": "Icon",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "extraclass": "slds-icon_container slds-icon-standard-goals ",
+                                        "iconName": "standard:goals",
+                                        "iconType": "Salesforce SVG",
+                                        "imgsrc": "",
+                                        "record": "{record}",
+                                        "size": "medium",
+                                        "variant": "inverse"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": true,
+                                        "large": "1",
+                                        "medium": "1",
+                                        "small": "1"
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "width:40px;",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": true,
+                                            "large": "1",
+                                            "medium": "1",
+                                            "small": "1"
+                                        },
+                                        "sizeClass": "slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-small-size_1-of-12 slds-size_1-of-12 ",
+                                        "style": "      \n         width:40px;",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "width:40px;",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": true,
+                                                    "large": "1",
+                                                    "medium": "1",
+                                                    "small": "1"
+                                                },
+                                                "sizeClass": "slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-small-size_1-of-12 slds-size_1-of-12 ",
+                                                "style": "      \n         width:40px;",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "element"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Header",
+                                    "key": "element_element_block_0_0_outputField_1_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "mergeField": "%3Ch3%3E%3Cspan%20style=%22color:%20#000000;%22%3E%7BGoal%7D%3C/span%3E%3C/h3%3E",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "11",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "size": {
+                                            "default": "11",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_11-of-12 "
+                                    },
+                                    "type": "text",
+                                    "userUpdatedElementLabel": true
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-0",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 "
+                            },
+                            "type": "block"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "flexDatatable",
+                            "elementLabel": "Datatable-1",
+                            "name": "Datatable",
+                            "property": {
+                                "card": "{card}",
+                                "cellLevelEdit": true,
+                                "columns": [
+                                    {
+                                        "fieldName": "Title",
+                                        "label": "Task",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "fieldName": "Start",
+                                        "format": "M/D/YYYY",
+                                        "label": "Start",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "date"
+                                    },
+                                    {
+                                        "fieldName": "End",
+                                        "format": "M/D/YYYY",
+                                        "label": "End",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "date"
+                                    },
+                                    {
+                                        "fieldName": "Status",
+                                        "label": "Status",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "text"
+                                    }
+                                ],
+                                "groupOrder": "asc",
+                                "issearchavailable": false,
+                                "issortavailable": true,
+                                "pagelimit": 3,
+                                "record": "{record}",
+                                "records": "{records}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "none",
+                        "type": "around"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "EpicFHIRCarePlanActivitiesOP",
+    "xmlJson": [
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "isExplicitImport": false,
+        "isExposed": true,
+        "masterLabel": "EpicFHIRCarePlanActivitiesOP",
+        "runtimeNamespace": "%vlocity_namespace%",
+        "targets": {
+            "target": [
+                "lightning__RecordPage"
+            ]
+        }
+    }
+}

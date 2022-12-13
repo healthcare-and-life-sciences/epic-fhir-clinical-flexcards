@@ -1,0 +1,94 @@
+{
+    "Address1": {
+        "Use": "old",
+        "Value": "3268 West Johnson St. Apt 117, GARLAND, DALLAS, TX, 75043, US"
+    },
+    "Address2": {
+        "Use": "home",
+        "Value": "789456 West Johnson St. Apt 222, GARLAND, Houston, AZ, 75043, US"
+    },
+    "Age": 35,
+    "BirthDate": "1987-09-12",
+    "Deceased": "false",
+    "Extension": [
+        {
+            "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "Value": "Other Race"
+        },
+        {
+            "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "Value": "Other"
+        },
+        {
+            "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "Value": "Unknown"
+        },
+        {
+            "Type": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+            "Value": "female"
+        },
+        {
+            "Type": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+            "Value": "female"
+        },
+        {
+            "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "Value": "F"
+        }
+    ],
+    "Gender": "female",
+    "Identifier": [
+        {
+            "Type": "EPIC",
+            "Value": "E4007"
+        },
+        {
+            "Type": "EXTERNAL",
+            "Value": "Z6129"
+        },
+        {
+            "Type": "FHIR",
+            "Value": "TnOZ.elPXC6zcBNFMcFA7A5KZbYxo2.4T-LylRk4GoW4B"
+        },
+        {
+            "Type": "FHIR STU3",
+            "Value": "erXuFYUfucBZaryVksYEcMg3"
+        },
+        {
+            "Type": "INTERNAL",
+            "Value": "     Z6129"
+        },
+        {
+            "Type": "EPI",
+            "Value": "203713"
+        },
+        {
+            "Type": "MYCHARTLOGIN",
+            "Value": "FHIRCAMILA"
+        },
+        {
+            "Type": "WPRINTERNAL",
+            "Value": "736"
+        }
+    ],
+    "MaritalStatus": "Married",
+    "Name": "Camila Maria Lopez",
+    "PCP": "Physician Family Medicine, MD",
+    "PreferredLang": "English",
+    "Telecom": [
+        {
+            "System": "phone",
+            "Use": "home",
+            "Value": "469-555-5555"
+        },
+        {
+            "System": "phone",
+            "Use": "work",
+            "Value": "469-888-8888"
+        },
+        {
+            "System": "email",
+            "Value": "knixontestemail@epic.com"
+        }
+    ]
+}

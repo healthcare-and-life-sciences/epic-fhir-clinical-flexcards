@@ -1,0 +1,183 @@
+<Patient xmlns="http://hl7.org/fhir">
+    <id value="erXuFYUfucBZaryVksYEcMg3" />
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+        <extension url="detailed">
+            <valueCoding>
+                <system value="urn:oid:2.16.840.1.113883.6.238" />
+                <code value="2131-1" />
+                <display value="Other Race" />
+            </valueCoding>
+        </extension>
+        <extension url="text">
+            <valueString value="Other" />
+        </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+        <extension url="text">
+            <valueString value="Unknown" />
+        </extension>
+    </extension>
+    <extension url="http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex">
+        <valueCodeableConcept>
+            <coding>
+                <system value="urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000" />
+                <code value="female" />
+                <display value="female" />
+            </coding>
+        </valueCodeableConcept>
+    </extension>
+    <extension url="http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use">
+        <valueCodeableConcept>
+            <coding>
+                <system value="urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000" />
+                <code value="female" />
+                <display value="female" />
+            </coding>
+        </valueCodeableConcept>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+        <valueCode value="F" />
+    </extension>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="EPIC" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.0" />
+        <value value="E4007" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="EXTERNAL" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.698084" />
+        <value value="Z6129" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="FHIR" />
+        </type>
+        <system value="http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id" />
+        <value value="TnOZ.elPXC6zcBNFMcFA7A5KZbYxo2.4T-LylRk4GoW4B" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="FHIR STU3" />
+        </type>
+        <system value="http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id" />
+        <value value="erXuFYUfucBZaryVksYEcMg3" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="INTERNAL" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.698084" />
+        <value value="     Z6129" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="EPI" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14" />
+        <value value="203713" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="MYCHARTLOGIN" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110" />
+        <value value="FHIRCAMILA" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="WPRINTERNAL" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.878082" />
+        <value value="736" />
+    </identifier>
+    <active value="true" />
+    <name>
+        <use value="official" />
+        <text value="Camila Maria Lopez" />
+        <family value="Lopez" />
+        <given value="Camila" />
+        <given value="Maria" />
+    </name>
+    <name>
+        <use value="usual" />
+        <text value="Camila Maria Lopez" />
+        <family value="Lopez" />
+        <given value="Camila" />
+        <given value="Maria" />
+    </name>
+    <telecom>
+        <system value="phone" />
+        <value value="469-555-5555" />
+        <use value="home" />
+    </telecom>
+    <telecom>
+        <system value="phone" />
+        <value value="469-888-8888" />
+        <use value="work" />
+    </telecom>
+    <telecom>
+        <system value="email" />
+        <value value="knixontestemail@epic.com" />
+    </telecom>
+    <gender value="female" />
+    <birthDate value="1987-09-12" />
+    <deceasedBoolean value="false" />
+    <address>
+        <use value="old" />
+        <line value="3268 West Johnson St." />
+        <line value="Apt 117" />
+        <city value="GARLAND" />
+        <district value="DALLAS" />
+        <state value="TX" />
+        <postalCode value="75043" />
+        <country value="US" />
+    </address>
+    <address>
+        <use value="home" />
+        <line value="789456 West Johnson St." />
+        <line value="Apt 222" />
+        <city value="GARLAND" />
+        <district value="Houston" />
+        <state value="AZ" />
+        <postalCode value="75043" />
+        <country value="US" />
+        <period>
+            <start value="2019-05-24" />
+        </period>
+    </address>
+    <maritalStatus>
+        <text value="Married" />
+    </maritalStatus>
+    <communication>
+        <language>
+            <coding>
+                <system value="urn:ietf:bcp:47" />
+                <code value="en" />
+                <display value="English" />
+            </coding>
+            <text value="English" />
+        </language>
+        <preferred value="true" />
+    </communication>
+    <generalPractitioner>
+        <reference value="Practitioner/eM5CWtq15N0WJeuCet5bJlQ3" />
+        <type value="Practitioner" />
+        <display value="Physician Family Medicine, MD" />
+    </generalPractitioner>
+    <managingOrganization>
+        <reference value="Organization/enRyWnSP963FYDpoks4NHOA3" />
+        <display value="Epic Hospital System" />
+    </managingOrganization>
+</Patient>

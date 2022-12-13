@@ -1,0 +1,22 @@
+{
+    "ActiveProblems": {
+        "Addresses": "Text"
+    },
+    "Activity": {
+        "Code": "Text",
+        "CodeType": "Text",
+        "DoNotPerform": "Text",
+        "End": "Text",
+        "Kind": "text",
+        "Name": "Text",
+        "Start": "Text",
+        "Status": "Text"
+    },
+    "Goals": {
+        "GoalName": "Text"
+    },
+    "HTML": "Text",
+    "Status": "Text",
+    "Title": "Text",
+    "Type": "Text"
+}
