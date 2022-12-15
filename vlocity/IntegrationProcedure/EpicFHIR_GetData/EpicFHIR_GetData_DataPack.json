@@ -54,6 +54,7 @@
         "EpicFHIR_GetData_Element_Coverage.json",
         "EpicFHIR_GetData_Element_GetCoverageR4.json",
         "EpicFHIR_GetData_Element_DRTransformCoverage.json",
+        "EpicFHIR_GetData_Element_DRCoverageReformat.json",
         "EpicFHIR_GetData_Element_ResponseCoverage.json",
         "EpicFHIR_GetData_Element_CareTeamLong.json",
         "EpicFHIR_GetData_Element_GetCareTeamLong.json",
