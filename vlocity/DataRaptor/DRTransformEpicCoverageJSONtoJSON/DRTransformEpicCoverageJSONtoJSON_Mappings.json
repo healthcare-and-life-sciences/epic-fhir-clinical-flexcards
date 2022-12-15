@@ -66,6 +66,22 @@
     {
         "%vlocity_namespace%__DomainObjectAPIName__c": "json",
         "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Coverage:PatientReferenceId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "entry:resource:subscriber:reference",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "DRTransformEpicCoverageJSONtoJSONCustom8304",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "DRTransformEpicCoverageJSONtoJSON",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
         "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Coverage:Payor",
         "%vlocity_namespace%__InterfaceFieldAPIName__c": "entry:resource:payor:display",
         "%vlocity_namespace%__IsDisabled__c": false,
