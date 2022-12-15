@@ -58,7 +58,7 @@
                                     "parentElementKey": "element_block_0_0",
                                     "property": {
                                         "card": "{card}",
-                                        "mergeField": "%3Ch5%3E%3Cstrong%3EStatus:%3C/strong%3E%3C/h5%3E%0A%3Ch5%3E%7BStatus%7D%3C/h5%3E",
+                                        "mergeField": "%3Cp%3E%3Cstrong%3EStatus:%20%3C/strong%3E%7BStatus%7D%3C/p%3E",
                                         "record": "{record}"
                                     },
                                     "size": {
@@ -78,7 +78,7 @@
                                             "size": ""
                                         },
                                         "border": {
-                                            "color": "#cccccc",
+                                            "color": "",
                                             "radius": "",
                                             "style": "",
                                             "type": "border_bottom",
@@ -103,7 +103,7 @@
                                             "small": "12"
                                         },
                                         "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                        "style": "     border-bottom: #cccccc 1px solid; \n         ",
+                                        "style": "     border-bottom: #ccc 1px solid; \n         ",
                                         "text": {
                                             "align": "",
                                             "color": ""
@@ -126,7 +126,7 @@
                                                     "size": ""
                                                 },
                                                 "border": {
-                                                    "color": "#cccccc",
+                                                    "color": "",
                                                     "radius": "",
                                                     "style": "",
                                                     "type": "border_bottom",
@@ -151,7 +151,7 @@
                                                     "small": "12"
                                                 },
                                                 "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                                "style": "     border-bottom: #cccccc 1px solid; \n         ",
+                                                "style": "     border-bottom: #ccc 1px solid; \n         ",
                                                 "text": {
                                                     "align": "",
                                                     "color": ""
@@ -171,7 +171,7 @@
                                     "parentElementKey": "element_block_0_0",
                                     "property": {
                                         "card": "{card}",
-                                        "mergeField": "%3Ch5%3E%3Cstrong%3EAddresses:%3C/strong%3E%3C/h5%3E",
+                                        "mergeField": "%3Cp%3E%3Cstrong%3EAddresses:%3C/strong%3E%3C/p%3E",
                                         "record": "{record}"
                                     },
                                     "size": {
@@ -197,7 +197,7 @@
                                             "type": "",
                                             "width": ""
                                         },
-                                        "class": "slds-p-bottom_small ",
+                                        "class": "slds-m-top_medium ",
                                         "container": {
                                             "class": ""
                                         },
@@ -205,13 +205,13 @@
                                         },
                                         "inlineStyle": "",
                                         "margin": [
+                                            {
+                                                "label": "top:medium",
+                                                "size": "medium",
+                                                "type": "top"
+                                            }
                                         ],
                                         "padding": [
-                                            {
-                                                "label": "bottom:small",
-                                                "size": "small",
-                                                "type": "bottom"
-                                            }
                                         ],
                                         "size": {
                                             "default": "12",
@@ -250,7 +250,7 @@
                                                     "type": "",
                                                     "width": ""
                                                 },
-                                                "class": "slds-p-bottom_small ",
+                                                "class": "slds-m-top_medium ",
                                                 "container": {
                                                     "class": ""
                                                 },
@@ -258,13 +258,13 @@
                                                 },
                                                 "inlineStyle": "",
                                                 "margin": [
+                                                    {
+                                                        "label": "top:medium",
+                                                        "size": "medium",
+                                                        "type": "top"
+                                                    }
                                                 ],
                                                 "padding": [
-                                                    {
-                                                        "label": "bottom:small",
-                                                        "size": "small",
-                                                        "type": "bottom"
-                                                    }
                                                 ],
                                                 "size": {
                                                     "default": "12",
@@ -294,7 +294,7 @@
                                     "parentElementKey": "element_block_0_0",
                                     "property": {
                                         "cardName": "EpicFHIRCarePlanProblems",
-                                        "cardNode": "",
+                                        "cardNode": "{record.ActiveProblems}",
                                         "isChildCardTrackingEnabled": false,
                                         "recordId": "{recordId}",
                                         "selectedState": "Active"
@@ -340,7 +340,7 @@
                                             "medium": "12",
                                             "small": "12"
                                         },
-                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                        "sizeClass": "slds-large-size_12-of-12  slds-medium-size_12-of-12  slds-small-size_12-of-12  slds-size_12-of-12 ",
                                         "style": "     border-bottom: #cccccc 1px solid; \n         ",
                                         "text": {
                                             "align": "",
@@ -388,7 +388,7 @@
                                                     "medium": "12",
                                                     "small": "12"
                                                 },
-                                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                "sizeClass": "slds-large-size_12-of-12  slds-medium-size_12-of-12  slds-small-size_12-of-12  slds-size_12-of-12 ",
                                                 "style": "     border-bottom: #cccccc 1px solid; \n         ",
                                                 "text": {
                                                     "align": "",
@@ -405,11 +405,12 @@
                                             "class": "slds-col ",
                                             "element": "childCardPreview",
                                             "elementLabel": "CarePlanBlock-FlexCard-5",
-                                            "key": "element_element_element_block_0_0_block_4_0_childCardPreview_0_0",
+                                            "key": "element_element_element_block_0_0_block_3_0_childCardPreview_0_0",
                                             "name": "FlexCard",
+                                            "parentElementKey": "element_element_block_0_0_block_3_0",
                                             "property": {
                                                 "cardName": "EpicFHIRCarePlanLongGoals",
-                                                "cardNode": "",
+                                                "cardNode": "{record.Goals}",
                                                 "isChildCardTrackingEnabled": false,
                                                 "recordId": "{recordId}",
                                                 "selectedState": "Active"
@@ -660,11 +661,12 @@
                                             "class": "slds-col ",
                                             "element": "childCardPreview",
                                             "elementLabel": "CarePlanBlock-FlexCard-6",
-                                            "key": "element_element_element_block_0_0_block_5_0_childCardPreview_0_0",
+                                            "key": "element_element_element_block_0_0_block_4_0_childCardPreview_0_0",
                                             "name": "FlexCard",
+                                            "parentElementKey": "element_element_block_0_0_block_4_0",
                                             "property": {
                                                 "cardName": "EpicFHIRCarePlanActivities",
-                                                "cardNode": "",
+                                                "cardNode": "{record.Activity}",
                                                 "isChildCardTrackingEnabled": false,
                                                 "recordId": "{recordId}",
                                                 "selectedState": "Active"
