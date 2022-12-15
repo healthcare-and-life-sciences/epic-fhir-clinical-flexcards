@@ -8,7 +8,7 @@
         },
         "type": "Custom",
         "value": {
-            "body": "[\n  {\n    \"Activity\": [\n      {\n        \"End\": \"07/15/2020\",\n        \"Start\": \"07/15/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"BTR Goal 1\",\n        \"Title\": \"BTR Task 1\",\n        \"Kind\": \"Task\"\n      },\n      {\n        \"End\": \"07/15/2020\",\n        \"Start\": \"07/15/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"BTR Goal 1\",\n        \"Title\": \"BTR Task 2\",\n        \"Kind\": \"Task\"\n      },\n      {\n        \"End\": \"07/15/2020\",\n        \"Start\": \"07/15/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"BTR Goal 1\",\n        \"Title\": \"BTR Task 3\",\n        \"Kind\": \"Task\"\n      },\n      {\n        \"End\": \"07/15/2020\",\n        \"Start\": \"07/15/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"BTR Goal 1\",\n        \"Title\": \"BTR Task 4\",\n        \"Kind\": \"Task\"\n      }\n    ],\n    \"Author\": \"C Ccc\",\n    \"EndDate\": \"07/15/2020\",\n    \"StartDate\": \"07/15/2020\",\n    \"CarePlanName\": \"BTR Care Plan 1\",\n    \"Status\": \"completed\"\n  },\n  {\n    \"Activity\": [\n      {\n        \"End\": \"07/20/2020\",\n        \"Start\": \"07/16/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"JRS Two Task Goal\",\n        \"Title\": \"JRS 29 ASSIGN TO CURRENT USER\",\n        \"Kind\": \"Task\"\n      },\n      {\n        \"End\": \"07/22/2020\",\n        \"Start\": \"07/16/2020\",\n        \"DoNotPerform\": false,\n        \"Status\": \"completed\",\n        \"Goal\": \"JRS Two Task Goal\",\n        \"Title\": \"JRS 29 ASSIGN TO CARE MANAGER\",\n        \"Kind\": \"Task\"\n      }\n    ],\n    \"Author\": \"C Ccc\",\n    \"EndDate\": \"07/22/2020\",\n    \"StartDate\": \"07/16/2020\",\n    \"CarePlanName\": \"JRS Care Plan\",\n    \"Status\": \"completed\"\n  }\n]",
+            "body": "[\n  {\n    \"Goal\": {\n      \"Activity\": [\n        {\n          \"End\": \"2020-07-15T18:23:42Z\",\n          \"Start\": \"2020-07-15T18:23:26Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"BTR Task 1\",\n          \"Kind\": \"Task\"\n        },\n        {\n          \"End\": \"2020-07-15T18:23:42Z\",\n          \"Start\": \"2020-07-15T18:23:26Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"BTR Task 2\",\n          \"Kind\": \"Task\"\n        },\n        {\n          \"End\": \"2020-07-15T18:23:42Z\",\n          \"Start\": \"2020-07-15T18:23:26Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"BTR Task 3\",\n          \"Kind\": \"Task\"\n        },\n        {\n          \"End\": \"2020-07-15T18:23:42Z\",\n          \"Start\": \"2020-07-15T18:23:26Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"BTR Task 4\",\n          \"Kind\": \"Task\"\n        }\n      ],\n      \"GoalName\": \"BTR Goal 1\"\n    },\n    \"Author\": \"C Ccc\",\n    \"EndDate\": \"07/15/2020\",\n    \"StartDate\": \"07/15/2020\",\n    \"CarePlanName\": \"BTR Care Plan 1\",\n    \"Status\": \"completed\"\n  },\n  {\n    \"Goal\": {\n      \"Activity\": [\n        {\n          \"End\": \"2020-07-20T22:56:23Z\",\n          \"Start\": \"2020-07-16T19:05:47Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"JRS 29 ASSIGN TO CURRENT USER\",\n          \"Kind\": \"Task\"\n        },\n        {\n          \"End\": \"2020-07-22T17:29:53Z\",\n          \"Start\": \"2020-07-16T19:05:47Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"JRS 29 ASSIGN TO CARE MANAGER\",\n          \"Kind\": \"Task\"\n        }\n      ],\n      \"GoalName\": \"JRS Two Task Goal\"\n    },\n    \"Author\": \"C Ccc\",\n    \"EndDate\": \"07/22/2020\",\n    \"StartDate\": \"07/16/2020\",\n    \"CarePlanName\": \"JRS Care Plan\",\n    \"Status\": \"completed\"\n  }\n]",
             "dsDelay": "",
             "resultVar": ""
         }
@@ -28,7 +28,7 @@
             "actions": [
             ],
             "childCards": [
-                "EpicFHIRCarePlanActivitiesOP"
+                "EpicFHIRCarePlanGoalOP"
             ],
             "components": {
                 "layer-0": {
@@ -153,13 +153,13 @@
                                         {
                                             "class": "slds-col ",
                                             "element": "childCardPreview",
-                                            "elementLabel": "CarePlanBlock-FlexCard-6",
+                                            "elementLabel": "GoalsAndActivities",
                                             "key": "element_element_element_block_0_0_block_1_0_childCardPreview_0_0",
                                             "name": "FlexCard",
                                             "parentElementKey": "element_element_block_0_0_block_1_0",
                                             "property": {
-                                                "cardName": "EpicFHIRCarePlanActivitiesOP",
-                                                "cardNode": "",
+                                                "cardName": "EpicFHIRCarePlanGoalOP",
+                                                "cardNode": "{records[0].Goal}",
                                                 "isChildCardTrackingEnabled": false,
                                                 "recordId": "{recordId}",
                                                 "selectedState": "Active"
@@ -262,7 +262,8 @@
                                                     }
                                                 }
                                             ],
-                                            "type": "element"
+                                            "type": "element",
+                                            "userUpdatedElementLabel": true
                                         }
                                     ],
                                     "class": "slds-col ",
