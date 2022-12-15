@@ -95,7 +95,7 @@
                                 "styles": {
                                     "label": {
                                         "color": "#000000",
-                                        "fontSize": "14pt"
+                                        "fontSize": ""
                                     }
                                 }
                             },
@@ -130,7 +130,7 @@
                                     "styles": {
                                         "label": {
                                             "color": "#000000",
-                                            "fontSize": "14pt"
+                                            "fontSize": ""
                                         }
                                     }
                                 },
@@ -189,7 +189,7 @@
                                             "styles": {
                                                 "label": {
                                                     "color": "#000000",
-                                                    "fontSize": "14pt"
+                                                    "fontSize": ""
                                                 }
                                             }
                                         },
