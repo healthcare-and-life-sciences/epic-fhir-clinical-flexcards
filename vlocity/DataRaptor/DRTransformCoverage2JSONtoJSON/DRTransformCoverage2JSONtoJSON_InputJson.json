@@ -1,0 +1,54 @@
+{
+    "Coverage": [
+        {
+            "Beneficiary": "Smith, John",
+            "Identifier": {
+                "Type": "http://open.epic.com/FHIR/StructureDefinition/payer-id",
+                "Use": "official",
+                "Value": "7443"
+            },
+            "PatientReferenceId": "Patient/eDfAD2JQzIh.HxyJNMVp3xQ3",
+            "Payor": "TAPESTRY PAYOR",
+            "PeriodStart": "2010-01-01",
+            "Relationship": "Self",
+            "Subscriber": "Smith, John",
+            "Type": [
+                {
+                    "Display": "TAPESTRY PAYOR",
+                    "Name": "TAPESTRY EMPLOYER GROUP",
+                    "Type": "https://www.hl7.org/fhir/codesystem-coverage-class.html"
+                },
+                {
+                    "Display": "TAPESTRY PAYOR",
+                    "Name": "TAPESTRY BENEFIT PLAN",
+                    "Type": "https://www.hl7.org/fhir/codesystem-coverage-class.html"
+                }
+            ]
+        },
+        {
+            "Beneficiary": "Smith, John",
+            "Identifier": {
+                "Type": "http://open.epic.com/FHIR/StructureDefinition/payer-id",
+                "Use": "official",
+                "Value": "7443"
+            },
+            "PatientReferenceId": "Patient/e0jRZBpdruRTXMNFJnowPmA3",
+            "Payor": "TAPESTRY PAYOR",
+            "PeriodStart": "2010-01-01",
+            "Relationship": "Spouse",
+            "Subscriber": "Smith, Jane",
+            "Type": [
+                {
+                    "Display": "TAPESTRY PAYOR",
+                    "Name": "TAPESTRY EMPLOYER GROUP",
+                    "Type": "https://www.hl7.org/fhir/codesystem-coverage-class.html"
+                },
+                {
+                    "Display": "TAPESTRY PAYOR",
+                    "Name": "TAPESTRY BENEFIT PLAN",
+                    "Type": "https://www.hl7.org/fhir/codesystem-coverage-class.html"
+                }
+            ]
+        }
+    ]
+}

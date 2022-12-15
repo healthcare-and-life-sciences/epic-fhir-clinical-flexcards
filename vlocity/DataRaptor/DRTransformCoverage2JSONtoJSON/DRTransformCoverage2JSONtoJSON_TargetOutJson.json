@@ -1,0 +1,11 @@
+{
+    "Beneficiary": "Smith, John",
+    "GroupName": "Text",
+    "InsurerId": "Text",
+    "PatientReferenceId": "Text",
+    "Payor": "TAPESTRY PAYOR",
+    "PeriodStart": "2010-01-01",
+    "PlanName": "Text",
+    "Relationship": "Spouse",
+    "Subscriber": "Smith, Jane"
+}
