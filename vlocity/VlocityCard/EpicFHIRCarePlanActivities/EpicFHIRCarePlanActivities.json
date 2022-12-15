@@ -1,28 +1,16 @@
 {
     "dataSource": {
         "contextVariables": [
-            {
-                "id": 5,
-                "name": "recordIId",
-                "val": "001Dn000007CnPhIAK"
-            }
         ],
         "orderBy": {
             "isReverse": "",
             "name": ""
         },
-        "type": "IntegrationProcedures",
+        "type": "Custom",
         "value": {
+            "body": "{\n\t\t\t\"DoNotPerform\": \"false\",\n\t\t\t\"Status\": \"TEST\",\n\t\t\t\"Name\": \"LDL CHOLESTEROL, DIRECT\",\n\t\t\t\"Kind\": \"TESTRequest\"\n\t\t}",
             "dsDelay": "",
-            "inputMap": {
-                "ContextId": "{recordIId}",
-                "DataType": "CarePlanLong",
-                "env": "Sandbox"
-            },
-            "ipMethod": "EpicFHIR_GetData",
-            "jsonMap": "{\"recordIId\":\"{recordIId}\"}",
-            "resultVar": "[\"Activity\"]",
-            "vlocityAsync": false
+            "resultVar": ""
         }
     },
     "enableLwc": true,
