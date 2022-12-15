@@ -1,4 +1,11 @@
 {
+    "BenefitAmount": "Text",
+    "ClaimNumber": "1000003786",
+    "Copay": "Text",
+    "Deductible": "Text",
+    "Facility": "Lakeside Hospital",
+    "Insurer": "MC Payor",
+    "InsurerID": "7443",
     "Item": {
         "Adjudication": {
             "CO": "Text",
@@ -12,5 +19,11 @@
         "ServiceName": "Text",
         "ServicePeriodEnd": "09/01/2018",
         "ServicePeriodStart": "01/01/2017"
-    }
+    },
+    "PatientName": "Fhir, Member",
+    "PatientReferenceId": "Text",
+    "Payee": "Lakeview Billing Provider",
+    "Provider": "Lakeview Billing Provider",
+    "StatementDate": "Text",
+    "SubmittedAmt": "Text"
 }

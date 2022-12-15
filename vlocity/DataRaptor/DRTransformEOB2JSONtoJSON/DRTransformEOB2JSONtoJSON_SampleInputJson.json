@@ -204,7 +204,9 @@
         }
     ],
     "PatientName": "Fhir, Member",
+    "PatientReferenceId": "Patient/eDfAD2JQzIh.HxyJNMVp3xQ3",
     "Payee": "Lakeview Billing Provider",
     "Provider": "Lakeview Billing Provider",
-    "TotalCostOfService": "$12,500.00"
+    "StatementDate": "06/30/2020",
+    "SubmittedAmt": "$12,500.00"
 }
