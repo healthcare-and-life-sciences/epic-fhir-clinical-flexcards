@@ -1,28 +1,16 @@
 {
     "dataSource": {
         "contextVariables": [
-            {
-                "id": 5,
-                "name": "recordId",
-                "val": "001Dn000007CnPhIAK"
-            }
         ],
         "orderBy": {
             "isReverse": "",
             "name": ""
         },
-        "type": "IntegrationProcedures",
+        "type": "Custom",
         "value": {
+            "body": "{\n\t\t\"Addresses\": \"Test problem\"\n\t}",
             "dsDelay": "",
-            "inputMap": {
-                "ContextId": "{recordId}",
-                "DataType": "CarePlanLong",
-                "env": "Sandbox"
-            },
-            "ipMethod": "EpicFHIR_GetData",
-            "jsonMap": "{\"recordId\":\"{recordId}\"}",
-            "resultVar": "[\"ActiveProblems\"]",
-            "vlocityAsync": false
+            "resultVar": ""
         }
     },
     "enableLwc": true,
@@ -51,7 +39,7 @@
                             "name": "Text",
                             "property": {
                                 "card": "{card}",
-                                "mergeField": "%3Ch3%3E%7BAddresses%7D%3C/h3%3E",
+                                "mergeField": "%3Cp%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%7BAddresses%7D%3C/span%3E%3C/p%3E",
                                 "record": "{record}"
                             },
                             "size": {
