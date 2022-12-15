@@ -56,7 +56,7 @@
                                     "parentElementKey": "element_block_0_0",
                                     "property": {
                                         "card": "{card}",
-                                        "mergeField": "%3Ch1%3E%3Cspan%20style=%22color:%20#000000;%22%3EUpcoming%20Appointments%3C/span%3E%3C/h1%3E",
+                                        "mergeField": "%3Ch3%3E%3Cspan%20style=%22color:%20#000000;%22%3EUpcoming%20Appointments%3C/span%3E%3C/h3%3E",
                                         "record": "{record}"
                                     },
                                     "size": {
