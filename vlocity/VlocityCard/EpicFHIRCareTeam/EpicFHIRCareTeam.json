@@ -44,7 +44,7 @@
                                     "parentElementKey": "element_block_0_0",
                                     "property": {
                                         "card": "{card}",
-                                        "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#000000;%22%3ECare%20Team%3C/span%3E%3C/div%3E",
+                                        "mergeField": "%3Ch3%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#000000;%22%3ECare%20Team%3C/span%3E%3C/h3%3E",
                                         "record": "{record}"
                                     },
                                     "size": {
