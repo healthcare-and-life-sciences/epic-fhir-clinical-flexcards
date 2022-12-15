@@ -29,150 +29,109 @@
                 "EpicFHIRCarePlanOP",
                 "EpicFHIRCarePlanLong",
                 "EpicFHIRCareTeam",
-                "EpicFHIRSocialHistory"
+                "cfEpicFHIRSocialHistoryParent"
             ],
             "components": {
                 "layer-0": {
                     "children": [
                         {
-                            "class": "slds-col ",
-                            "element": "childCardPreview",
-                            "elementLabel": "Allergies",
-                            "name": "FlexCard",
-                            "property": {
-                                "cardName": "EpicFHIRPatientAllergies",
-                                "cardNode": "",
-                                "isChildCardTrackingEnabled": false,
-                                "recordId": "{recordId}",
-                                "selectedState": "Active"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "sizeClass": "slds-size_12-of-12"
-                            },
-                            "type": "element",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "childCardPreview",
-                            "elementLabel": "FlexCard-0-clone-0",
-                            "name": "FlexCard",
-                            "property": {
-                                "cardName": "EpicFHIRPatientConditions",
-                                "cardNode": "",
-                                "isChildCardTrackingEnabled": false,
-                                "recordId": "{recordId}",
-                                "selectedState": "Active"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "sizeClass": "slds-size_12-of-12"
-                            },
-                            "type": "element",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "childCardPreview",
-                            "elementLabel": "FlexCard-1-clone-0",
-                            "name": "FlexCard",
-                            "property": {
-                                "cardName": "EpicFHIRPatientMedications",
-                                "cardNode": "",
-                                "isChildCardTrackingEnabled": false,
-                                "recordId": "{recordId}",
-                                "selectedState": "Active"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "sizeClass": "slds-size_12-of-12"
-                            },
-                            "type": "element",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
                             "children": [
                                 {
                                     "class": "slds-col ",
-                                    "element": "outputField",
-                                    "elementLabel": "CarePlanText",
-                                    "key": "element_element_block_3_0_outputField_0_0",
-                                    "name": "Text",
-                                    "parentElementKey": "element_block_3_0",
+                                    "element": "childCardPreview",
+                                    "elementLabel": "Allergies",
+                                    "key": "element_element_block_0_0_childCardPreview_0_0",
+                                    "name": "FlexCard",
+                                    "parentElementKey": "element_block_0_0",
                                     "property": {
-                                        "card": "{card}",
-                                        "mergeField": "%3Ch1%3ECare%20Plan%20(Outpatient)%3C/h1%3E",
-                                        "record": "{record}"
+                                        "cardName": "EpicFHIRPatientAllergies",
+                                        "cardNode": "",
+                                        "isChildCardTrackingEnabled": false,
+                                        "recordId": "{recordId}",
+                                        "selectedState": "Active"
                                     },
                                     "size": {
                                         "default": "12",
-                                        "isResponsive": true,
-                                        "large": "12",
-                                        "medium": "12",
-                                        "small": "12"
+                                        "isResponsive": false
                                     },
                                     "stateIndex": 0,
                                     "styleObject": {
-                                        "background": {
-                                            "color": "",
-                                            "image": "",
-                                            "position": "",
-                                            "repeat": "",
-                                            "size": ""
-                                        },
-                                        "border": {
-                                            "color": "",
-                                            "radius": "",
-                                            "style": "",
-                                            "type": "",
-                                            "width": ""
-                                        },
-                                        "class": "",
-                                        "container": {
-                                            "class": ""
-                                        },
-                                        "elementStyleProperties": {
-                                        },
-                                        "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
-                                        "size": {
-                                            "default": "12",
-                                            "isResponsive": true,
-                                            "large": "12",
-                                            "medium": "12",
-                                            "small": "12"
-                                        },
-                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                        "style": "      \n         ",
-                                        "text": {
-                                            "align": "",
-                                            "color": ""
-                                        }
+                                        "sizeClass": "slds-size_12-of-12"
                                     },
-                                    "styleObjects": [
+                                    "type": "element",
+                                    "userUpdatedElementLabel": true
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "childCardPreview",
+                                    "elementLabel": "FlexCard-0-clone-0",
+                                    "key": "element_element_block_0_0_childCardPreview_1_0",
+                                    "name": "FlexCard",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "cardName": "EpicFHIRPatientConditions",
+                                        "cardNode": "",
+                                        "isChildCardTrackingEnabled": false,
+                                        "recordId": "{recordId}",
+                                        "selectedState": "Active"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "sizeClass": "slds-size_12-of-12"
+                                    },
+                                    "type": "element",
+                                    "userUpdatedElementLabel": true
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "childCardPreview",
+                                    "elementLabel": "FlexCard-1-clone-0",
+                                    "key": "element_element_block_0_0_childCardPreview_2_0",
+                                    "name": "FlexCard",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "cardName": "EpicFHIRPatientMedications",
+                                        "cardNode": "",
+                                        "isChildCardTrackingEnabled": false,
+                                        "recordId": "{recordId}",
+                                        "selectedState": "Active"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "sizeClass": "slds-size_12-of-12"
+                                    },
+                                    "type": "element",
+                                    "userUpdatedElementLabel": true
+                                },
+                                {
+                                    "children": [
                                         {
-                                            "conditionString": "",
-                                            "conditions": "default",
-                                            "draggable": false,
-                                            "key": 0,
-                                            "label": "Default",
-                                            "name": "Default",
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "CarePlanText",
+                                            "key": "element_element_block_1_0_outputField_0_0",
+                                            "name": "Text",
+                                            "property": {
+                                                "card": "{card}",
+                                                "mergeField": "%3Ch3%3ECare%20Plan%20(Outpatient)%3C/h3%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": true,
+                                                "large": "12",
+                                                "medium": "12",
+                                                "small": "12"
+                                            },
+                                            "stateIndex": 0,
                                             "styleObject": {
                                                 "background": {
                                                     "color": "",
@@ -212,85 +171,82 @@
                                                     "align": "",
                                                     "color": ""
                                                 }
-                                            }
+                                            },
+                                            "styleObjects": [
+                                                {
+                                                    "conditionString": "",
+                                                    "conditions": "default",
+                                                    "draggable": false,
+                                                    "key": 0,
+                                                    "label": "Default",
+                                                    "name": "Default",
+                                                    "styleObject": {
+                                                        "background": {
+                                                            "color": "",
+                                                            "image": "",
+                                                            "position": "",
+                                                            "repeat": "",
+                                                            "size": ""
+                                                        },
+                                                        "border": {
+                                                            "color": "",
+                                                            "radius": "",
+                                                            "style": "",
+                                                            "type": "",
+                                                            "width": ""
+                                                        },
+                                                        "class": "",
+                                                        "container": {
+                                                            "class": ""
+                                                        },
+                                                        "elementStyleProperties": {
+                                                        },
+                                                        "inlineStyle": "",
+                                                        "margin": [
+                                                        ],
+                                                        "padding": [
+                                                        ],
+                                                        "size": {
+                                                            "default": "12",
+                                                            "isResponsive": true,
+                                                            "large": "12",
+                                                            "medium": "12",
+                                                            "small": "12"
+                                                        },
+                                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                        "style": "      \n         ",
+                                                        "text": {
+                                                            "align": "",
+                                                            "color": ""
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "type": "text",
+                                            "userUpdatedElementLabel": true
                                         }
                                     ],
-                                    "type": "text",
-                                    "userUpdatedElementLabel": true
-                                }
-                            ],
-                            "class": "slds-col ",
-                            "element": "block",
-                            "elementLabel": "CarePlanHeader",
-                            "name": "Block",
-                            "property": {
-                                "card": "{card}",
-                                "collapsedByDefault": false,
-                                "collapsible": false,
-                                "label": "Care Plan (Outpatient)",
-                                "record": "{record}"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": true,
-                                "large": "12",
-                                "medium": "12",
-                                "small": "12"
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "background": {
-                                    "color": "#f5f2f2",
-                                    "image": "",
-                                    "position": "",
-                                    "repeat": "",
-                                    "size": ""
-                                },
-                                "border": {
-                                    "color": "",
-                                    "radius": "",
-                                    "style": "",
-                                    "type": "",
-                                    "width": ""
-                                },
-                                "class": "slds-p-around_x-small ",
-                                "container": {
-                                    "class": ""
-                                },
-                                "elementStyleProperties": {
-                                },
-                                "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                    {
-                                        "label": "around:x-small",
-                                        "size": "x-small",
-                                        "type": "around"
-                                    }
-                                ],
-                                "size": {
-                                    "default": "12",
-                                    "isResponsive": true,
-                                    "large": "12",
-                                    "medium": "12",
-                                    "small": "12"
-                                },
-                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                "style": "background-color:#f5f2f2;      \n         ",
-                                "text": {
-                                    "align": "",
-                                    "color": ""
-                                }
-                            },
-                            "styleObjects": [
-                                {
-                                    "conditionString": "",
-                                    "conditions": "default",
-                                    "draggable": false,
-                                    "key": 0,
-                                    "label": "Default",
-                                    "name": "Default",
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "CarePlanHeader",
+                                    "key": "element_element_block_0_0_block_3_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Care Plan (Outpatient)",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": true,
+                                        "large": "12",
+                                        "medium": "12",
+                                        "small": "12"
+                                    },
+                                    "stateIndex": 0,
                                     "styleObject": {
                                         "background": {
                                             "color": "#f5f2f2",
@@ -335,96 +291,6 @@
                                             "align": "",
                                             "color": ""
                                         }
-                                    }
-                                }
-                            ],
-                            "type": "block",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "childCardPreview",
-                            "elementLabel": "FlexCard-2-clone-0",
-                            "name": "FlexCard",
-                            "property": {
-                                "cardName": "EpicFHIRCarePlanOP",
-                                "cardNode": "",
-                                "isChildCardTrackingEnabled": false,
-                                "recordId": "{recordId}",
-                                "selectedState": "Active"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "sizeClass": "slds-size_12-of-12"
-                            },
-                            "type": "element",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "children": [
-                                {
-                                    "class": "slds-col ",
-                                    "element": "outputField",
-                                    "elementLabel": "CarePlanTextLong",
-                                    "key": "element_element_block_5_0_outputField_0_0",
-                                    "name": "Text",
-                                    "parentElementKey": "element_block_5_0",
-                                    "property": {
-                                        "card": "{card}",
-                                        "mergeField": "%3Ch1%3ECare%20Plan%20(Longitudinal)%3C/h1%3E",
-                                        "record": "{record}"
-                                    },
-                                    "size": {
-                                        "default": "12",
-                                        "isResponsive": true,
-                                        "large": "12",
-                                        "medium": "12",
-                                        "small": "12"
-                                    },
-                                    "stateIndex": 0,
-                                    "styleObject": {
-                                        "background": {
-                                            "color": "",
-                                            "image": "",
-                                            "position": "",
-                                            "repeat": "",
-                                            "size": ""
-                                        },
-                                        "border": {
-                                            "color": "",
-                                            "radius": "",
-                                            "style": "",
-                                            "type": "",
-                                            "width": ""
-                                        },
-                                        "class": "",
-                                        "container": {
-                                            "class": ""
-                                        },
-                                        "elementStyleProperties": {
-                                        },
-                                        "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
-                                        "size": {
-                                            "default": "12",
-                                            "isResponsive": true,
-                                            "large": "12",
-                                            "medium": "12",
-                                            "small": "12"
-                                        },
-                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                        "style": "      \n         ",
-                                        "text": {
-                                            "align": "",
-                                            "color": ""
-                                        }
                                     },
                                     "styleObjects": [
                                         {
@@ -434,6 +300,103 @@
                                             "key": 0,
                                             "label": "Default",
                                             "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "#f5f2f2",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-p-around_x-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "around:x-small",
+                                                        "size": "x-small",
+                                                        "type": "around"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "12",
+                                                    "isResponsive": true,
+                                                    "large": "12",
+                                                    "medium": "12",
+                                                    "small": "12"
+                                                },
+                                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                "style": "background-color:#f5f2f2;      \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "block",
+                                    "userUpdatedElementLabel": true
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "childCardPreview",
+                                    "elementLabel": "FlexCard-2-clone-0",
+                                    "key": "element_element_block_0_0_childCardPreview_4_0",
+                                    "name": "FlexCard",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "cardName": "EpicFHIRCarePlanOP",
+                                        "cardNode": "",
+                                        "isChildCardTrackingEnabled": false,
+                                        "recordId": "{recordId}",
+                                        "selectedState": "Active"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "sizeClass": "slds-size_12-of-12"
+                                    },
+                                    "type": "element",
+                                    "userUpdatedElementLabel": true
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "CarePlanTextLong",
+                                            "key": "element_element_block_5_0_outputField_0_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_block_5_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "mergeField": "%3Ch3%3ECare%20Plan%20(Longitudinal)%3C/h3%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": true,
+                                                "large": "12",
+                                                "medium": "12",
+                                                "small": "12"
+                                            },
+                                            "stateIndex": 0,
                                             "styleObject": {
                                                 "background": {
                                                     "color": "",
@@ -473,85 +436,82 @@
                                                     "align": "",
                                                     "color": ""
                                                 }
-                                            }
+                                            },
+                                            "styleObjects": [
+                                                {
+                                                    "conditionString": "",
+                                                    "conditions": "default",
+                                                    "draggable": false,
+                                                    "key": 0,
+                                                    "label": "Default",
+                                                    "name": "Default",
+                                                    "styleObject": {
+                                                        "background": {
+                                                            "color": "",
+                                                            "image": "",
+                                                            "position": "",
+                                                            "repeat": "",
+                                                            "size": ""
+                                                        },
+                                                        "border": {
+                                                            "color": "",
+                                                            "radius": "",
+                                                            "style": "",
+                                                            "type": "",
+                                                            "width": ""
+                                                        },
+                                                        "class": "",
+                                                        "container": {
+                                                            "class": ""
+                                                        },
+                                                        "elementStyleProperties": {
+                                                        },
+                                                        "inlineStyle": "",
+                                                        "margin": [
+                                                        ],
+                                                        "padding": [
+                                                        ],
+                                                        "size": {
+                                                            "default": "12",
+                                                            "isResponsive": true,
+                                                            "large": "12",
+                                                            "medium": "12",
+                                                            "small": "12"
+                                                        },
+                                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                        "style": "      \n         ",
+                                                        "text": {
+                                                            "align": "",
+                                                            "color": ""
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "type": "text",
+                                            "userUpdatedElementLabel": true
                                         }
                                     ],
-                                    "type": "text",
-                                    "userUpdatedElementLabel": true
-                                }
-                            ],
-                            "class": "slds-col ",
-                            "element": "block",
-                            "elementLabel": "CarePlanLong",
-                            "name": "Block",
-                            "property": {
-                                "card": "{card}",
-                                "collapsedByDefault": false,
-                                "collapsible": false,
-                                "label": "Care Plan (Longitudinal)",
-                                "record": "{record}"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": true,
-                                "large": "12",
-                                "medium": "12",
-                                "small": "12"
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "background": {
-                                    "color": "#f5f2f2",
-                                    "image": "",
-                                    "position": "",
-                                    "repeat": "",
-                                    "size": ""
-                                },
-                                "border": {
-                                    "color": "",
-                                    "radius": "",
-                                    "style": "",
-                                    "type": "",
-                                    "width": ""
-                                },
-                                "class": "slds-p-around_x-small ",
-                                "container": {
-                                    "class": ""
-                                },
-                                "elementStyleProperties": {
-                                },
-                                "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                    {
-                                        "label": "around:x-small",
-                                        "size": "x-small",
-                                        "type": "around"
-                                    }
-                                ],
-                                "size": {
-                                    "default": "12",
-                                    "isResponsive": true,
-                                    "large": "12",
-                                    "medium": "12",
-                                    "small": "12"
-                                },
-                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                "style": "background-color:#f5f2f2;      \n         ",
-                                "text": {
-                                    "align": "",
-                                    "color": ""
-                                }
-                            },
-                            "styleObjects": [
-                                {
-                                    "conditionString": "",
-                                    "conditions": "default",
-                                    "draggable": false,
-                                    "key": 0,
-                                    "label": "Default",
-                                    "name": "Default",
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "CarePlanLong",
+                                    "key": "element_element_block_0_0_block_5_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Care Plan (Longitudinal)",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": true,
+                                        "large": "12",
+                                        "medium": "12",
+                                        "small": "12"
+                                    },
+                                    "stateIndex": 0,
                                     "styleObject": {
                                         "background": {
                                             "color": "#f5f2f2",
@@ -596,119 +556,6 @@
                                             "align": "",
                                             "color": ""
                                         }
-                                    }
-                                }
-                            ],
-                            "type": "block",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "childCardPreview",
-                            "elementLabel": "FlexCard-3-clone-0",
-                            "name": "FlexCard",
-                            "property": {
-                                "cardName": "EpicFHIRCarePlanLong",
-                                "cardNode": "",
-                                "isChildCardTrackingEnabled": false,
-                                "recordId": "{recordId}",
-                                "selectedState": "Active"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "sizeClass": "slds-size_12-of-12"
-                            },
-                            "type": "element",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "childCardPreview",
-                            "elementLabel": "CareTeam",
-                            "name": "FlexCard",
-                            "property": {
-                                "cardName": "EpicFHIRCareTeam",
-                                "cardNode": "",
-                                "isChildCardTrackingEnabled": false,
-                                "recordId": "{recordId}",
-                                "selectedState": "Active"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "sizeClass": "slds-size_12-of-12"
-                            },
-                            "type": "element",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "children": [
-                                {
-                                    "class": "slds-col ",
-                                    "element": "outputField",
-                                    "elementLabel": "SocialHistory",
-                                    "key": "element_element_block_7_0_outputField_0_0",
-                                    "name": "Text",
-                                    "parentElementKey": "element_block_7_0",
-                                    "property": {
-                                        "card": "{card}",
-                                        "mergeField": "%3Ch1%3ESocial%20History%3C/h1%3E",
-                                        "record": "{record}"
-                                    },
-                                    "size": {
-                                        "default": "12",
-                                        "isResponsive": true,
-                                        "large": "12",
-                                        "medium": "12",
-                                        "small": "12"
-                                    },
-                                    "stateIndex": 0,
-                                    "styleObject": {
-                                        "background": {
-                                            "color": "",
-                                            "image": "",
-                                            "position": "",
-                                            "repeat": "",
-                                            "size": ""
-                                        },
-                                        "border": {
-                                            "color": "",
-                                            "radius": "",
-                                            "style": "",
-                                            "type": "",
-                                            "width": ""
-                                        },
-                                        "class": "",
-                                        "container": {
-                                            "class": ""
-                                        },
-                                        "elementStyleProperties": {
-                                        },
-                                        "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
-                                        "size": {
-                                            "default": "12",
-                                            "isResponsive": true,
-                                            "large": "12",
-                                            "medium": "12",
-                                            "small": "12"
-                                        },
-                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                        "style": "      \n         ",
-                                        "text": {
-                                            "align": "",
-                                            "color": ""
-                                        }
                                     },
                                     "styleObjects": [
                                         {
@@ -720,7 +567,7 @@
                                             "name": "Default",
                                             "styleObject": {
                                                 "background": {
-                                                    "color": "",
+                                                    "color": "#f5f2f2",
                                                     "image": "",
                                                     "position": "",
                                                     "repeat": "",
@@ -733,7 +580,7 @@
                                                     "type": "",
                                                     "width": ""
                                                 },
-                                                "class": "",
+                                                "class": "slds-p-around_x-small ",
                                                 "container": {
                                                     "class": ""
                                                 },
@@ -743,6 +590,11 @@
                                                 "margin": [
                                                 ],
                                                 "padding": [
+                                                    {
+                                                        "label": "around:x-small",
+                                                        "size": "x-small",
+                                                        "type": "around"
+                                                    }
                                                 ],
                                                 "size": {
                                                     "default": "12",
@@ -752,7 +604,7 @@
                                                     "small": "12"
                                                 },
                                                 "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                                "style": "      \n         ",
+                                                "style": "background-color:#f5f2f2;      \n         ",
                                                 "text": {
                                                     "align": "",
                                                     "color": ""
@@ -760,32 +612,108 @@
                                             }
                                         }
                                     ],
-                                    "type": "text",
+                                    "type": "block",
+                                    "userUpdatedElementLabel": true
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "childCardPreview",
+                                    "elementLabel": "FlexCard-3-clone-0",
+                                    "key": "element_element_block_0_0_childCardPreview_6_0",
+                                    "name": "FlexCard",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "cardName": "EpicFHIRCarePlanLong",
+                                        "cardNode": "",
+                                        "isChildCardTrackingEnabled": false,
+                                        "recordId": "{recordId}",
+                                        "selectedState": "Active"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "sizeClass": "slds-size_12-of-12"
+                                    },
+                                    "type": "element",
+                                    "userUpdatedElementLabel": true
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "childCardPreview",
+                                    "elementLabel": "CareTeam",
+                                    "key": "element_element_block_0_0_childCardPreview_7_0",
+                                    "name": "FlexCard",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "cardName": "EpicFHIRCareTeam",
+                                        "cardNode": "",
+                                        "isChildCardTrackingEnabled": false,
+                                        "recordId": "{recordId}",
+                                        "selectedState": "Active"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "sizeClass": "slds-size_12-of-12"
+                                    },
+                                    "type": "element",
+                                    "userUpdatedElementLabel": true
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "childCardPreview",
+                                    "elementLabel": "FlexCard-4-clone-0",
+                                    "key": "element_element_block_0_0_childCardPreview_8_0",
+                                    "name": "FlexCard",
+                                    "property": {
+                                        "cardName": "cfEpicFHIRSocialHistoryParent",
+                                        "cardNode": "",
+                                        "isChildCardTrackingEnabled": false,
+                                        "recordId": "{recordId}",
+                                        "selectedState": "Active"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "sizeClass": "slds-size_12-of-12"
+                                    },
+                                    "type": "element",
                                     "userUpdatedElementLabel": true
                                 }
                             ],
                             "class": "slds-col ",
                             "element": "block",
-                            "elementLabel": "SocialHistoryHeader",
+                            "elementLabel": "HealthInfo",
                             "name": "Block",
                             "property": {
                                 "card": "{card}",
                                 "collapsedByDefault": false,
-                                "collapsible": false,
-                                "label": "Social History",
-                                "record": "{record}"
+                                "collapsible": true,
+                                "label": "Health Information",
+                                "record": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#000000"
+                                    }
+                                }
                             },
                             "size": {
                                 "default": "12",
-                                "isResponsive": true,
-                                "large": "12",
-                                "medium": "12",
-                                "small": "12"
+                                "isResponsive": false
                             },
                             "stateIndex": 0,
                             "styleObject": {
                                 "background": {
-                                    "color": "#f5f2f2",
+                                    "color": "",
                                     "image": "",
                                     "position": "",
                                     "repeat": "",
@@ -803,6 +731,11 @@
                                     "class": ""
                                 },
                                 "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "color": "#000000"
+                                        }
+                                    }
                                 },
                                 "inlineStyle": "",
                                 "margin": [
@@ -816,13 +749,10 @@
                                 ],
                                 "size": {
                                     "default": "12",
-                                    "isResponsive": true,
-                                    "large": "12",
-                                    "medium": "12",
-                                    "small": "12"
+                                    "isResponsive": false
                                 },
-                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                "style": "background-color:#f5f2f2;      \n         ",
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "      \n         ",
                                 "text": {
                                     "align": "",
                                     "color": ""
@@ -838,7 +768,7 @@
                                     "name": "Default",
                                     "styleObject": {
                                         "background": {
-                                            "color": "#f5f2f2",
+                                            "color": "",
                                             "image": "",
                                             "position": "",
                                             "repeat": "",
@@ -856,6 +786,11 @@
                                             "class": ""
                                         },
                                         "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#000000"
+                                                }
+                                            }
                                         },
                                         "inlineStyle": "",
                                         "margin": [
@@ -869,13 +804,10 @@
                                         ],
                                         "size": {
                                             "default": "12",
-                                            "isResponsive": true,
-                                            "large": "12",
-                                            "medium": "12",
-                                            "small": "12"
+                                            "isResponsive": false
                                         },
-                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
-                                        "style": "background-color:#f5f2f2;      \n         ",
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "      \n         ",
                                         "text": {
                                             "align": "",
                                             "color": ""
@@ -884,29 +816,6 @@
                                 }
                             ],
                             "type": "block",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "childCardPreview",
-                            "elementLabel": "FlexCard-4-clone-0",
-                            "name": "FlexCard",
-                            "property": {
-                                "cardName": "EpicFHIRSocialHistory",
-                                "cardNode": "",
-                                "isChildCardTrackingEnabled": false,
-                                "recordId": "{recordId}",
-                                "selectedState": "Active"
-                            },
-                            "size": {
-                                "default": "12",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "sizeClass": "slds-size_12-of-12"
-                            },
-                            "type": "element",
                             "userUpdatedElementLabel": true
                         }
                     ]
