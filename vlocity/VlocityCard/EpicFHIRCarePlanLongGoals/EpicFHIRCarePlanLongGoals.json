@@ -1,28 +1,16 @@
 {
     "dataSource": {
         "contextVariables": [
-            {
-                "id": 3,
-                "name": "recordId",
-                "val": "001Dn000007CnPhIAK"
-            }
         ],
         "orderBy": {
             "isReverse": "",
             "name": ""
         },
-        "type": "IntegrationProcedures",
+        "type": "Custom",
         "value": {
+            "body": "{\n\t\t\t\"GoalName\": \"This is a test goal\"\n\t\t}",
             "dsDelay": "",
-            "inputMap": {
-                "ContextId": "{recordId}",
-                "DataType": "CarePlanLong",
-                "env": "Sandbox"
-            },
-            "ipMethod": "EpicFHIR_GetData",
-            "jsonMap": "{\"recordId\":\"{recordId}\"}",
-            "resultVar": "[\"Goals\"]",
-            "vlocityAsync": false
+            "resultVar": ""
         }
     },
     "enableLwc": true,
