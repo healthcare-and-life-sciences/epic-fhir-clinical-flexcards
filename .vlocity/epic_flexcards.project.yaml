@@ -1,0 +1,10 @@
+Name: Epic Flexcards
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - objects/Epic_Access__c/Epic_Access__c.object
+    - objects/Epic_FHIR_Endpoint__c/Epic_FHIR_Endpoint__c.object
+    - objects/EPIC_Settings__mdt/EPIC_Settings__mdt.object
+VlocityTypesToFetch:
+    - GeneralSettings
+SalesforceTypesToFetch:
+    - CustomObject
