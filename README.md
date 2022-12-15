@@ -1,9 +1,9 @@
-[Image: Screen Shot 2022-05-09 at 6.55.56 PM.png]
-A-HLS EHR Clinical Data FlexCards Documentation 
+![](/images/ahlsbanner.png)
+<h1>A-HLS EHR Clinical Data FlexCards Documentation </h1>
 
 The EHR Clinical Data FlexCards enables an organization to show read-only, external clinical data for a patient within Health Cloud. At this time, the accelerator is limited to clinical data from organization’s Epic instances. 
 
-Overview
+<h2>Overview</h2>
 
 The following clinical objects are included in the Accelerator:
 *Patient Information*
@@ -39,12 +39,12 @@ The following clinical objects are included in the Accelerator:
 * Upcoming Appointments
 * Past Encounters
 
-[Image: Screen Shot 2022-12-15 at 4.28.14 PM.png]
-Business Objective
+![](/images/Flexcard1.png)
+<h2>Business Objective</h2>
 
 The EHR Clinical Data FlexCards enables an organization to show a patient’s or member’s clinical data within Salesforce.  
 
-Business Value and Benefits
+<h3>Business Value and Benefits</h3>
 
 * Reduce IT Cost
 * Reduce Implementation Cost
@@ -52,9 +52,9 @@ Business Value and Benefits
 * Improve Patient Satisfaction
 
 
-Industry Focus and Workflow
+<h2>Industry Focus and Workflow</h2>
 
-Primary Industry:
+<h3>Primary Industry:</h3>
 
 * Provider
 * Payvider
@@ -69,7 +69,7 @@ User Workflow:
 * A user opens the patient’s Person Account record in Salesforce and views the clinical data in the form of FlexCards (Lightning Web Components) on the record.
 
 
-Package Includes:
+<h2>Package Includes:</h2>
 
 *FlexCards (23)*
 
@@ -102,20 +102,11 @@ Integration Procedures (2)
 
 Input Options:
 
-Input Variable	Possible Values	Required?	Comments
-env	The name of the Custom Setting which stores the fhir endpoint of your fhir server	Y	
-DataType	Allergies - Patient's Allergies
-CarePlanLong - Longitudinal Care Plan
-CarePlanOP - Outpatient Care Plan
-Conditions - Patient's Conditions
-Demographics - Patient's demographics and contact information
-Encounters - Patient's past encounters
-Medications - Patient's Medications
-Social - Patient's Social History (e.g., Smoking History)
-Appointments - Patient's Upcoming Appointments
-CareTeamLong - Patient's Longitudinal Care Team
-PatientFYI - Patient's FYI Flags	Y	
-ContextId	{recordId} - do not change this variable	Y	
+| Input Variable      | Possible Values | Required? |
+| ----------- | ----------- | ----------- |
+| env      | The name of the Custom Setting which stores the fhir endpoint of your fhir server | Y |
+| DataType      | **Allergies** - Patient's Allergies, **CarePlanLong** - Longitudinal Care Plan, **CarePlanOP** - Outpatient Care Plan, **Conditions** - Patient's Conditions, **Demographics** - Patient's demographics and contact information, **Encounters** - Patient's past encounters, **Medications** - Patient's Medications, **Social** - Patient's Social History (e.g., Smoking History), **Appointments** - Patient's Upcoming Appointments, **CareTeamLong** - Patient's Longitudinal Care Team, **FYI** - Patient's FYI Flags | Y | 
+| ContextId      | {recordId} - do not change this variable | Y | 
 
 * EHRConnect/getToken
 
@@ -158,9 +149,9 @@ Certifications (1)
 * epicfhirnewcert.crt
 
 
-Configuration Requirements
+<h2>Configuration Requirements</h2>
 
-Pre-Install Configuration Steps:
+<h3>Pre-Install Configuration Steps:</h3>
 
 1. *EHR Pre-Configuration Steps:*
     1. Identify your fhir.epic.com (https://fhir.epic.com/) endpoint
@@ -179,7 +170,7 @@ Pre-Install Configuration Steps:
 2. *Health Cloud Pre-Configuration Steps:*
     1. Add the fhir.epic.com (https://fhir.epic.com/) endpoint to the Remote Site Settings in your Health Cloud org
 
-Install the Accelerator 
+<h3>Install the Accelerator</h3>
 
 1. Use IDX to install the files located in the GitHub repository here: https://github.com/healthcare-and-life-sciences/epic-fhir-clinical-flexcards
     1. To access the IDX workbench, please navigate to this URL: https://workbench.developerforce.com/login.php
@@ -187,7 +178,7 @@ Install the Accelerator
 2. Install the Epic on FHIR App called “*Salesforce Health Cloud - Clinical Summary*” into your Epic organization.
     1. *Client ID:* 43b0500b-ea80-41d4-be83-21230c837c15
 
-Post-Install Configuration Steps:
+<h3>Post-Install Configuration Steps:</h3>
 
 1. *Add Custom Setting for your endpoint*
     1. Set the following attributes:
@@ -198,11 +189,11 @@ Post-Install Configuration Steps:
         4. jti = salesforce (or your label of choice)
         5. cert = epicfhirnewcert
 
-[Image: Screen Shot 2022-12-13 at 3.52.16 PM.png]
+![](/images/Flexcard2.png)
 1. *Create a single Epic Access record and note the ID of the Epic Access record you created*
     1. Update the DRGetEpicToken DataRaptor such that the record ID of your Epic Access record is set as the filter value on the “Extract” page,
 
-[Image: Screen Shot 2022-12-13 at 4.01.51 PM.png]
+![](/images/Flexcard3.png)
 1. *Configure FlexCards*
     1. By default, each FlexCard is configured to use the Sandbox fhir endpoint. Repeat the following steps for each FlexCard to be used (including Child FlexCards):
         1. On the Setup tab of the FlexCard, change the “env” variable value to the name of the Custom Setting - e.g., “Production”.
@@ -210,40 +201,41 @@ Post-Install Configuration Steps:
         3. Activate the FlexCard
 
 b. The following FlexCards have been pre-populated with sample data, as the fhir.epic.com (http://fhir.epic.com/) sandbox did not provide real-time test data for validation. 
-[Image: Screen Shot 2022-12-13 at 4.03.07 PM.png]
 
 
-        1. *EpicFHIRPatientFYI*
-            1. Setup Pane:
-                1. Data Source Type = Integration Procedure
-                2. Name = EpicFHIR_GetData
-                3. Input Map:
-                    1. env = “*Production*“ (or the name of the Custom Setting you configured)
-                    2. ContextId = *{recordId}*
-                    3. DataType = *FYI*
-                4. Click “*Save and Fetch*” to save the configuration
-        2. *EpicFHIRCarePlanOP*
-            1. Setup Pane:
-                1. Data Source Type = Integration Procedure
-                2. Name = EpicFHIR_GetData
-                3. Input Map:
-                    1. env = “*Production*“ (or the name of the Custom Setting you configured)
-                    2. ContextId = *{recordId}*
-                    3. DataType = *CarePlanOP*
-                4. Click “*Save and Fetch*” to save the configuration
-            2. Click on the Child FlexCard called “*EpicFHIRCarePlanGoalOP*”
-                1. Set the *“Data Node” = {records.Goal}*
-                2. [Image: Screen Shot 2022-12-14 at 12.14.52 PM.png]
-            3. Activate the FlexCard
-        3. *EpicFHIRCareTeam*
-            1. Setup Pane:
-                1. Data Source Type = Integration Procedure
-                2. Name = EpicFHIR_GetData
-                3. Input Map:
-                    1. env = “*Production*“ (or the name of the Custom Setting you configured)
-                    2. ContextId = *{recordId}*
-                    3. DataType = *CareTeamLong*
-                4. Click “*Save and Fetch*” to save the configuration
+*EpicFHIRPatientFYI*
+1. Setup Pane:
+    1. Data Source Type = Integration Procedure
+        2. Name = EpicFHIR_GetData
+        3. Input Map:
+          1. env = “*Production*“ (or the name of the Custom Setting you configured)
+          2. ContextId = *{recordId}*
+          3. DataType = *FYI*
+        4. Click “*Save and Fetch*” to save the configuration
+*EpicFHIRCarePlanOP*
+1. Setup Pane:
+    1. Data Source Type = Integration Procedure
+        2. Name = EpicFHIR_GetData
+        3. Input Map:
+          1. env = “*Production*“ (or the name of the Custom Setting you configured)
+          2. ContextId = *{recordId}*
+          3. DataType = *CarePlanOP*
+        4. Click “*Save and Fetch*” to save the configuration
+    2. Click on the Child FlexCard called “*EpicFHIRCarePlanGoalOP*”
+        1. Set the *“Data Node” = {records.Goal}*
+                
+<img src="/images/Flexcard5.png" alt="drawing" width="50"/>
+
+    3. Activate the FlexCard
+*EpicFHIRCareTeam*
+1. Setup Pane:
+    1. Data Source Type = Integration Procedure
+        2. Name = EpicFHIR_GetData
+        3. Input Map:
+          1. env = “*Production*“ (or the name of the Custom Setting you configured)
+          2. ContextId = *{recordId}*
+          3. DataType = *CareTeamLong*
+        4. Click “*Save and Fetch*” to save the configuration
 
 1. *Add the following parent FlexCards to the Person Account Lightning Page:*
     1. *Patient Demographics Information* → Add “*EpicFHIRPatientInfo*”
@@ -252,7 +244,7 @@ b. The following FlexCards have been pre-populated with sample data, as the fhir
     4. Save your lightning page and activate it appropriately for your users/profiles. 
 
 
-Assumptions
+<h2>Assumptions</h2>
 
 1. A customer has licenses for Health Cloud, and the HINS Managed Package with OmniStudio. These solutions have all been installed and are functional.
 2. A customer is assuming Salesforce Lightning Experience — not Classic.
@@ -261,7 +253,7 @@ Assumptions
 5. A customer has an administrator/developer who is familiar with IDX and OmniStudio.
 
 
-Revision History
+<h2>Revision History</h2>
 
 * *Revision Short Description (Month Day, Year)*
 
