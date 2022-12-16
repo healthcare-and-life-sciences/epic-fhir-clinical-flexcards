@@ -871,26 +871,6 @@
     "xmlJson": [
         {
             "@attributes": {
-                "targets": "lightning__AppPage",
-                "xmlns": "http://soap.sforce.com/2006/04/metadata"
-            },
-            "property": [
-                {
-                    "@attributes": {
-                        "name": "debug",
-                        "type": "Boolean"
-                    }
-                },
-                {
-                    "@attributes": {
-                        "name": "recordId",
-                        "type": "String"
-                    }
-                }
-            ]
-        },
-        {
-            "@attributes": {
                 "targets": "lightning__RecordPage",
                 "xmlns": "http://soap.sforce.com/2006/04/metadata"
             },
@@ -910,12 +890,10 @@
         "isExposed": true,
         "masterLabel": "EpicFHIRHealthInfoParent",
         "runtimeNamespace": "%vlocity_namespace%",
-        "targetConfigs": "PHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgIDwvdGFyZ2V0Q29uZmlnPg==",
         "targets": {
             "target": [
-                "lightning__RecordPage",
-                "lightning__AppPage",
-                "lightning__HomePage"
+                "lightning__RecordPage"
             ]
         }
     }

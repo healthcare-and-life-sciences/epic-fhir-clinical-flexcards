@@ -49,6 +49,7 @@ VlocityDataPackKeys:
     - remoteSiteSettings/epicIntegration_vlocity.remoteSite
     - tabs/Epic_Access__c.tab
     - topicsForObjects/Epic_Access__c.topicsForObjects
+    - VlocityCard/EpicFHIRCarePlanGoalOP
 VlocityTypesToFetch:
     - IntegrationProcedure
     - VlocityCard
