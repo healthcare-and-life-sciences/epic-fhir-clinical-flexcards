@@ -11,12 +11,12 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "elementValueMap": {
-            "NowPlusFive": "=DATETIMETOUNIX(FORMATDATETIME(NOW(),\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\",\"ETc/GMT\"))"
+            "Now": "=DATETIMETOUNIX(FORMATDATETIME(NOW(),\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\",\"ETc/GMT\"))"
         },
         "executionConditionalFormula": "",
         "failOnStepError": true,
         "failureConditionalFormula": "",
-        "label": "SetValues2",
+        "label": "SetValues3",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "show": null
@@ -25,8 +25,8 @@
     "%vlocity_namespace%__Type__c": "Set Values",
     "IsLocked": false,
     "MayEdit": true,
-    "Name": "SetFiveMinutes",
+    "Name": "SetNow",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure/SetFiveMinutes"
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure/SetNow"
 }

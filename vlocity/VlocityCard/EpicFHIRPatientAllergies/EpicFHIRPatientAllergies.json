@@ -2,16 +2,6 @@
     "dataSource": {
         "contextVariables": [
             {
-                "id": 24,
-                "name": "Env",
-                "val": "Sandbox"
-            },
-            {
-                "id": 25,
-                "name": "DataType",
-                "val": "Allergies"
-            },
-            {
                 "id": 12,
                 "name": "recordId",
                 "val": "001Dn000007EuuUIAS"
@@ -30,7 +20,7 @@
                 "env": "Sandbox"
             },
             "ipMethod": "EpicFHIR_GetData",
-            "jsonMap": "{\"Env\":\"{Env}\",\"DataType\":\"{DataType}\",\"recordId\":\"{recordId}\"}",
+            "jsonMap": "{\"recordId\":\"{recordId}\"}",
             "resultVar": "[\"Allergy\"]",
             "vlocityAsync": false
         }

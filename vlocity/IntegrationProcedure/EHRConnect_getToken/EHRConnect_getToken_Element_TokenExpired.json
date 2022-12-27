@@ -8,7 +8,7 @@
     },
     "%vlocity_namespace%__PropertySet__c": {
         "disOnTplt": false,
-        "executionConditionalFormula": "SetValues:TimeCheck == \"false\"",
+        "executionConditionalFormula": "SetValues:Expired == \"true\"",
         "isIfElseBlock": false,
         "label": "ConditionalBlock5",
         "show": null
