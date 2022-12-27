@@ -32,16 +32,15 @@
         "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
     },
     {
-        "%vlocity_namespace%__DefaultValue__c": "a86Dn000000fznzIAA",
+        "%vlocity_namespace%__DefaultValue__c": "\"Epic\"",
         "%vlocity_namespace%__DomainObjectAPIName__c": "Epic_Access__c",
         "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
         "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
         "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
         "%vlocity_namespace%__IsDisabled__c": false,
         "%vlocity_namespace%__IsRequiredForUpsert__c": false,
-        "%vlocity_namespace%__MapId__c": "DRStoreEpicTokenCustom4649",
+        "%vlocity_namespace%__MapId__c": "DRStoreEpicTokenCustom5801",
         "%vlocity_namespace%__OMplusSyncEnabled__c": true,
-        "%vlocity_namespace%__TransformValuesMap__c": "{\"\":\"\"}",
         "%vlocity_namespace%__UpsertKey__c": true,
         "IsLocked": false,
         "MayEdit": true,

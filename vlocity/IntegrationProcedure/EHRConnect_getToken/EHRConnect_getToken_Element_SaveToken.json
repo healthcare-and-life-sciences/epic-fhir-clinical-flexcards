@@ -23,6 +23,9 @@
     "%vlocity_namespace%__PropertySet__c": {
         "actionMessage": "",
         "additionalInput": {
+            "Expiration": "%getToken:Expiration%",
+            "Id": "%SetValues:TokenId%",
+            "Token": "%getToken:Token%"
         },
         "additionalOutput": {
         },
@@ -40,8 +43,8 @@
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,
         "sendJSONNode": "",
-        "sendJSONPath": "getToken",
-        "sendOnlyAdditionalInput": false,
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
         "show": null,
         "useFormulas": true
     },

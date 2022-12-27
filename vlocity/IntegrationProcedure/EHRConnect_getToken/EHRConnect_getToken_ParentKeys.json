@@ -1,3 +1,4 @@
 [
-    "DataRaptor/DRGetEpicToken"
+    "DataRaptor/DRGetEpicToken",
+    "DataRaptor/DRStoreEpicToken"
 ]

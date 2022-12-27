@@ -4,6 +4,7 @@
     "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "%vlocity_namespace%__Element__c": [
         "EHRConnect_getToken_Element_DRGetExistingToken.json",
+        "EHRConnect_getToken_Element_GetEndpoint.json",
         "EHRConnect_getToken_Element_SetNow.json",
         "EHRConnect_getToken_Element_SetValues.json",
         "EHRConnect_getToken_Element_TokenExpired.json",
