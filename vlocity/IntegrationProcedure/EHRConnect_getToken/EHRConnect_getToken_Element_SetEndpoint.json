@@ -42,8 +42,8 @@
     "%vlocity_namespace%__Type__c": "DataRaptor Extract Action",
     "IsLocked": false,
     "MayEdit": true,
-    "Name": "GetEndpoint",
+    "Name": "SetEndpoint",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure/GetEndpoint"
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure/SetEndpoint"
 }

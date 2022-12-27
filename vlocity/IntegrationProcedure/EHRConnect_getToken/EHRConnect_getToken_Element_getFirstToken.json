@@ -13,39 +13,53 @@
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
         },
-        "Name": "NoTokenInRecord",
+        "Name": "NoTokenRecord",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure/NoTokenInRecord",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure/NoTokenRecord",
         "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
     },
-    "%vlocity_namespace%__ParentElementName__c": "NoTokenInRecord",
+    "%vlocity_namespace%__ParentElementName__c": "NoTokenRecord",
     "%vlocity_namespace%__ParentElementType__c": "Conditional Block",
     "%vlocity_namespace%__PropertySet__c": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
         "additionalOutput": {
         },
+        "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "",
-        "label": "ResponseAction9",
-        "responseDefaultData": {
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
         },
-        "responseFormat": "JSON",
+        "label": "RemoteAction3",
+        "remoteClass": "getToken",
+        "remoteMethod": "getToken",
+        "remoteOptions": {
+            "cert": "%SetEndpoint:cert%",
+            "client_id": "%SetEndpoint:client_id%",
+            "endpoint": "%SetEndpoint:URL%",
+            "jti": "%SetEndpoint:jti%"
+        },
         "responseJSONNode": "",
         "responseJSONPath": "",
-        "returnFullDataJSON": false,
         "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
         "sendJSONNode": "",
-        "sendJSONPath": "getNewToken",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
         "show": null,
-        "useFormulas": true,
-        "vlcResponseHeaders": {
-        }
+        "useFormulas": true
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,
-    "%vlocity_namespace%__Type__c": "Response Action",
+    "%vlocity_namespace%__Type__c": "Remote Action",
     "IsLocked": false,
     "MayEdit": true,
-    "Name": "SendNewToken",
+    "Name": "getFirstToken",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure/SendNewToken"
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHRConnect/getToken/Procedure/getFirstToken"
 }

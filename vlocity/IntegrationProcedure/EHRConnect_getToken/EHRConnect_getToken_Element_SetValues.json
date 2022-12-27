@@ -11,7 +11,7 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "elementValueMap": {
-            "Expired": "=IF(((DATETIMETOUNIX(UNIXTODATETIME(DRGetExistingToken:Expiration) < SetNow:Now) || (DRGetExistingToken:Expiration = \"\"),\"true\",\"false\")",
+            "Expired": "=IF((DATETIMETOUNIX(UNIXTODATETIME(DRGetExistingToken:Expiration)) < SetNow:Now),\"true\",\"false\")",
             "TokenId": "%DRGetExistingToken:Id%"
         },
         "executionConditionalFormula": "",
