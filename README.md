@@ -144,9 +144,9 @@ Custom Object (1)
 
 * Epic_Access__c - This object stores the most recent authentication token and expiration date for reuse.
 
-Certifications (1)
+KeyStore (1)
 
-* epicfhirnewcert.crt
+* FHIRDEMO_KEYSTORE.jks
 
 
 <h2>Configuration Requirements</h2>
@@ -168,7 +168,10 @@ Certifications (1)
         10. api/FHIR/R4/Flag
     3. Ensure your EHR system's network is configured to accept traffic from your Health Cloud org
 2. *Health Cloud Pre-Configuration Steps:*
-    1. Add the fhir.epic.com (https://fhir.epic.com/) endpoint to the Remote Site Settings in your Health Cloud org
+    1. Go to Setup > Certificate and Key Management > Create a Self-Signed Certificate. Refer to this guide for more information: https://help.salesforce.com/s/articleView?id=sf.security_keys_creating.htm&type=5
+    2. After creating your Self-Signed Certificate, navigate to Setup > Identity Provider and enable Identity Provider. Refer to this guide for more information: https://help.salesforce.com/s/articleView?id=sf.identity_provider_enable.htm&type=5
+    3. Navigate back to the Certificate and Key Management > Import from Keystore > upload the FHIREDEMO_KEYSTORE.jks file found in the GitHub repo. Use the password "salesforce1" to import the keuystore.
+    4. Add the fhir.epic.com (https://fhir.epic.com/) endpoint to the Remote Site Settings in your Health Cloud org. This will allow you to test the accelerator with the fhir sandbox data.
 
 <h3>Install the Accelerator</h3>
 
@@ -187,11 +190,10 @@ Certifications (1)
             https://fhir.epic.com/interconnect-fhir-oauth
         3. client_id = the Client ID for the Salesforce Health Cloud - Clinical Summary FHIR App
         4. jti = salesforce (or your label of choice)
-        5. cert = epicfhirnewcert
+        5. cert = "fhirdemo_cert"
 
 ![](/images/Flexcard2.png)
-1. *Create a single Epic Access record and note the ID of the Epic Access record you created*
-    1. Update the DRGetEpicToken DataRaptor such that the record ID of your Epic Access record is set as the filter value on the “Extract” page,
+1. Create a single Epic Access record and name the record "Epic". This must be set to Epic in order for the accelerator to work properly.
 
 ![](/images/Flexcard3.png)
 1. *Configure FlexCards*
