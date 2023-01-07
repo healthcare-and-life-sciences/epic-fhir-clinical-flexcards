@@ -39,10 +39,11 @@
         "remoteClass": "getToken",
         "remoteMethod": "getToken",
         "remoteOptions": {
-            "cert": "%SetEndpoint:cert%",
-            "client_id": "%SetEndpoint:client_id%",
-            "endpoint": "%SetEndpoint:URL%",
-            "jti": "%SetEndpoint:jti%"
+            "AUD": "%SetEndpoint:URL%",
+            "Cert": "%SetEndpoint:cert%",
+            "ISS": "%SetEndpoint:client_id%",
+            "JTI": "%SetEndpoint:jti%",
+            "SUB": "%SetEndpoint:client_id%"
         },
         "responseJSONNode": "",
         "responseJSONPath": "",
