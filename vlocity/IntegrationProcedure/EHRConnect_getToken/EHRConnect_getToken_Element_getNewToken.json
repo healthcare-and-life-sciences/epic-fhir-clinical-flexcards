@@ -41,7 +41,7 @@
         "remoteOptions": {
             "cert": "%SetEndpoint:cert%",
             "client_id": "%SetEndpoint:client_id%",
-            "endpoint": "%SetEndpoint:URL%",
+            "endpoint": "%SetEndpoint:URL%/oauth2/token",
             "jti": "%SetEndpoint:jti%"
         },
         "responseJSONNode": "",

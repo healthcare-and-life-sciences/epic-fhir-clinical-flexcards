@@ -39,7 +39,7 @@
         "remoteClass": "getToken",
         "remoteMethod": "getToken",
         "remoteOptions": {
-            "AUD": "%SetEndpoint:URL%",
+            "AUD": "%SetEndpoint:URL%/oauth2/token",
             "Cert": "%SetEndpoint:cert%",
             "ISS": "%SetEndpoint:client_id%",
             "JTI": "%SetEndpoint:jti%",
