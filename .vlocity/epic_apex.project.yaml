@@ -1,0 +1,9 @@
+Name: Epic Apex
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - classes/EpicFHIRAuthentication.cls
+    - classes/getToken.cls
+VlocityTypesToFetch:
+
+SalesforceTypesToFetch:
+    - ApexClass
