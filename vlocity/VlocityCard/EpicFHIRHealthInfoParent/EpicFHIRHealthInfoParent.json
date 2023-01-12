@@ -11,10 +11,10 @@
     "enableLwc": true,
     "isFlex": true,
     "lwc": {
-        "DeveloperName": "cfEpicFHIRHealthInfoParent_3_LizChristenbury",
-        "Id": "0RbDn000001ykH1KAI",
+        "DeveloperName": "cfEpicFHIRHealthInfoParent_4_LizChristenbury",
+        "Id": "0RbDn0000021qJgKAI",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfEpicFHIRHealthInfoParent_3_LizChristenbury",
+        "MasterLabel": "cfEpicFHIRHealthInfoParent_4_LizChristenbury",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
@@ -23,7 +23,7 @@
             "actions": [
             ],
             "childCards": [
-                "EpicFHIRAllergies2",
+                "EpicFHIRAllergies",
                 "EpicFHIRPatientConditions",
                 "EpicFHIRPatientMedications",
                 "EpicFHIRCarePlanOP",
@@ -44,7 +44,7 @@
                                     "name": "FlexCard",
                                     "parentElementKey": "element_block_0_0",
                                     "property": {
-                                        "cardName": "EpicFHIRAllergies2",
+                                        "cardName": "EpicFHIRAllergies",
                                         "cardNode": "",
                                         "isChildCardTrackingEnabled": false,
                                         "recordId": "{recordId}",
@@ -52,12 +52,102 @@
                                     },
                                     "size": {
                                         "default": "12",
-                                        "isResponsive": false
+                                        "isResponsive": true,
+                                        "large": "12",
+                                        "medium": "12",
+                                        "small": "12"
                                     },
                                     "stateIndex": 0,
                                     "styleObject": {
-                                        "sizeClass": "slds-size_12-of-12"
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": true,
+                                            "large": "12",
+                                            "medium": "12",
+                                            "small": "12"
+                                        },
+                                        "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
                                     },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "12",
+                                                    "isResponsive": true,
+                                                    "large": "12",
+                                                    "medium": "12",
+                                                    "small": "12"
+                                                },
+                                                "sizeClass": "slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 ",
+                                                "style": "      \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
                                     "type": "element",
                                     "userUpdatedElementLabel": true
                                 },
@@ -891,7 +981,7 @@
         "isExposed": true,
         "masterLabel": "EpicFHIRHealthInfoParent",
         "runtimeNamespace": "%vlocity_namespace%",
-        "targetConfigs": "PHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPjxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPjwvdGFyZ2V0Q29uZmlnPg==",
         "targets": {
             "target": [
                 "lightning__RecordPage"

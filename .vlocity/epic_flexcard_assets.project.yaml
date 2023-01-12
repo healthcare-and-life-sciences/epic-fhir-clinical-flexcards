@@ -6,6 +6,7 @@ VlocityDataPackKeys:
     - IntegrationProcedure/EHRConnect_getTokenSimple
     - IntegrationProcedure/EpicFHIR_GetData
     - VlocityCard/cfEpicFHIRSocialHistoryParent
+    - VlocityCard/EpicFHIRAllergies
     - VlocityCard/EpicFHIRCarePlanActivities
     - VlocityCard/EpicFHIRCarePlanActivitiesOP
     - VlocityCard/EpicFHIRCarePlanGoalOP
@@ -15,7 +16,6 @@ VlocityDataPackKeys:
     - VlocityCard/EpicFHIRCarePlanProblems
     - VlocityCard/EpicFHIRCareTeam
     - VlocityCard/EpicFHIRHealthInfoParent
-    - VlocityCard/EpicFHIRPatientAllergies
     - VlocityCard/EpicFHIRPatientAppointments
     - VlocityCard/EpicFHIRPatientConditions
     - VlocityCard/EpicFHIRPatientEncounters
@@ -50,7 +50,6 @@ VlocityDataPackKeys:
     - remoteSiteSettings/epicIntegration_vlocity.remoteSite
     - tabs/Epic_Access__c.tab
     - topicsForObjects/Epic_Access__c.topicsForObjects
-    - VlocityCard/EpicFHIRAllergies2
 VlocityTypesToFetch:
     - IntegrationProcedure
     - VlocityCard
