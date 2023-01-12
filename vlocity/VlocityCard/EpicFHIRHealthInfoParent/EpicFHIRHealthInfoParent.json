@@ -23,7 +23,7 @@
             "actions": [
             ],
             "childCards": [
-                "EpicFHIRPatientAllergies",
+                "EpicFHIRAllergies2",
                 "EpicFHIRPatientConditions",
                 "EpicFHIRPatientMedications",
                 "EpicFHIRCarePlanOP",
@@ -44,7 +44,7 @@
                                     "name": "FlexCard",
                                     "parentElementKey": "element_block_0_0",
                                     "property": {
-                                        "cardName": "EpicFHIRPatientAllergies",
+                                        "cardName": "EpicFHIRAllergies2",
                                         "cardNode": "",
                                         "isChildCardTrackingEnabled": false,
                                         "recordId": "{recordId}",
@@ -671,6 +671,7 @@
                                     "elementLabel": "FlexCard-4-clone-0",
                                     "key": "element_element_block_0_0_childCardPreview_8_0",
                                     "name": "FlexCard",
+                                    "parentElementKey": "element_block_0_0",
                                     "property": {
                                         "cardName": "cfEpicFHIRSocialHistoryParent",
                                         "cardNode": "",
