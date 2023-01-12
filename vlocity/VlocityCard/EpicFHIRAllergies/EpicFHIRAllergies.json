@@ -27,6 +27,7 @@
     },
     "enableLwc": true,
     "isFlex": true,
+    "isRepeatable": false,
     "lwc": {
         "DeveloperName": "cfEpicFHIRAllergies_1_LizChristenbury",
         "Id": "0RbDn0000021qJWKAY",
