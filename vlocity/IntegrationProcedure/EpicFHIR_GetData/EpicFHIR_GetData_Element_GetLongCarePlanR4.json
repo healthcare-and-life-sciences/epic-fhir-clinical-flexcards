@@ -43,18 +43,18 @@
         "restOptions": {
             "clientCertificateName": "",
             "headers": {
-                "Authorization": "Bearer %GetEpicAPIToken:Token%"
+                "Authorization": "Bearer %SetValues:Token%"
             },
             "isCompressed": false,
             "params": {
                 "category": 38717003,
-                "patient": "%GetPatientId:Patient:PMRN%"
+                "patient": "%SetValues:PMRN%"
             },
             "sendBody": true,
             "timeout": 0,
             "xmlEscapeResponse": false
         },
-        "restPath": "%GetEndpoint:URL%/api/FHIR/R4/CarePlan",
+        "restPath": "%SetValues:URL%/api/FHIR/R4/CarePlan",
         "retryCount": 0,
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,

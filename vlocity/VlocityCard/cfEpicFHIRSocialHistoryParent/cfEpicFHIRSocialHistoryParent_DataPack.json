@@ -7,7 +7,7 @@
                 {
                     "id": 3,
                     "name": "recordId",
-                    "val": "001Dn000007CnPhIAK"
+                    "val": "001Dn00000CULkHIAX"
                 }
             ],
             "orderBy": {
@@ -22,7 +22,7 @@
                     "DataType": "Social",
                     "env": "Sandbox"
                 },
-                "ipMethod": "EpicFHIR_GetData",
+                "ipMethod": "EHR_AuthAndDataParent",
                 "jsonMap": "{\"recordId\":\"{recordId}\"}",
                 "resultVar": "",
                 "vlocityAsync": false

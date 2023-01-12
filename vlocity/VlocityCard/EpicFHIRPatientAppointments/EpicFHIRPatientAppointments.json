@@ -4,7 +4,7 @@
             {
                 "id": 8,
                 "name": "recordId",
-                "val": "001Dn000007EuuUIAS"
+                "val": "001Dn00000CULkHIAX"
             }
         ],
         "orderBy": {
@@ -19,7 +19,7 @@
                 "DataType": "Appointments",
                 "env": "Sandbox"
             },
-            "ipMethod": "EpicFHIR_GetData",
+            "ipMethod": "EHR_AuthAndDataParent",
             "jsonMap": "{\"recordId\":\"{recordId}\"}",
             "resultVar": "",
             "vlocityAsync": false

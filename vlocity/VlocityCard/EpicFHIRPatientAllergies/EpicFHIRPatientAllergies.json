@@ -4,7 +4,7 @@
             {
                 "id": 12,
                 "name": "recordId",
-                "val": "001Dn000007EuuUIAS"
+                "val": "001Dn00000CULqHIAX"
             }
         ],
         "orderBy": {
@@ -19,7 +19,7 @@
                 "DataType": "Allergies",
                 "env": "Sandbox"
             },
-            "ipMethod": "EpicFHIR_GetData",
+            "ipMethod": "EHR_AuthAndDataParent",
             "jsonMap": "{\"recordId\":\"{recordId}\"}",
             "resultVar": "[\"Allergy\"]",
             "vlocityAsync": false
@@ -29,10 +29,10 @@
     "isFlex": true,
     "isRepeatable": false,
     "lwc": {
-        "DeveloperName": "cfEpicFHIRPatientAllergies_1_LizChristenbury",
-        "Id": "0RbDn000000eZe7KAE",
+        "DeveloperName": "cfEpicFHIRPatientAllergies_3_LizChristenbury",
+        "Id": "0RbDn0000021o41KAA",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfEpicFHIRPatientAllergies_1_LizChristenbury",
+        "MasterLabel": "cfEpicFHIRPatientAllergies_3_LizChristenbury",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",

@@ -1,9 +1,9 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "EpicFHIRGetData",
+        "Name": "AuthAndGetEpicData",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/EpicFHIR/GetData/Procedure",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/EHR/AuthAndDataParent/Procedure",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__PropertySet__c": {
@@ -11,12 +11,17 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "elementValueMap": {
-            "Data": "%DataType%"
+            "ContextId": "=%ContextId%",
+            "DataType": "=%DataType:DataType%",
+            "PMRN": "=%GetPatientId:Patient:PMRN%",
+            "Token": "=%GetToken:Token%",
+            "URL": "=%GetEndpoint:URL%",
+            "env": "=%env%"
         },
         "executionConditionalFormula": "",
         "failOnStepError": true,
         "failureConditionalFormula": "",
-        "label": "SetValues2",
+        "label": "SetValues3",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "show": null
@@ -25,8 +30,8 @@
     "%vlocity_namespace%__Type__c": "Set Values",
     "IsLocked": false,
     "MayEdit": true,
-    "Name": "DataType",
+    "Name": "SetValues",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EpicFHIR/GetData/Procedure/DataType"
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHR/AuthAndDataParent/Procedure/SetValues"
 }

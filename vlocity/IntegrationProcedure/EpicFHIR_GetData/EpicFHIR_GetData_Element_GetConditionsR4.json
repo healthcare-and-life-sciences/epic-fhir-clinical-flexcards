@@ -43,19 +43,19 @@
         "restOptions": {
             "clientCertificateName": "",
             "headers": {
-                "Authorization": "Bearer %GetEpicAPIToken:Token%"
+                "Authorization": "Bearer %SetValues:Token%"
             },
             "isCompressed": false,
             "params": {
                 "category": "problem-list-item",
                 "clinical-status": "active",
-                "patient": "%GetPatientId:Patient:PMRN%"
+                "patient": "%SetValues:PMRN%"
             },
             "sendBody": true,
             "timeout": 0,
             "xmlEscapeResponse": false
         },
-        "restPath": "%GetEndpoint:URL%/api/FHIR/R4/Condition",
+        "restPath": "%SetValues:URL%/api/FHIR/R4/Condition",
         "retryCount": 0,
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,

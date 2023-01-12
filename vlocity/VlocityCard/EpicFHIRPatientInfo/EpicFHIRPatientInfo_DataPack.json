@@ -7,7 +7,7 @@
                 {
                     "id": 3,
                     "name": "recordId",
-                    "val": "001Dn000007CVX8IAO"
+                    "val": "001Dn00000CULkHIAX"
                 }
             ],
             "orderBy": {
@@ -22,7 +22,7 @@
                     "DataType": "Demographics",
                     "env": "Sandbox"
                 },
-                "ipMethod": "EpicFHIR_GetData",
+                "ipMethod": "EHR_AuthAndDataParent",
                 "jsonMap": "{\"recordId\":\"{recordId}\"}",
                 "resultVar": "",
                 "vlocityAsync": false
@@ -34,7 +34,7 @@
     "%vlocity_namespace%__GlobalKey__c": "EpicFHIRPatientInfo/LizChristenbury/2/1670877459380",
     "%vlocity_namespace%__IsChildCard__c": true,
     "%vlocity_namespace%__ParentID__c": "",
-    "%vlocity_namespace%__SampleData__c": "{\"Age\":35,\"BirthDate\":\"1987-09-12\",\"PreferredLang\":\"English\",\"PCP\":\"Physician Family Medicine, MD\",\"Gender\":\"female\",\"MaritalStatus\":\"Married\",\"Deceased\":\"false\",\"Name\":\"Camila Maria Lopez\",\"OldAddress\":\"3268 West Johnson St. Apt 117, GARLAND, DALLAS, TX, 75043, US\",\"HomeAddress\":\"3268 West Johnson St. Apt 117, GARLAND, DALLAS, TX, 75043, US\",\"Email\":\"knixontestemail@epic.com\",\"WorkPhone\":\"469-888-8888\",\"HomePhone\":\"469-555-5555\",\"MyChart\":\"FHIRCAMILA\",\"EPI\":203713,\"InternalID\":\"     Z6129\",\"FHIR\":\"TnOZ.elPXC6zcBNFMcFA7A5KZbYxo2.4T-LylRk4GoW4B\",\"BirthSex\":\"F\",\"SexForClinicalUse\":\"female\",\"LegalSex\":\"female\",\"Ethnicity\":\"Unknown\"}",
+    "%vlocity_namespace%__SampleData__c": "{\"Age\":49,\"BirthDate\":\"1973-06-03\",\"PreferredLang\":\"English\",\"Gender\":\"male\",\"MaritalStatus\":\"Married\",\"Deceased\":\"false\",\"Name\":\"Derrick Lin\",\"OldAddress\":\"7324 Roosevelt Ave , INDIANAPOLIS, MARION, IN, 46201, US\",\"HomeAddress\":\"7324 Roosevelt Ave , INDIANAPOLIS, MARION, IN, 46201, US\",\"WorkPhone\":\"785-666-6666\",\"HomePhone\":\"785-555-5555\",\"MyChart\":\"FHIRDERRICK\",\"EPI\":203711,\"InternalID\":\"     Z6127\",\"FHIR\":\"TGsj9rYGI8SV-LYYkdH1JqbxYuFGfrODXSPC6iLLYkJcB\",\"BirthSex\":\"M\",\"SexForClinicalUse\":\"male\",\"LegalSex\":\"male\",\"Ethnicity\":\"Unknown\"}",
     "%vlocity_namespace%__Styles__c": "",
     "%vlocity_namespace%__Type__c": "",
     "%vlocity_namespace%__Version__c": 2,

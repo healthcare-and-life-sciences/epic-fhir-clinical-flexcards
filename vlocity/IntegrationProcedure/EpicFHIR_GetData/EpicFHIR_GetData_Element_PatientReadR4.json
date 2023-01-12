@@ -43,7 +43,7 @@
         "restOptions": {
             "clientCertificateName": "",
             "headers": {
-                "Authorization": "Bearer %GetEpicAPIToken:Token%"
+                "Authorization": "Bearer %SetValues:Token%"
             },
             "isCompressed": false,
             "params": {
@@ -52,7 +52,7 @@
             "timeout": 0,
             "xmlEscapeResponse": false
         },
-        "restPath": "%GetEndpoint:URL%/api/FHIR/R4/Patient/%GetPatientId:Patient:PMRN%",
+        "restPath": "%SetValues:URL%/api/FHIR/R4/Patient/%SetValues:PMRN%",
         "retryCount": 0,
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,

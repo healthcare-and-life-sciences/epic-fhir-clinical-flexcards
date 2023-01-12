@@ -8,7 +8,7 @@
     },
     "%vlocity_namespace%__PropertySet__c": {
         "disOnTplt": false,
-        "executionConditionalFormula": "DataType:Data==\"CarePlanLong\"",
+        "executionConditionalFormula": "SetValues:Data==\"CarePlanLong\"",
         "isIfElseBlock": false,
         "label": "ConditionalBlock1",
         "show": null

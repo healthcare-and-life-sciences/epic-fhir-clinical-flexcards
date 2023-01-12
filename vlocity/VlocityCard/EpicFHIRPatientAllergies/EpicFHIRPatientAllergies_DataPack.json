@@ -7,7 +7,7 @@
                 {
                     "id": 12,
                     "name": "recordId",
-                    "val": "001Dn000007EuuUIAS"
+                    "val": "001Dn00000CULqHIAX"
                 }
             ],
             "orderBy": {
@@ -22,7 +22,7 @@
                     "DataType": "Allergies",
                     "env": "Sandbox"
                 },
-                "ipMethod": "EpicFHIR_GetData",
+                "ipMethod": "EHR_AuthAndDataParent",
                 "jsonMap": "{\"recordId\":\"{recordId}\"}",
                 "resultVar": "[\"Allergy\"]",
                 "vlocityAsync": false
@@ -31,13 +31,13 @@
     },
     "%vlocity_namespace%__Definition__c": "EpicFHIRPatientAllergies.json",
     "%vlocity_namespace%__Description__c": "",
-    "%vlocity_namespace%__GlobalKey__c": "EpicFHIRPatientAllergies/LizChristenbury/1/1667401464926",
+    "%vlocity_namespace%__GlobalKey__c": "EpicFHIRPatientAllergies/LizChristenbury/3/1673537135312",
     "%vlocity_namespace%__IsChildCard__c": true,
     "%vlocity_namespace%__ParentID__c": "",
-    "%vlocity_namespace%__SampleData__c": "{\"Allergy\":[{\"RecordedDate\":\"2019-05-24T20:18:04Z\",\"PatientName\":\"Davis, Elijah John\",\"PatientReference\":\"Patient/egqBHVfQlt4Bw3XGXoxVxHg3\",\"CodeText\":\"LACTOSE\",\"Category\":\"medication\",\"VerificationStatus\":\"Confirmed\",\"Status\":\"Active\",\"CodingSystem\":\"http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical\"},{\"RecordedDate\":\"2019-05-24T20:19:17Z\",\"PatientName\":\"Davis, Elijah John\",\"PatientReference\":\"Patient/egqBHVfQlt4Bw3XGXoxVxHg3\",\"CodeText\":\"LATEX\",\"Category\":\"medication\",\"VerificationStatus\":\"Confirmed\",\"Status\":\"Active\",\"CodingSystem\":\"http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical\"}],\"Relation\":\"self\",\"Total\":\"2\",\"Type\":\"searchset\"}",
+    "%vlocity_namespace%__SampleData__c": "{\"Allergy\":{\"PatientName\":\"Lopez, Camila Maria\",\"PatientReference\":\"Patient/erXuFYUfucBZaryVksYEcMg3\",\"CodeText\":\"Not on File\",\"VerificationStatus\":\"Unconfirmed\",\"Status\":\"Active\",\"CodingSystem\":\"http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical\"},\"Relation\":\"self\",\"Total\":\"1\",\"Type\":\"searchset\"}",
     "%vlocity_namespace%__Styles__c": "",
     "%vlocity_namespace%__Type__c": "",
-    "%vlocity_namespace%__Version__c": 1,
+    "%vlocity_namespace%__Version__c": 3,
     "IsLocked": false,
     "MayEdit": true,
     "Name": "EpicFHIRPatientAllergies",

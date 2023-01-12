@@ -4,7 +4,7 @@
     <description>This setting stores a customer's Epic FHIR endpoint.</description>
     <externalId>false</externalId>
     <label>URL</label>
-    <length>50</length>
+    <length>80</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

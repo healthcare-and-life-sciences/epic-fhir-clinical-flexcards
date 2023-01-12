@@ -4,11 +4,7 @@
     "%vlocity_namespace%__DisableMetadataCache__c": false,
     "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "%vlocity_namespace%__Element__c": [
-        "EpicFHIR_GetData_Element_DataType.json",
-        "EpicFHIR_GetData_Element_GetPatientId.json",
-        "EpicFHIR_GetData_Element_GetEndpoint.json",
-        "EpicFHIR_GetData_Element_GetEpicAPIToken.json",
-        "EpicFHIR_GetData_Element_SetToken.json",
+        "EpicFHIR_GetData_Element_SetValues.json",
         "EpicFHIR_GetData_Element_Allergies.json",
         "EpicFHIR_GetData_Element_GetPatientAllergiesR4.json",
         "EpicFHIR_GetData_Element_DRTransformAllergies.json",

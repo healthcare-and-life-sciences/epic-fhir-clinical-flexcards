@@ -1,7 +1,9 @@
 Name: Epic FlexCard Assets
 ignoreDependencies: false
 VlocityDataPackKeys:
+    - IntegrationProcedure/EHR_AuthAndDataParent
     - IntegrationProcedure/EHRConnect_getToken
+    - IntegrationProcedure/EHRConnect_getTokenSimple
     - IntegrationProcedure/EpicFHIR_GetData
     - VlocityCard/cfEpicFHIRSocialHistoryParent
     - VlocityCard/EpicFHIRCarePlanActivities
@@ -22,7 +24,6 @@ VlocityDataPackKeys:
     - VlocityCard/EpicFHIRPatientMedications
     - VlocityCard/EpicFHIRSocialHistory
     - VlocityCard/EpicFHIRVisitsParent
-    - certs/epicfhirnewcert.crt
     - classes/EpicFHIRAuthentication.cls
     - classes/getToken.cls
     - customMetadata/EPIC_Settings.EPIC_Settings.md
@@ -49,8 +50,6 @@ VlocityDataPackKeys:
     - remoteSiteSettings/epicIntegration_vlocity.remoteSite
     - tabs/Epic_Access__c.tab
     - topicsForObjects/Epic_Access__c.topicsForObjects
-    - layouts/Epic_Access__c-Epic Access Layout.layout
-    - layouts/EPIC_Settings__mdt-EPIC Settings Layout.layout
 VlocityTypesToFetch:
     - IntegrationProcedure
     - VlocityCard

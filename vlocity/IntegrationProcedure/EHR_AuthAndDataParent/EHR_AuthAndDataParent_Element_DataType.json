@@ -1,9 +1,9 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "EpicFHIRGetData",
+        "Name": "AuthAndGetEpicData",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/EpicFHIR/GetData/Procedure",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/EHR/AuthAndDataParent/Procedure",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__PropertySet__c": {
@@ -11,12 +11,12 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "elementValueMap": {
-            "Token": "%GetEpicAPIToken:Token%"
+            "DataType": "=%DataType%"
         },
         "executionConditionalFormula": "",
         "failOnStepError": true,
         "failureConditionalFormula": "",
-        "label": "SetValues2",
+        "label": "SetValues1",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "show": null
@@ -25,8 +25,8 @@
     "%vlocity_namespace%__Type__c": "Set Values",
     "IsLocked": false,
     "MayEdit": true,
-    "Name": "SetToken",
+    "Name": "DataType",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EpicFHIR/GetData/Procedure/SetToken"
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/EHR/AuthAndDataParent/Procedure/DataType"
 }

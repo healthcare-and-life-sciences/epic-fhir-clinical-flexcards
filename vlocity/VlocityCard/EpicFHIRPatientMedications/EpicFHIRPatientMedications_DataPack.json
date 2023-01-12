@@ -7,7 +7,7 @@
                 {
                     "id": 8,
                     "name": "recordId",
-                    "val": "001Dn000007CVX8IAO"
+                    "val": "001Dn00000CULkHIAX"
                 }
             ],
             "orderBy": {
@@ -22,7 +22,7 @@
                     "DataType": "Medications",
                     "env": "Sandbox"
                 },
-                "ipMethod": "EpicFHIR_GetData",
+                "ipMethod": "EHR_AuthAndDataParent",
                 "jsonMap": "{\"recordId\":\"{recordId}\"}",
                 "resultVar": "",
                 "vlocityAsync": false
@@ -34,7 +34,7 @@
     "%vlocity_namespace%__GlobalKey__c": "EpicFHIRPatientMedications/LizChristenbury/1/1670340517368",
     "%vlocity_namespace%__IsChildCard__c": true,
     "%vlocity_namespace%__ParentID__c": "EpicFHIRPatientEncounters/LizChristenbury/1/1670339910789",
-    "%vlocity_namespace%__SampleData__c": "{\"Coding\":[{\"Reason\":\"Polycystic ovaries (disorder)\"},{\"Reason\":\"PCOS (polycystic ovarian syndrome)\"},{\"Reason\":\"PCOS (polycystic ovarian syndrome)\"}],\"DoseUnit\":\"tablet\",\"Quantity\":\"28\",\"Start\":\"2019-05-28\",\"Route\":\"Oral\",\"AsNeeded\":\"false\",\"DosageInstructions\":\"Take 1 tablet by mouth 1 (one) time each day.\",\"CourseOfTherapy\":\"Continuous long term therapy\",\"Name\":\"drospirenone-ethinyl estradiol (YAZ,GIANVI) tablet 3-0.02 mg\",\"Category\":\"Community\",\"Intent\":\"order\",\"Status\":\"active\"}",
+    "%vlocity_namespace%__SampleData__c": "[]",
     "%vlocity_namespace%__Styles__c": "",
     "%vlocity_namespace%__Type__c": "",
     "%vlocity_namespace%__Version__c": 1,

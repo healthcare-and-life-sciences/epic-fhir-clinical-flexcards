@@ -4,7 +4,7 @@
             {
                 "id": 6,
                 "name": "recordId",
-                "val": "001Dn000007CnPhIAK"
+                "val": "001Dn00000CULkHIAX"
             }
         ],
         "orderBy": {
@@ -19,7 +19,7 @@
                 "DataType": "CarePlanLong",
                 "env": "Sandbox"
             },
-            "ipMethod": "EpicFHIR_GetData",
+            "ipMethod": "EHR_AuthAndDataParent",
             "jsonMap": "{\"recordId\":\"{recordId}\"}",
             "resultVar": "",
             "vlocityAsync": false
