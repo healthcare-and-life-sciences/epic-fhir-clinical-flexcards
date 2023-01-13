@@ -1,23 +1,23 @@
 {
     "Address1": {
         "Use": "old",
-        "Value": "3268 West Johnson St. Apt 117, GARLAND, DALLAS, TX, 75043, US"
+        "Value": "1563 West Main St Apt 322, KENTWOOD, KENT, MI, 49518, US"
     },
     "Address2": {
         "Use": "home",
-        "Value": "789456 West Johnson St. Apt 222, GARLAND, Houston, AZ, 75043, US"
+        "Value": "1563 West Main St Apt 322, KENTWOOD, KENT, MI, 49518, US"
     },
-    "Age": 35,
-    "BirthDate": "1987-09-12",
+    "Age": 70,
+    "BirthDate": "1952-05-24",
     "Deceased": "false",
     "Extension": [
         {
             "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-            "Value": "Other Race"
+            "Value": "White"
         },
         {
             "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
-            "Value": "Other"
+            "Value": "White"
         },
         {
             "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
@@ -25,70 +25,56 @@
         },
         {
             "Type": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
-            "Value": "female"
+            "Value": "male"
         },
         {
             "Type": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
-            "Value": "female"
+            "Value": "male"
         },
         {
             "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
-            "Value": "F"
+            "Value": "M"
         }
     ],
-    "Gender": "female",
+    "Gender": "male",
     "Identifier": [
         {
             "Type": "EPIC",
-            "Value": "E4007"
+            "Value": "E4004"
         },
         {
             "Type": "EXTERNAL",
-            "Value": "Z6129"
+            "Value": "Z6126"
         },
         {
             "Type": "FHIR",
-            "Value": "TnOZ.elPXC6zcBNFMcFA7A5KZbYxo2.4T-LylRk4GoW4B"
+            "Value": "T30fZc49izAoA6lDfHqEWvnH6qwRhYdpIoifD6NCWfEUB"
         },
         {
             "Type": "FHIR STU3",
-            "Value": "erXuFYUfucBZaryVksYEcMg3"
+            "Value": "e0w0LEDCYtfckT6N.CkJKCw3"
         },
         {
             "Type": "INTERNAL",
-            "Value": "     Z6129"
+            "Value": "     Z6126"
         },
         {
             "Type": "EPI",
-            "Value": "203713"
-        },
-        {
-            "Type": "MYCHARTLOGIN",
-            "Value": "FHIRCAMILA"
+            "Value": "203710"
         },
         {
             "Type": "WPRINTERNAL",
-            "Value": "736"
+            "Value": "741"
         }
     ],
-    "MaritalStatus": "Married",
-    "Name": "Camila Maria Lopez",
-    "PCP": "Physician Family Medicine, MD",
+    "MaritalStatus": "Widowed",
+    "Name": "MCGINNIS,WARREN",
+    "PCP1": "Physician Family Medicine, MD",
+    "PCP2": "Physician One Cardiology, MD",
     "PreferredLang": "English",
-    "Telecom": [
-        {
-            "System": "phone",
-            "Use": "home",
-            "Value": "469-555-5555"
-        },
-        {
-            "System": "phone",
-            "Use": "work",
-            "Value": "469-888-8888"
-        },
-        {
-            "System": "email",
-            "Value": "knixontestemail@epic.com"
-        }
-    ]
+    "Telecom": {
+        "System": "phone",
+        "Use": "home",
+        "Value": "616-555-5555"
+    }
 }

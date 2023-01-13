@@ -7,7 +7,7 @@
                 {
                     "id": 3,
                     "name": "recordId",
-                    "val": "001Dn00000CULkHIAX"
+                    "val": "001Dn00000CV6pmIAD"
                 }
             ],
             "orderBy": {
@@ -31,13 +31,13 @@
     },
     "%vlocity_namespace%__Definition__c": "EpicFHIRPatientInfo.json",
     "%vlocity_namespace%__Description__c": "Shows the patient's info including name, birthdate, PCP, and gender",
-    "%vlocity_namespace%__GlobalKey__c": "EpicFHIRPatientInfo/LizChristenbury/2/1670877459380",
+    "%vlocity_namespace%__GlobalKey__c": "EpicFHIRPatientInfo/LizChristenbury/3/1673560118845",
     "%vlocity_namespace%__IsChildCard__c": true,
     "%vlocity_namespace%__ParentID__c": "",
-    "%vlocity_namespace%__SampleData__c": "{\"Age\":49,\"BirthDate\":\"1973-06-03\",\"PreferredLang\":\"English\",\"Gender\":\"male\",\"MaritalStatus\":\"Married\",\"Deceased\":\"false\",\"Name\":\"Derrick Lin\",\"OldAddress\":\"7324 Roosevelt Ave , INDIANAPOLIS, MARION, IN, 46201, US\",\"HomeAddress\":\"7324 Roosevelt Ave , INDIANAPOLIS, MARION, IN, 46201, US\",\"WorkPhone\":\"785-666-6666\",\"HomePhone\":\"785-555-5555\",\"MyChart\":\"FHIRDERRICK\",\"EPI\":203711,\"InternalID\":\"     Z6127\",\"FHIR\":\"TGsj9rYGI8SV-LYYkdH1JqbxYuFGfrODXSPC6iLLYkJcB\",\"BirthSex\":\"M\",\"SexForClinicalUse\":\"male\",\"LegalSex\":\"male\",\"Ethnicity\":\"Unknown\"}",
+    "%vlocity_namespace%__SampleData__c": "{\"PCP2\":\"Physician One Cardiology, MD\",\"Age\":70,\"BirthDate\":\"1952-05-24\",\"PreferredLang\":\"English\",\"PCP1\":\"Physician Family Medicine, MD\",\"Gender\":\"male\",\"MaritalStatus\":\"Widowed\",\"Deceased\":\"false\",\"Name\":\"MCGINNIS,WARREN\",\"OldAddress\":\"1563 West Main St Apt 322, KENTWOOD, KENT, MI, 49518, US\",\"HomeAddress\":\"1563 West Main St Apt 322, KENTWOOD, KENT, MI, 49518, US\",\"HomePhone\":\"616-555-5555\",\"EPI\":203710,\"InternalID\":\"     Z6126\",\"FHIR\":\"T30fZc49izAoA6lDfHqEWvnH6qwRhYdpIoifD6NCWfEUB\",\"BirthSex\":\"M\",\"SexForClinicalUse\":\"male\",\"LegalSex\":\"male\",\"Ethnicity\":\"Unknown\"}",
     "%vlocity_namespace%__Styles__c": "",
     "%vlocity_namespace%__Type__c": "",
-    "%vlocity_namespace%__Version__c": 2,
+    "%vlocity_namespace%__Version__c": 3,
     "IsLocked": false,
     "MayEdit": true,
     "Name": "EpicFHIRPatientInfo",

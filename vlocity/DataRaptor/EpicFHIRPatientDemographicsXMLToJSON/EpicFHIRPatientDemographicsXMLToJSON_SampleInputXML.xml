@@ -1,15 +1,16 @@
-<Patient xmlns="http://hl7.org/fhir">
-    <id value="erXuFYUfucBZaryVksYEcMg3" />
+<Patient
+    xmlns="http://hl7.org/fhir">
+    <id value="e0w0LEDCYtfckT6N.CkJKCw3" />
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
-        <extension url="detailed">
+        <extension url="ombCategory">
             <valueCoding>
                 <system value="urn:oid:2.16.840.1.113883.6.238" />
-                <code value="2131-1" />
-                <display value="Other Race" />
+                <code value="2106-3" />
+                <display value="White" />
             </valueCoding>
         </extension>
         <extension url="text">
-            <valueString value="Other" />
+            <valueString value="White" />
         </extension>
     </extension>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
@@ -21,8 +22,8 @@
         <valueCodeableConcept>
             <coding>
                 <system value="urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000" />
-                <code value="female" />
-                <display value="female" />
+                <code value="male" />
+                <display value="male" />
             </coding>
         </valueCodeableConcept>
     </extension>
@@ -30,13 +31,13 @@
         <valueCodeableConcept>
             <coding>
                 <system value="urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000" />
-                <code value="female" />
-                <display value="female" />
+                <code value="male" />
+                <display value="male" />
             </coding>
         </valueCodeableConcept>
     </extension>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
-        <valueCode value="F" />
+        <valueCode value="M" />
     </extension>
     <identifier>
         <use value="usual" />
@@ -44,7 +45,7 @@
             <text value="EPIC" />
         </type>
         <system value="urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.0" />
-        <value value="E4007" />
+        <value value="E4004" />
     </identifier>
     <identifier>
         <use value="usual" />
@@ -52,7 +53,7 @@
             <text value="EXTERNAL" />
         </type>
         <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.698084" />
-        <value value="Z6129" />
+        <value value="Z6126" />
     </identifier>
     <identifier>
         <use value="usual" />
@@ -60,7 +61,7 @@
             <text value="FHIR" />
         </type>
         <system value="http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id" />
-        <value value="TnOZ.elPXC6zcBNFMcFA7A5KZbYxo2.4T-LylRk4GoW4B" />
+        <value value="T30fZc49izAoA6lDfHqEWvnH6qwRhYdpIoifD6NCWfEUB" />
     </identifier>
     <identifier>
         <use value="usual" />
@@ -68,7 +69,7 @@
             <text value="FHIR STU3" />
         </type>
         <system value="http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id" />
-        <value value="erXuFYUfucBZaryVksYEcMg3" />
+        <value value="e0w0LEDCYtfckT6N.CkJKCw3" />
     </identifier>
     <identifier>
         <use value="usual" />
@@ -76,7 +77,7 @@
             <text value="INTERNAL" />
         </type>
         <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.698084" />
-        <value value="     Z6129" />
+        <value value="     Z6126" />
     </identifier>
     <identifier>
         <use value="usual" />
@@ -84,15 +85,7 @@
             <text value="EPI" />
         </type>
         <system value="urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14" />
-        <value value="203713" />
-    </identifier>
-    <identifier>
-        <use value="usual" />
-        <type>
-            <text value="MYCHARTLOGIN" />
-        </type>
-        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.3.878082.110" />
-        <value value="FHIRCAMILA" />
+        <value value="203710" />
     </identifier>
     <identifier>
         <use value="usual" />
@@ -100,65 +93,62 @@
             <text value="WPRINTERNAL" />
         </type>
         <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.878082" />
-        <value value="736" />
+        <value value="741" />
     </identifier>
     <active value="true" />
     <name>
+        <use value="old" />
+        <text value="MCGINNIS,WARREN" />
+        <family value="McGinnis" />
+        <given value="Warren" />
+    </name>
+    <name>
         <use value="official" />
-        <text value="Camila Maria Lopez" />
-        <family value="Lopez" />
-        <given value="Camila" />
-        <given value="Maria" />
+        <text value="Warren James McGinnis III" />
+        <family value="McGinnis" />
+        <given value="Warren" />
+        <given value="James" />
     </name>
     <name>
         <use value="usual" />
-        <text value="Camila Maria Lopez" />
-        <family value="Lopez" />
-        <given value="Camila" />
-        <given value="Maria" />
+        <text value="Warren James McGinnis III" />
+        <family value="McGinnis" />
+        <given value="Warren" />
+        <given value="James" />
     </name>
     <telecom>
         <system value="phone" />
-        <value value="469-555-5555" />
+        <value value="616-555-5555" />
         <use value="home" />
     </telecom>
-    <telecom>
-        <system value="phone" />
-        <value value="469-888-8888" />
-        <use value="work" />
-    </telecom>
-    <telecom>
-        <system value="email" />
-        <value value="knixontestemail@epic.com" />
-    </telecom>
-    <gender value="female" />
-    <birthDate value="1987-09-12" />
+    <gender value="male" />
+    <birthDate value="1952-05-24" />
     <deceasedBoolean value="false" />
     <address>
         <use value="old" />
-        <line value="3268 West Johnson St." />
-        <line value="Apt 117" />
-        <city value="GARLAND" />
-        <district value="DALLAS" />
-        <state value="TX" />
-        <postalCode value="75043" />
+        <line value="1563 West Main St" />
+        <line value="Apt 322" />
+        <city value="KENTWOOD" />
+        <district value="KENT" />
+        <state value="MI" />
+        <postalCode value="49518" />
         <country value="US" />
     </address>
     <address>
         <use value="home" />
-        <line value="789456 West Johnson St." />
-        <line value="Apt 222" />
-        <city value="GARLAND" />
-        <district value="Houston" />
-        <state value="AZ" />
-        <postalCode value="75043" />
+        <line value="1563 West Main St" />
+        <line value="Apt 322" />
+        <city value="KENTWOOD" />
+        <district value="KENT" />
+        <state value="MI" />
+        <postalCode value="49518" />
         <country value="US" />
         <period>
             <start value="2019-05-24" />
         </period>
     </address>
     <maritalStatus>
-        <text value="Married" />
+        <text value="Widowed" />
     </maritalStatus>
     <communication>
         <language>
@@ -175,6 +165,11 @@
         <reference value="Practitioner/eM5CWtq15N0WJeuCet5bJlQ3" />
         <type value="Practitioner" />
         <display value="Physician Family Medicine, MD" />
+    </generalPractitioner>
+    <generalPractitioner>
+        <reference value="Practitioner/ef9TegF2nfECi-0Skirbvpg3" />
+        <type value="Practitioner" />
+        <display value="Physician One Cardiology, MD" />
     </generalPractitioner>
     <managingOrganization>
         <reference value="Organization/enRyWnSP963FYDpoks4NHOA3" />

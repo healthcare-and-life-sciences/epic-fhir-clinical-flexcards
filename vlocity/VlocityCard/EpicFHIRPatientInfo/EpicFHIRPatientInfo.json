@@ -4,7 +4,7 @@
             {
                 "id": 3,
                 "name": "recordId",
-                "val": "001Dn00000CULkHIAX"
+                "val": "001Dn00000CV6pmIAD"
             }
         ],
         "orderBy": {
@@ -27,11 +27,12 @@
     },
     "enableLwc": true,
     "isFlex": true,
+    "isRepeatable": true,
     "lwc": {
-        "DeveloperName": "cfEpicFHIRPatientInfo_2_LizChristenbury",
-        "Id": "0RbDn000000ebrcKAA",
+        "DeveloperName": "cfEpicFHIRPatientInfo_3_LizChristenbury",
+        "Id": "0RbDn0000021s5hKAA",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfEpicFHIRPatientInfo_2_LizChristenbury",
+        "MasterLabel": "cfEpicFHIRPatientInfo_3_LizChristenbury",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
@@ -597,7 +598,7 @@
                             "size": {
                                 "default": "6",
                                 "isResponsive": true,
-                                "large": "1",
+                                "large": "2",
                                 "medium": "6",
                                 "small": "6"
                             },
@@ -647,11 +648,11 @@
                                 "size": {
                                     "default": "6",
                                     "isResponsive": true,
-                                    "large": "1",
+                                    "large": "2",
                                     "medium": "6",
                                     "small": "6"
                                 },
-                                "sizeClass": "slds-large-size_1-of-12 slds-medium-size_6-of-12 slds-small-size_6-of-12 slds-size_6-of-12 ",
+                                "sizeClass": "slds-large-size_2-of-12  slds-medium-size_6-of-12  slds-small-size_6-of-12  slds-size_6-of-12 ",
                                 "style": "      \n         ",
                                 "text": {
                                     "align": "",
@@ -711,11 +712,11 @@
                                         "size": {
                                             "default": "6",
                                             "isResponsive": true,
-                                            "large": "1",
+                                            "large": "2",
                                             "medium": "6",
                                             "small": "6"
                                         },
-                                        "sizeClass": "slds-large-size_1-of-12 slds-medium-size_6-of-12 slds-small-size_6-of-12 slds-size_6-of-12 ",
+                                        "sizeClass": "slds-large-size_2-of-12  slds-medium-size_6-of-12  slds-small-size_6-of-12  slds-size_6-of-12 ",
                                         "style": "      \n         ",
                                         "text": {
                                             "align": "",
@@ -736,160 +737,6 @@
                                 "card": "{card}",
                                 "fieldName": "Gender",
                                 "label": "Gender",
-                                "placeholder": "output",
-                                "record": "{record}",
-                                "styles": {
-                                    "label": {
-                                        "color": "#444444",
-                                        "fontFamily": "Salesforce Sans",
-                                        "fontSize": "10pt"
-                                    },
-                                    "value": {
-                                        "fontFamily": "Salesforce Sans"
-                                    }
-                                },
-                                "type": "text"
-                            },
-                            "size": {
-                                "default": "6",
-                                "isResponsive": true,
-                                "large": "1",
-                                "medium": "6",
-                                "small": "6"
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "background": {
-                                    "color": "",
-                                    "image": "",
-                                    "position": "",
-                                    "repeat": "",
-                                    "size": ""
-                                },
-                                "border": {
-                                    "color": "",
-                                    "radius": "",
-                                    "style": "",
-                                    "type": "",
-                                    "width": ""
-                                },
-                                "class": "slds-p-bottom_small ",
-                                "container": {
-                                    "class": ""
-                                },
-                                "elementStyleProperties": {
-                                    "styles": {
-                                        "label": {
-                                            "color": "#444444",
-                                            "fontFamily": "Salesforce Sans",
-                                            "fontSize": "10pt"
-                                        },
-                                        "value": {
-                                            "fontFamily": "Salesforce Sans"
-                                        }
-                                    }
-                                },
-                                "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                    {
-                                        "label": "bottom:small",
-                                        "size": "small",
-                                        "type": "bottom"
-                                    }
-                                ],
-                                "size": {
-                                    "default": "6",
-                                    "isResponsive": true,
-                                    "large": "1",
-                                    "medium": "6",
-                                    "small": "6"
-                                },
-                                "sizeClass": "slds-large-size_1-of-12  slds-medium-size_6-of-12  slds-small-size_6-of-12  slds-size_6-of-12 ",
-                                "style": "      \n         ",
-                                "text": {
-                                    "align": "",
-                                    "color": ""
-                                }
-                            },
-                            "styleObjects": [
-                                {
-                                    "conditionString": "",
-                                    "conditions": "default",
-                                    "draggable": false,
-                                    "key": 0,
-                                    "label": "Default",
-                                    "name": "Default",
-                                    "styleObject": {
-                                        "background": {
-                                            "color": "",
-                                            "image": "",
-                                            "position": "",
-                                            "repeat": "",
-                                            "size": ""
-                                        },
-                                        "border": {
-                                            "color": "",
-                                            "radius": "",
-                                            "style": "",
-                                            "type": "",
-                                            "width": ""
-                                        },
-                                        "class": "slds-p-bottom_small ",
-                                        "container": {
-                                            "class": ""
-                                        },
-                                        "elementStyleProperties": {
-                                            "styles": {
-                                                "label": {
-                                                    "color": "#444444",
-                                                    "fontFamily": "Salesforce Sans",
-                                                    "fontSize": "10pt"
-                                                },
-                                                "value": {
-                                                    "fontFamily": "Salesforce Sans"
-                                                }
-                                            }
-                                        },
-                                        "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                            {
-                                                "label": "bottom:small",
-                                                "size": "small",
-                                                "type": "bottom"
-                                            }
-                                        ],
-                                        "size": {
-                                            "default": "6",
-                                            "isResponsive": true,
-                                            "large": "1",
-                                            "medium": "6",
-                                            "small": "6"
-                                        },
-                                        "sizeClass": "slds-large-size_1-of-12  slds-medium-size_6-of-12  slds-small-size_6-of-12  slds-size_6-of-12 ",
-                                        "style": "      \n         ",
-                                        "text": {
-                                            "align": "",
-                                            "color": ""
-                                        }
-                                    }
-                                }
-                            ],
-                            "type": "field",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "outputField",
-                            "elementLabel": "MaritalStatus",
-                            "name": "Gender",
-                            "property": {
-                                "card": "{card}",
-                                "fieldName": "MaritalStatus",
-                                "label": "Marital Status",
                                 "placeholder": "output",
                                 "record": "{record}",
                                 "styles": {
@@ -960,7 +807,7 @@
                                     "medium": "6",
                                     "small": "6"
                                 },
-                                "sizeClass": "slds-large-size_2-of-12 slds-medium-size_6-of-12 slds-small-size_6-of-12 slds-size_6-of-12 ",
+                                "sizeClass": "slds-large-size_2-of-12  slds-medium-size_6-of-12  slds-small-size_6-of-12  slds-size_6-of-12 ",
                                 "style": "      \n         ",
                                 "text": {
                                     "align": "",
@@ -1023,7 +870,7 @@
                                             "medium": "6",
                                             "small": "6"
                                         },
-                                        "sizeClass": "slds-large-size_2-of-12 slds-medium-size_6-of-12 slds-small-size_6-of-12 slds-size_6-of-12 ",
+                                        "sizeClass": "slds-large-size_2-of-12  slds-medium-size_6-of-12  slds-small-size_6-of-12  slds-size_6-of-12 ",
                                         "style": "      \n         ",
                                         "text": {
                                             "align": "",
@@ -1038,18 +885,12 @@
                         {
                             "class": "slds-col ",
                             "element": "outputField",
-                            "elementLabel": "PCP",
+                            "elementLabel": "MaritalStatus",
                             "name": "Gender",
                             "property": {
                                 "card": "{card}",
-                                "data-conditions": {
-                                    "group": [
-                                    ],
-                                    "id": "state-condition-object",
-                                    "isParent": true
-                                },
-                                "fieldName": "PCP",
-                                "label": "PCP",
+                                "fieldName": "MaritalStatus",
+                                "label": "Marital Status",
                                 "placeholder": "output",
                                 "record": "{record}",
                                 "styles": {
@@ -1341,6 +1182,320 @@
                                             "small": "2"
                                         },
                                         "sizeClass": "slds-large-size_3-of-12  slds-medium-size_2-of-12  slds-small-size_2-of-12  slds-size_2-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "field",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "PCP1",
+                            "name": "Gender",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "PCP1",
+                                "label": "Primary Care Provider",
+                                "placeholder": "output",
+                                "record": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#444444",
+                                        "fontFamily": "Salesforce Sans",
+                                        "fontSize": "10pt",
+                                        "textAlign": "left"
+                                    },
+                                    "value": {
+                                        "fontFamily": "Salesforce Sans"
+                                    }
+                                },
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "2",
+                                "isResponsive": true,
+                                "large": "6",
+                                "medium": "2",
+                                "small": "2"
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-p-bottom_small ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "color": "#444444",
+                                            "fontFamily": "Salesforce Sans",
+                                            "fontSize": "10pt",
+                                            "textAlign": "left"
+                                        },
+                                        "value": {
+                                            "fontFamily": "Salesforce Sans"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                    {
+                                        "label": "bottom:small",
+                                        "size": "small",
+                                        "type": "bottom"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "2",
+                                    "isResponsive": true,
+                                    "large": "6",
+                                    "medium": "2",
+                                    "small": "2"
+                                },
+                                "sizeClass": "slds-large-size_6-of-12  slds-medium-size_2-of-12  slds-small-size_2-of-12  slds-size_2-of-12 ",
+                                "style": "      \n         ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-bottom_small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#444444",
+                                                    "fontFamily": "Salesforce Sans",
+                                                    "fontSize": "10pt",
+                                                    "textAlign": "left"
+                                                },
+                                                "value": {
+                                                    "fontFamily": "Salesforce Sans"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "bottom:small",
+                                                "size": "small",
+                                                "type": "bottom"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "2",
+                                            "isResponsive": true,
+                                            "large": "6",
+                                            "medium": "2",
+                                            "small": "2"
+                                        },
+                                        "sizeClass": "slds-large-size_6-of-12  slds-medium-size_2-of-12  slds-small-size_2-of-12  slds-size_2-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "field",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Gender-8-clone-0",
+                            "name": "Gender",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "PCP2",
+                                "label": "Additional Care Provider",
+                                "placeholder": "output",
+                                "record": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#444444",
+                                        "fontFamily": "Salesforce Sans",
+                                        "fontSize": "10pt",
+                                        "textAlign": "left"
+                                    },
+                                    "value": {
+                                        "fontFamily": "Salesforce Sans"
+                                    }
+                                },
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "2",
+                                "isResponsive": true,
+                                "large": "6",
+                                "medium": "2",
+                                "small": "2"
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-p-bottom_small ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "color": "#444444",
+                                            "fontFamily": "Salesforce Sans",
+                                            "fontSize": "10pt",
+                                            "textAlign": "left"
+                                        },
+                                        "value": {
+                                            "fontFamily": "Salesforce Sans"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                    {
+                                        "label": "bottom:small",
+                                        "size": "small",
+                                        "type": "bottom"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "2",
+                                    "isResponsive": true,
+                                    "large": "6",
+                                    "medium": "2",
+                                    "small": "2"
+                                },
+                                "sizeClass": "slds-large-size_6-of-12  slds-medium-size_2-of-12  slds-small-size_2-of-12  slds-size_2-of-12 ",
+                                "style": "      \n         ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-bottom_small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#444444",
+                                                    "fontFamily": "Salesforce Sans",
+                                                    "fontSize": "10pt",
+                                                    "textAlign": "left"
+                                                },
+                                                "value": {
+                                                    "fontFamily": "Salesforce Sans"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "bottom:small",
+                                                "size": "small",
+                                                "type": "bottom"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "2",
+                                            "isResponsive": true,
+                                            "large": "6",
+                                            "medium": "2",
+                                            "small": "2"
+                                        },
+                                        "sizeClass": "slds-large-size_6-of-12  slds-medium-size_2-of-12  slds-small-size_2-of-12  slds-size_2-of-12 ",
                                         "style": "      \n         ",
                                         "text": {
                                             "align": "",
