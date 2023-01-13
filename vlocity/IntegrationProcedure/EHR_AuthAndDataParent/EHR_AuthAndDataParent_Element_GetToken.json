@@ -9,7 +9,7 @@
     "%vlocity_namespace%__PropertySet__c": {
         "actionMessage": "",
         "additionalInput": {
-            "env": "=\"Sandbox\""
+            "env": "=%env%"
         },
         "additionalOutput": {
         },
