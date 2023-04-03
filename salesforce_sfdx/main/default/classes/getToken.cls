@@ -172,7 +172,7 @@ global with sharing class getToken implements vlocity_ins.VlocityOpenInterface {
             }
         }
 
-        System.debug('YES. We have a access token: ' + access_token);
+
     }
 
     public static String base64URLencode(Blob input) {
