@@ -1,9 +1,0 @@
-{
-    "Condition": "Text",
-    "End": "Text",
-    "Location": "Text",
-    "Participant": "Text",
-    "Start": "Text",
-    "Status": "Text",
-    "VisitType": "Text"
-}
