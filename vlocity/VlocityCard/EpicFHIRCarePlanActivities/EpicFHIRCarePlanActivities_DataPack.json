@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Author__c": "LizChristenbury",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\t\t\t\"DoNotPerform\": \"false\",\n\t\t\t\"Status\": \"TEST\",\n\t\t\t\"Name\": \"LDL CHOLESTEROL, DIRECT\",\n\t\t\t\"Kind\": \"TESTRequest\"\n\t\t}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "EpicFHIRCarePlanActivities.json",
+    "%vlocity_namespace%__Description__c": "Shows a patient's activities for a Care Plan",
+    "%vlocity_namespace%__GlobalKey__c": "EpicFHIRCarePlanActivities/LizChristenbury/1/1670531917718",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "{\"DoNotPerform\":\"false\",\"Status\":\"TEST\",\"Name\":\"LDL CHOLESTEROL, DIRECT\",\"Kind\":\"TESTRequest\"}",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "IsLocked": false,
+    "MayEdit": true,
+    "Name": "EpicFHIRCarePlanActivities",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/EpicFHIRCarePlanActivities"
+}

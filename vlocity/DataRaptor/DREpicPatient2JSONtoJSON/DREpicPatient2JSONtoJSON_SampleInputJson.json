@@ -1,0 +1,80 @@
+{
+    "Address1": {
+        "Use": "old",
+        "Value": "1563 West Main St Apt 322, KENTWOOD, KENT, MI, 49518, US"
+    },
+    "Address2": {
+        "Use": "home",
+        "Value": "1563 West Main St Apt 322, KENTWOOD, KENT, MI, 49518, US"
+    },
+    "Age": 70,
+    "BirthDate": "1952-05-24",
+    "Deceased": "false",
+    "Extension": [
+        {
+            "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "Value": "White"
+        },
+        {
+            "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "Value": "White"
+        },
+        {
+            "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "Value": "Unknown"
+        },
+        {
+            "Type": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+            "Value": "male"
+        },
+        {
+            "Type": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+            "Value": "male"
+        },
+        {
+            "Type": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "Value": "M"
+        }
+    ],
+    "Gender": "male",
+    "Identifier": [
+        {
+            "Type": "EPIC",
+            "Value": "E4004"
+        },
+        {
+            "Type": "EXTERNAL",
+            "Value": "Z6126"
+        },
+        {
+            "Type": "FHIR",
+            "Value": "T30fZc49izAoA6lDfHqEWvnH6qwRhYdpIoifD6NCWfEUB"
+        },
+        {
+            "Type": "FHIR STU3",
+            "Value": "e0w0LEDCYtfckT6N.CkJKCw3"
+        },
+        {
+            "Type": "INTERNAL",
+            "Value": "     Z6126"
+        },
+        {
+            "Type": "EPI",
+            "Value": "203710"
+        },
+        {
+            "Type": "WPRINTERNAL",
+            "Value": "741"
+        }
+    ],
+    "MaritalStatus": "Widowed",
+    "Name": "MCGINNIS,WARREN",
+    "PCP1": "Physician Family Medicine, MD",
+    "PCP2": "Physician One Cardiology, MD",
+    "PreferredLang": "English",
+    "Telecom": {
+        "System": "phone",
+        "Use": "home",
+        "Value": "616-555-5555"
+    }
+}

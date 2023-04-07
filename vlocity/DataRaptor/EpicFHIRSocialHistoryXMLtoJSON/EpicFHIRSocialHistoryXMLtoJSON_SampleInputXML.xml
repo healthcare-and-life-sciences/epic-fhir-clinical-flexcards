@@ -1,0 +1,143 @@
+<Bundle
+    xmlns="http://hl7.org/fhir">
+    <type value="searchset" />
+    <total value="1" />
+    <link>
+        <relation value="self" />
+        <url value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Observation?category=social-history&amp;patient=eq081-VQEgP8drUUqCWzHfw3" />
+    </link>
+    <entry>
+        <link>
+            <relation value="self" />
+            <url value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Observation/etP6rPSwDELAWYYJBl49P.NOEzySsT2ymjCFAYsNkTeBm9IH2aYE6ysX.mx0ZysaQ3" />
+        </link>
+        <fullUrl value="https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Observation/etP6rPSwDELAWYYJBl49P.NOEzySsT2ymjCFAYsNkTeBm9IH2aYE6ysX.mx0ZysaQ3" />
+        <resource>
+            <Observation>
+                <id value="etP6rPSwDELAWYYJBl49P.NOEzySsT2ymjCFAYsNkTeBm9IH2aYE6ysX.mx0ZysaQ3" />
+                <status value="final" />
+                <category>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/observation-category" />
+                        <code value="social-history" />
+                        <display value="Social History" />
+                    </coding>
+                    <text value="Social History" />
+                </category>
+                <code>
+                    <coding>
+                        <system value="http://loinc.org" />
+                        <code value="72166-2" />
+                        <display value="Tobacco smoking status" />
+                    </coding>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="365980008" />
+                        <display value="Finding of tobacco use and exposure (finding)" />
+                    </coding>
+                    <text value="Smoking History" />
+                </code>
+                <subject>
+                    <reference value="Patient/eq081-VQEgP8drUUqCWzHfw3" />
+                    <display value="Lin, Derrick" />
+                </subject>
+                <effectivePeriod>
+                    <start value="1998-01-01" />
+                    <end value="2016-01-01" />
+                </effectivePeriod>
+                <issued value="2019-05-28T05:00:00Z" />
+                <performer>
+                    <reference value="Practitioner/eUXiD4IyBLJFoR2VHOjfTdg3" />
+                    <display value="Physician Family Medicine, MD" />
+                </performer>
+                <valueCodeableConcept>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="8517006" />
+                        <display value="Ex-smoker" />
+                    </coding>
+                    <text value="Former" />
+                </valueCodeableConcept>
+                <component>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org" />
+                            <code value="81228-9" />
+                            <display value="Tobacco product" />
+                        </coding>
+                        <coding>
+                            <system value="http://snomed.info/sct" />
+                            <code value="53661000146106" />
+                            <display value="Type of tobacco used (observable entity)" />
+                        </coding>
+                        <text value="Type" />
+                    </code>
+                    <valueCodeableConcept>
+                        <coding>
+                            <system value="http://snomed.info/sct" />
+                            <code value="65568007" />
+                            <display value="Cigarette Smoker" />
+                        </coding>
+                        <text value="Cigarettes" />
+                    </valueCodeableConcept>
+                </component>
+                <component>
+                    <code>
+                        <coding>
+                            <system value="http://snomed.info/sct" />
+                            <code value="401201003" />
+                            <display value="Cigarette pack-years (observable entity)" />
+                        </coding>
+                        <text value="Cigarette pack-years (observable entity)" />
+                    </code>
+                    <valueQuantity>
+                        <value value="9" />
+                        <unit value="{PackYears}" />
+                        <system value="http://unitsofmeasure.org" />
+                        <code value="{PackYears}" />
+                    </valueQuantity>
+                </component>
+                <component>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org" />
+                            <code value="88029-4" />
+                            <display value="Tobacco use duration" />
+                        </coding>
+                        <text value="Years Used" />
+                    </code>
+                    <valueQuantity>
+                        <value value="18" />
+                        <unit value="Years Used" />
+                        <system value="http://unitsofmeasure.org" />
+                        <code value="a" />
+                    </valueQuantity>
+                </component>
+                <component>
+                    <code>
+                        <coding>
+                            <system value="http://loinc.org" />
+                            <code value="8663-7" />
+                            <display value="Cigarettes smoked current (pack per day) - Reported" />
+                        </coding>
+                        <coding>
+                            <system value="http://snomed.info/sct" />
+                            <code value="266918002" />
+                            <display value="Tobacco smoking consumption (observable entity)" />
+                        </coding>
+                        <text value="Packs/Day" />
+                    </code>
+                    <valueQuantity>
+                        <value value="0.5" />
+                        <unit value="Packs/Day" />
+                        <system value="http://snomed.info/sct" />
+                        <code value="228963008" />
+                    </valueQuantity>
+                </component>
+            </Observation>
+        </resource>
+        <search>
+            <mode value="match" />
+        </search>
+    </entry>
+</Bundle>

@@ -1,0 +1,178 @@
+<Patient
+    xmlns="http://hl7.org/fhir">
+    <id value="e0w0LEDCYtfckT6N.CkJKCw3" />
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+        <extension url="ombCategory">
+            <valueCoding>
+                <system value="urn:oid:2.16.840.1.113883.6.238" />
+                <code value="2106-3" />
+                <display value="White" />
+            </valueCoding>
+        </extension>
+        <extension url="text">
+            <valueString value="White" />
+        </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+        <extension url="text">
+            <valueString value="Unknown" />
+        </extension>
+    </extension>
+    <extension url="http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex">
+        <valueCodeableConcept>
+            <coding>
+                <system value="urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000" />
+                <code value="male" />
+                <display value="male" />
+            </coding>
+        </valueCodeableConcept>
+    </extension>
+    <extension url="http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use">
+        <valueCodeableConcept>
+            <coding>
+                <system value="urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000" />
+                <code value="male" />
+                <display value="male" />
+            </coding>
+        </valueCodeableConcept>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+        <valueCode value="M" />
+    </extension>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="EPIC" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.0" />
+        <value value="E4004" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="EXTERNAL" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.698084" />
+        <value value="Z6126" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="FHIR" />
+        </type>
+        <system value="http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id" />
+        <value value="T30fZc49izAoA6lDfHqEWvnH6qwRhYdpIoifD6NCWfEUB" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="FHIR STU3" />
+        </type>
+        <system value="http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id" />
+        <value value="e0w0LEDCYtfckT6N.CkJKCw3" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="INTERNAL" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.698084" />
+        <value value="     Z6126" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="EPI" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14" />
+        <value value="203710" />
+    </identifier>
+    <identifier>
+        <use value="usual" />
+        <type>
+            <text value="WPRINTERNAL" />
+        </type>
+        <system value="urn:oid:1.2.840.114350.1.13.0.1.7.2.878082" />
+        <value value="741" />
+    </identifier>
+    <active value="true" />
+    <name>
+        <use value="old" />
+        <text value="MCGINNIS,WARREN" />
+        <family value="McGinnis" />
+        <given value="Warren" />
+    </name>
+    <name>
+        <use value="official" />
+        <text value="Warren James McGinnis III" />
+        <family value="McGinnis" />
+        <given value="Warren" />
+        <given value="James" />
+    </name>
+    <name>
+        <use value="usual" />
+        <text value="Warren James McGinnis III" />
+        <family value="McGinnis" />
+        <given value="Warren" />
+        <given value="James" />
+    </name>
+    <telecom>
+        <system value="phone" />
+        <value value="616-555-5555" />
+        <use value="home" />
+    </telecom>
+    <gender value="male" />
+    <birthDate value="1952-05-24" />
+    <deceasedBoolean value="false" />
+    <address>
+        <use value="old" />
+        <line value="1563 West Main St" />
+        <line value="Apt 322" />
+        <city value="KENTWOOD" />
+        <district value="KENT" />
+        <state value="MI" />
+        <postalCode value="49518" />
+        <country value="US" />
+    </address>
+    <address>
+        <use value="home" />
+        <line value="1563 West Main St" />
+        <line value="Apt 322" />
+        <city value="KENTWOOD" />
+        <district value="KENT" />
+        <state value="MI" />
+        <postalCode value="49518" />
+        <country value="US" />
+        <period>
+            <start value="2019-05-24" />
+        </period>
+    </address>
+    <maritalStatus>
+        <text value="Widowed" />
+    </maritalStatus>
+    <communication>
+        <language>
+            <coding>
+                <system value="urn:ietf:bcp:47" />
+                <code value="en" />
+                <display value="English" />
+            </coding>
+            <text value="English" />
+        </language>
+        <preferred value="true" />
+    </communication>
+    <generalPractitioner>
+        <reference value="Practitioner/eM5CWtq15N0WJeuCet5bJlQ3" />
+        <type value="Practitioner" />
+        <display value="Physician Family Medicine, MD" />
+    </generalPractitioner>
+    <generalPractitioner>
+        <reference value="Practitioner/ef9TegF2nfECi-0Skirbvpg3" />
+        <type value="Practitioner" />
+        <display value="Physician One Cardiology, MD" />
+    </generalPractitioner>
+    <managingOrganization>
+        <reference value="Organization/enRyWnSP963FYDpoks4NHOA3" />
+        <display value="Epic Hospital System" />
+    </managingOrganization>
+</Patient>

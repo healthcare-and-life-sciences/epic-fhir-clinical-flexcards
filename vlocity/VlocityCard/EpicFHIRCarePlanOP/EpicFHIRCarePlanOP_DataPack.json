@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Author__c": "LizChristenbury",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "[\n  {\n    \"Goal\": {\n      \"Activity\": [\n        {\n          \"End\": \"2020-07-15T18:23:42Z\",\n          \"Start\": \"2020-07-15T18:23:26Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"BTR Task 1\",\n          \"Kind\": \"Task\"\n        },\n        {\n          \"End\": \"2020-07-15T18:23:42Z\",\n          \"Start\": \"2020-07-15T18:23:26Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"BTR Task 2\",\n          \"Kind\": \"Task\"\n        },\n        {\n          \"End\": \"2020-07-15T18:23:42Z\",\n          \"Start\": \"2020-07-15T18:23:26Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"BTR Task 3\",\n          \"Kind\": \"Task\"\n        },\n        {\n          \"End\": \"2020-07-15T18:23:42Z\",\n          \"Start\": \"2020-07-15T18:23:26Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"BTR Task 4\",\n          \"Kind\": \"Task\"\n        }\n      ],\n      \"GoalName\": \"BTR Goal 1\"\n    },\n    \"Author\": \"C Ccc\",\n    \"EndDate\": \"07/15/2020\",\n    \"StartDate\": \"07/15/2020\",\n    \"CarePlanName\": \"BTR Care Plan 1\",\n    \"Status\": \"completed\"\n  },\n  {\n    \"Goal\": {\n      \"Activity\": [\n        {\n          \"End\": \"2020-07-20T22:56:23Z\",\n          \"Start\": \"2020-07-16T19:05:47Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"JRS 29 ASSIGN TO CURRENT USER\",\n          \"Kind\": \"Task\"\n        },\n        {\n          \"End\": \"2020-07-22T17:29:53Z\",\n          \"Start\": \"2020-07-16T19:05:47Z\",\n          \"DoNotPerform\": \"false\",\n          \"Status\": \"completed\",\n          \"Title\": \"JRS 29 ASSIGN TO CARE MANAGER\",\n          \"Kind\": \"Task\"\n        }\n      ],\n      \"GoalName\": \"JRS Two Task Goal\"\n    },\n    \"Author\": \"C Ccc\",\n    \"EndDate\": \"07/22/2020\",\n    \"StartDate\": \"07/16/2020\",\n    \"CarePlanName\": \"JRS Care Plan\",\n    \"Status\": \"completed\"\n  }\n]",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "EpicFHIRCarePlanOP.json",
+    "%vlocity_namespace%__Description__c": "Shows a patient's outpatient care plan",
+    "%vlocity_namespace%__GlobalKey__c": "EpicFHIRCarePlanOP/LizChristenbury/1/1670597854661",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "EpicFHIRCarePlanLong/LizChristenbury/1/1670530931028",
+    "%vlocity_namespace%__SampleData__c": "[{\"Goal\":{\"Activity\":[{\"End\":\"2020-07-15T18:23:42Z\",\"Start\":\"2020-07-15T18:23:26Z\",\"DoNotPerform\":\"false\",\"Status\":\"completed\",\"Title\":\"BTR Task 1\",\"Kind\":\"Task\"},{\"End\":\"2020-07-15T18:23:42Z\",\"Start\":\"2020-07-15T18:23:26Z\",\"DoNotPerform\":\"false\",\"Status\":\"completed\",\"Title\":\"BTR Task 2\",\"Kind\":\"Task\"},{\"End\":\"2020-07-15T18:23:42Z\",\"Start\":\"2020-07-15T18:23:26Z\",\"DoNotPerform\":\"false\",\"Status\":\"completed\",\"Title\":\"BTR Task 3\",\"Kind\":\"Task\"},{\"End\":\"2020-07-15T18:23:42Z\",\"Start\":\"2020-07-15T18:23:26Z\",\"DoNotPerform\":\"false\",\"Status\":\"completed\",\"Title\":\"BTR Task 4\",\"Kind\":\"Task\"}],\"GoalName\":\"BTR Goal 1\"},\"Author\":\"C Ccc\",\"EndDate\":\"07/15/2020\",\"StartDate\":\"07/15/2020\",\"CarePlanName\":\"BTR Care Plan 1\",\"Status\":\"completed\"},{\"Goal\":{\"Activity\":[{\"End\":\"2020-07-20T22:56:23Z\",\"Start\":\"2020-07-16T19:05:47Z\",\"DoNotPerform\":\"false\",\"Status\":\"completed\",\"Title\":\"JRS 29 ASSIGN TO CURRENT USER\",\"Kind\":\"Task\"},{\"End\":\"2020-07-22T17:29:53Z\",\"Start\":\"2020-07-16T19:05:47Z\",\"DoNotPerform\":\"false\",\"Status\":\"completed\",\"Title\":\"JRS 29 ASSIGN TO CARE MANAGER\",\"Kind\":\"Task\"}],\"GoalName\":\"JRS Two Task Goal\"},\"Author\":\"C Ccc\",\"EndDate\":\"07/22/2020\",\"StartDate\":\"07/16/2020\",\"CarePlanName\":\"JRS Care Plan\",\"Status\":\"completed\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "IsLocked": false,
+    "MayEdit": true,
+    "Name": "EpicFHIRCarePlanOP",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/EpicFHIRCarePlanOP"
+}

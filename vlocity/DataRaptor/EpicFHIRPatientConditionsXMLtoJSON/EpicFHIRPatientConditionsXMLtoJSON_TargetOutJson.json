@@ -1,0 +1,10 @@
+{
+    "Category": "Text",
+    "ClinicalStatus": "Text",
+    "ConditionName": "Text",
+    "EndDate": "Text",
+    "RecordedDate": "Text",
+    "Severity": "Text",
+    "StartDate": "Text",
+    "VerificationStatus": "Text"
+}

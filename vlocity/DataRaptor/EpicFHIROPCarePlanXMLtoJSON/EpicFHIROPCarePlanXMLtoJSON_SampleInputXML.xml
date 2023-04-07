@@ -1,0 +1,236 @@
+<Bundle xmlns="http://hl7.org/fhir">
+<type value="searchset" />
+<total value="2" />
+<link>
+<relation value="self" />
+<url value="https://hostname/instance/api/FHIR/R4/CarePlan?patient=eS.3bWuX-xYAfV7T5h12w5Q3&amp;category=736271009&amp;status=completed" />
+</link>
+<entry>
+<link>
+<relation value="self" />
+<url value="https://hostname/instance/api/FHIR/R4/CarePlan/e9fXp22PNJq-Q8K5g8gEhqA3" />
+</link>
+<fullUrl value="https://hostname/instance/api/FHIR/R4/CarePlan/e9fXp22PNJq-Q8K5g8gEhqA3" />
+<resource>
+<CarePlan>
+<id value="e9fXp22PNJq-Q8K5g8gEhqA3" />
+<text>
+<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+<valueCode value="unsupported" />
+</extension>
+<status value="additional" />
+</text>
+<status value="completed" />
+<intent value="plan" />
+<category>
+<coding>
+<system value="http://hl7.org/fhir/us/core/CodeSystem/careplan-category" />
+<code value="assess-plan" />
+<display value="Assessment and Plan of Treatment" />
+</coding>
+<text value="Assessment and Plan of Treatment" />
+</category>
+<category>
+<coding>
+<system value="http://snomed.info/sct" />
+<code value="Outpatient care plan" />
+<display value="Outpatient care plan" />
+</coding>
+<text value="Outpatient care plan" />
+</category>
+<title value="BTR Care Plan 1" />
+<subject>
+<reference value="Patient/eS.3bWuX-xYAfV7T5h12w5Q3" />
+<display value="Ctv, Calvin" />
+</subject>
+<period>
+<start value="2020-07-15T13:23:26Z" />
+<end value="2020-07-15T13:23:42Z" />
+</period>
+<created value="2020-07-15T13:23:26Z" />
+<author>
+<reference value="Practitioner/etgK7TEYmpXBluVvFVNOlvA3" />
+<display value="C Ccc" />
+</author>
+<goal>
+<reference value="Goal/eouV.HbzvipJjTv1-Rw3OSw3" />
+<display value="BTR Goal 1" />
+</goal>
+<activity>
+<detail>
+<kind value="Task" />
+<code>
+<text value="BTR Task 1" />
+</code>
+<goal>
+<reference value="Goal/eouV.HbzvipJjTv1-Rw3OSw3" />
+<display value="BTR Goal 1" />
+</goal>
+<status value="completed" />
+<doNotPerform value="false" />
+<scheduledPeriod>
+<start value="2020-07-15T18:23:26Z" />
+<end value="2020-07-15T18:23:42Z" />
+</scheduledPeriod>
+</detail>
+</activity>
+<activity>
+<detail>
+<kind value="Task" />
+<code>
+<text value="BTR Task 2" />
+</code>
+<goal>
+<reference value="Goal/eouV.HbzvipJjTv1-Rw3OSw3" />
+<display value="BTR Goal 1" />
+</goal>
+<status value="completed" />
+<doNotPerform value="false" />
+<scheduledPeriod>
+<start value="2020-07-15T18:23:26Z" />
+<end value="2020-07-15T18:23:42Z" />
+</scheduledPeriod>
+</detail>
+</activity>
+<activity>
+<detail>
+<kind value="Task" />
+<code>
+<text value="BTR Task 3" />
+</code>
+<goal>
+<reference value="Goal/eouV.HbzvipJjTv1-Rw3OSw3" />
+<display value="BTR Goal 1" />
+</goal>
+<status value="completed" />
+<doNotPerform value="false" />
+<scheduledPeriod>
+<start value="2020-07-15T18:23:26Z" />
+<end value="2020-07-15T18:23:42Z" />
+</scheduledPeriod>
+</detail>
+</activity>
+<activity>
+<detail>
+<kind value="Task" />
+<code>
+<text value="BTR Task 4" />
+</code>
+<goal>
+<reference value="Goal/eouV.HbzvipJjTv1-Rw3OSw3" />
+<display value="BTR Goal 1" />
+</goal>
+<status value="completed" />
+<doNotPerform value="false" />
+<scheduledPeriod>
+<start value="2020-07-15T18:23:26Z" />
+<end value="2020-07-15T18:23:42Z" />
+</scheduledPeriod>
+</detail>
+</activity>
+</CarePlan>
+</resource>
+<search>
+<mode value="match" />
+</search>
+</entry>
+<entry>
+<link>
+<relation value="self" />
+<url value="https://hostname/instance/api/FHIR/R4/CarePlan/e3Q4G89qc25x5bCACCWoR9Q3" />
+</link>
+<fullUrl value="https://hostname/instance/api/FHIR/R4/CarePlan/e3Q4G89qc25x5bCACCWoR9Q3" />
+<resource>
+<CarePlan>
+<id value="e3Q4G89qc25x5bCACCWoR9Q3" />
+<text>
+<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+<valueCode value="unsupported" />
+</extension>
+<status value="additional" />
+</text>
+<status value="completed" />
+<intent value="plan" />
+<category>
+<coding>
+<system value="http://hl7.org/fhir/us/core/CodeSystem/careplan-category" />
+<code value="assess-plan" />
+<display value="Assessment and Plan of Treatment" />
+</coding>
+<text value="Assessment and Plan of Treatment" />
+</category>
+<category>
+<coding>
+<system value="http://snomed.info/sct" />
+<code value="Outpatient care plan" />
+<display value="Outpatient care plan" />
+</coding>
+<text value="Outpatient care plan" />
+</category>
+<title value="JRS Care Plan" />
+<subject>
+<reference value="Patient/eS.3bWuX-xYAfV7T5h12w5Q3" />
+<display value="Ctv, Calvin" />
+</subject>
+<period>
+<start value="2020-07-16T14:05:47Z" />
+<end value="2020-07-22T12:29:53Z" />
+</period>
+<created value="2020-07-16T14:05:47Z" />
+<author>
+<reference value="Practitioner/etgK7TEYmpXBluVvFVNOlvA3" />
+<display value="C Ccc" />
+</author>
+<goal>
+<reference value="Goal/eWX1k5wUEi7WfbqLy3hRBsQ3" />
+<display value="JRS Two Task Goal" />
+</goal>
+<activity>
+<detail>
+<kind value="Task" />
+<code>
+<text value="JRS 29 ASSIGN TO CURRENT USER" />
+</code>
+<goal>
+<reference value="Goal/eWX1k5wUEi7WfbqLy3hRBsQ3" />
+<display value="JRS Two Task Goal" />
+</goal>
+<status value="completed" />
+<doNotPerform value="false" />
+<scheduledPeriod>
+<start value="2020-07-16T19:05:47Z" />
+<end value="2020-07-20T22:56:23Z" />
+</scheduledPeriod>
+<performer>
+<reference value="Practitioner/etgK7TEYmpXBluVvFVNOlvA3" />
+<display value="C Ccc" />
+</performer>
+<description value="Placeholder for Task Comments " />
+</detail>
+</activity>
+<activity>
+<detail>
+<kind value="Task" />
+<code>
+<text value="JRS 29 ASSIGN TO CARE MANAGER" />
+</code>
+<goal>
+<reference value="Goal/eWX1k5wUEi7WfbqLy3hRBsQ3" />
+<display value="JRS Two Task Goal" />
+</goal>
+<status value="completed" />
+<doNotPerform value="false" />
+<scheduledPeriod>
+<start value="2020-07-16T19:05:47Z" />
+<end value="2020-07-22T17:29:53Z" />
+</scheduledPeriod>
+<description value="Placeholder for Task Comments " />
+</detail>
+</activity>
+</CarePlan>
+</resource>
+<search>
+<mode value="match" />
+</search>
+</entry>
+</Bundle>

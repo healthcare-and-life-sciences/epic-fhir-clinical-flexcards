@@ -1,0 +1,95 @@
+<Bundle xmlns="http://hl7.org/fhir">
+    <type value="searchset" />
+    <total value="2" />
+    <link>
+        <relation value="self" />
+        <url value="https://hostname/instance/api/FHIR/R4/Flag?patient=ezHbeFCm6Ih8kgxuHUAdvJQ3" />
+    </link>
+    <entry>
+        <link>
+            <relation value="self" />
+            <url value="https://hostname/instance/api/FHIR/R4/Flag/eNKB8jKjP1zEk-FRpiajqnWp7beLw0YTA5ksNWTEnwQk3" />
+        </link>
+        <fullUrl value="https://hostname/instance/api/FHIR/R4/Flag/eNKB8jKjP1zEk-FRpiajqnWp7beLw0YTA5ksNWTEnwQk3" />
+        <resource>
+            <Flag>
+                <id value="eNKB8jKjP1zEk-FRpiajqnWp7beLw0YTA5ksNWTEnwQk3" />
+                <status value="active" />
+                <category>
+                    <coding>
+                        <system value="http://open.epic.com/FHIR/StructureDefinition/flag-category" />
+                        <code value="patient-fyi" />
+                        <display value="Patient FYI Flag" />
+                    </coding>
+                    <coding>
+                        <system value="http://loinc.org" />
+                        <code value="74018-3" />
+                        <display value="alert" />
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="urn:oid:1.2.840.114350.1.13.5325.1.7.10.727879.560" />
+                        <code value="1" />
+                        <display value="General" />
+                    </coding>
+                    <text value="Jennifer enjoys hiking." />
+                </code>
+                <subject>
+                    <reference value="Patient/ezHbeFCm6Ih8kgxuHUAdvJQ3" />
+                    <display value="Smith, Jennifer" />
+                </subject>
+                <period>
+                    <start value="2021-05-03T18:40:48Z" />
+                </period>
+            </Flag>
+        </resource>
+        <search>
+            <mode value="match" />
+        </search>
+    </entry>
+    <entry>
+        <link>
+            <relation value="self" />
+            <url value="https://hostname/instance/api/FHIR/R4/Flag/eNKB8jKjP1zEk-FRpiAHajqnsdfWp7beLw0YTA5ksNWT3" />
+        </link>
+        <fullUrl value="https://hostname/instance/api/FHIR/R4/Flag/eNKB8jKjP1zEk-FRpiAHajqnsdfWp7beLw0YTA5ksNWT3" />
+        <resource>
+            <Flag>
+                <id value="eNKB8jKjP1zEk-FRpiAHajqnsdfWp7beLw0YTA5ksNWT3" />
+                <status value="inactive" />
+                <category>
+                    <coding>
+                        <system value="http://open.epic.com/FHIR/StructureDefinition/flag-category" />
+                        <code value="patient-fyi" />
+                        <display value="Patient FYI Flag" />
+                    </coding>
+                    <coding>
+                        <system value="http://loinc.org" />
+                        <code value="74018-3" />
+                        <display value="alert" />
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="urn:oid:1.2.840.114350.1.13.5325.1.7.10.727879.560" />
+                        <code value="1" />
+                        <display value="General" />
+                    </coding>
+                    <text value="Patient is temporarily living with sister. Double check appointment and pharmacy locations during visits." />
+                </code>
+                <subject>
+                    <reference value="Patient/ezHbeFCm6Ih8kgxuHUAdvJQ3" />
+                    <display value="Smith, Jennifer" />
+                </subject>
+                <period>
+                    <start value="2018-04-03T16:12:37Z" />
+                    <end value="2018-11-15T18:42:15Z" />
+                </period>
+            </Flag>
+        </resource>
+        <search>
+            <mode value="match" />
+        </search>
+    </entry>
+</Bundle>
