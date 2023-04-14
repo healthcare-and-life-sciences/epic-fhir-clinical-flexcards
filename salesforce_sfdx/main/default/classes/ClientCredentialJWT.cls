@@ -42,8 +42,6 @@ public class ClientCredentialJWT extends Auth.AuthProviderPluginClass {
     public PageReference initiate(Map<string,string> authProviderConfiguration, String stateToPropagate) { 
 
         callbackUrl += authProviderConfiguration.get('callback_uri__c') + '?state=' + stateToPropagate;
-        System.debug(LoggingLevel.WARN, 'initiate-config: ' + authProviderConfiguration);
-		System.debug(LoggingLevel.WARN, 'initiate-stateToPropagate: ' + stateToPropagate);
         return new PageReference(callbackUrl);
     } 
      
@@ -52,16 +50,11 @@ public class ClientCredentialJWT extends Auth.AuthProviderPluginClass {
         String refreshToken = EncodingUtil.base64Encode (Crypto.generateAesKey (128)) ; // random refreshToken required or named credential will not refresh
         HttpResponse res = obtainAccessToken(authProviderConfiguration);
         ResponseWrapper responseWrapper = (ResponseWrapper) JSON.deserialize(res.getBody(), ResponseWrapper.class);
-        System.debug(LoggingLevel.WARN, 'handleCallback-config: ' + authProviderConfiguration);
-		System.debug(LoggingLevel.WARN, 'handleCallback-callbackState: ' + state);
-		System.debug(LoggingLevel.WARN, 'handleCallback-token: ' + responseWrapper.access_token);
         return new Auth.AuthProviderTokenResponse(authProviderName, responseWrapper.access_token, refreshToken, state.queryParameters.get('state'));
       } 
 
     public override Auth.OAuthRefreshResult refresh(Map<String,String> authProviderConfiguration, String refreshToken) {
         HttpResponse res = this.obtainAccessToken(authProviderConfiguration);
-        System.debug(LoggingLevel.WARN, 'refresh-config: ' + authProviderConfiguration);
-		System.debug(LoggingLevel.WARN, 'refresh-refreshToken: ' + refreshToken);
 		ResponseWrapper responseWrapper = (ResponseWrapper) JSON.deserialize(res.getBody(), ResponseWrapper.class);
         return new Auth.OAuthRefreshResult(responseWrapper.access_token, tokenType);
     }
