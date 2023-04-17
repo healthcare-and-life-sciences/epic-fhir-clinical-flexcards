@@ -1,5 +1,5 @@
 ![](/images/ahlsbanner.png)
-[Image: Screen Shot 2022-05-09 at 6.55.56 PM.png]
+
 # A-HLS EHR Clinical Data FlexCards Documentation 
 
 The EHR Clinical Data FlexCards enables an organization to show read-only, external clinical data for a patient within Health Cloud. At this time, the accelerator is limited to clinical data from organization’s Epic instances. 
@@ -47,7 +47,7 @@ The following clinical objects are included in the Accelerator:
 
 
 
-[Image: Screen Shot 2022-12-15 at 4.28.14 PM.png]* * *
+![](/images/fcimage1.png)
 
 ## Business Objective
 
@@ -173,7 +173,8 @@ Input Options:
             4. iss
             5. jti
             6. sub
-            7. [Image: 2023-04-07_09-20-45.png]
+            7. 
+![](/images/fcimage2.png)
 
 ### Install the Accelerator 
 
@@ -195,7 +196,7 @@ Input Options:
         7. jti: salesforce
         8. cert: fhirdemo_cert
         9. callback url: [https://](https://%3Cyour/)<your salesforce org domain>/services/authcallback/Epic_JWT_Auth
-        10. [Image: Screenshot 2023-04-17 at 2.56.10 PM.png]
+![](/images/fcimage3.png) 
 2. **Create a new Named Credential**
     1. Setup > Named Credential > New Legacy
         1. Give your Named Credential a name 
@@ -203,7 +204,7 @@ Input Options:
         3. Authentication Protocol: OAuth 2.0
         4. Authentication Provider: the name of your Authentication Provider above
         5. “Run Authentication Flow on Save”: Checked
-        6. [Image: Screenshot 2023-04-17 at 2.57.32 PM.png]
+![](/images/fcimage4.png)
 3. **Configure FlexCards**
     1. Open each FlexCard
         1. Deactivate the FlexCard
@@ -227,7 +228,7 @@ Input Options:
                 4. Click “**Save and Fetch**” to save the configuration
             2. Click on the Child FlexCard called “**EpicFHIRCarePlanGoalOP**”
                 1. Set the **“Data Node” = {records.Goal}**
-                2. [Image: Screen Shot 2022-12-14 at 12.14.52 PM.png]
+![](/images/fcimage5.png)
             3. Activate the FlexCard
         3. **EpicFHIRCareTeam**
             1. Setup Pane:
