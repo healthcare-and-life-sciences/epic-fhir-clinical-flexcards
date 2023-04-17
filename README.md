@@ -182,7 +182,7 @@ Input Options:
     1. To access the IDX workbench, please navigate to this URL: https://workbench.developerforce.com/login.php
     2. For more information regarding IDX, please review this Trailhead: https://trailhead.salesforce.com/content/learn/modules/omnistudio-developer-tools
 
-### Post-Install Configuration Steps:
+### Post-Install Configuration Steps (Direct Connection to Epic FHIR APIs):
 
 1. Create a new Authentication Provider
     1. Setup > Auth Providers
