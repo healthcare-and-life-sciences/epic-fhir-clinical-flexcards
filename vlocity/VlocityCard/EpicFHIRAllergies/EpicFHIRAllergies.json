@@ -16,8 +16,7 @@
             "dsDelay": "",
             "inputMap": {
                 "ContextId": "{recordId}",
-                "DataType": "Allergies",
-                "env": "Sandbox"
+                "DataType": "Allergies"
             },
             "ipMethod": "EHR_AuthAndDataParent",
             "jsonMap": "{\"recordId\":\"{recordId}\"}",

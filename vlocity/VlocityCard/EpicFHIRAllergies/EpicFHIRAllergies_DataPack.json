@@ -19,8 +19,7 @@
                 "dsDelay": "",
                 "inputMap": {
                     "ContextId": "{recordId}",
-                    "DataType": "Allergies",
-                    "env": "Sandbox"
+                    "DataType": "Allergies"
                 },
                 "ipMethod": "EHR_AuthAndDataParent",
                 "jsonMap": "{\"recordId\":\"{recordId}\"}",
@@ -34,7 +33,7 @@
     "%vlocity_namespace%__GlobalKey__c": "EpicFHIRAllergies/LizChristenbury/1/1673546340623",
     "%vlocity_namespace%__IsChildCard__c": true,
     "%vlocity_namespace%__ParentID__c": "",
-    "%vlocity_namespace%__SampleData__c": "{\"Allergy\":[{\"RecordedDate\":\"2019-05-24T20:18:04Z\",\"PatientName\":\"Davis, Elijah John\",\"PatientReference\":\"Patient/egqBHVfQlt4Bw3XGXoxVxHg3\",\"CodeText\":\"LACTOSE\",\"Category\":\"medication\",\"VerificationStatus\":\"Confirmed\",\"Status\":\"Active\",\"CodingSystem\":\"http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical\"},{\"RecordedDate\":\"2019-05-24T20:19:17Z\",\"PatientName\":\"Davis, Elijah John\",\"PatientReference\":\"Patient/egqBHVfQlt4Bw3XGXoxVxHg3\",\"CodeText\":\"LATEX\",\"Category\":\"medication\",\"VerificationStatus\":\"Confirmed\",\"Status\":\"Active\",\"CodingSystem\":\"http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical\"}],\"Relation\":\"self\",\"Total\":\"2\",\"Type\":\"searchset\"}",
+    "%vlocity_namespace%__SampleData__c": "{\"success\":false,\"info\":{\"statusCode\":400,\"status\":\"Bad Request\",\"Content-Type\":\"application/xml; charset=utf-8\",\"Access-Control-Allow-Headers\":\"origin, authorization, accept, content-type, x-requested-with, prefer, Epic-User-ID, Epic-User-IDType, Epic-Client-ID, soapaction, Epic-MyChartUser-ID, Epic-MyChartUser-IDType\",\"Date\":\"Fri, 07 Apr 2023 18:58:05 GMT\",\"Content-Length\":\"607\",\"Pragma\":\"no-cache\",\"Expires\":\"-1\",\"Access-Control-Allow-Methods\":\"GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS\",\"Access-Control-Allow-Credentials\":\"true\",\"Access-Control-Allow-Origin\":\"*\",\"Cache-Control\":\"no-cache,no-store\",\"Strict-Transport-Security\":\"max-age=31536000; includeSubDomains\"},\"result\":\"<OperationOutcome xmlns=\\\"http://hl7.org/fhir\\\"><issue><severity value=\\\"fatal\\\" /><code value=\\\"business-rule\\\" /><details><coding><system value=\\\"urn:oid:1.2.840.114350.1.13.0.1.7.2.657369\\\" /><code value=\\\"59159\\\" /><display value=\\\"The content/operation failed to pass a business rule, and so could not proceed.\\\" /></coding><text value=\\\"The content/operation failed to pass a business rule, and so could not proceed.\\\" /></details><diagnostics value=\\\"This resource requires a patient or _id parameter for searching.\\\" /><location value=\\\"/f:patient/_id\\\" /><expression value=\\\"patient/_id\\\" /></issue></OperationOutcome>\"}",
     "%vlocity_namespace%__Styles__c": "",
     "%vlocity_namespace%__Type__c": "",
     "%vlocity_namespace%__Version__c": 1,
