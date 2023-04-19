@@ -41,7 +41,7 @@
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,
         "sendJSONNode": "",
-        "sendJSONPath": "GetAppointmentsSTU3",
+        "sendJSONPath": "GetAppointmentsR4",
         "sendOnlyAdditionalInput": false,
         "show": null,
         "useFormulas": true
