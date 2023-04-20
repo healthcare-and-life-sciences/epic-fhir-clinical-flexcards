@@ -102,7 +102,7 @@ The EHR Clinical Data FlexCards enables an organization to show a patient’s or
         * EpicFHIRPatientAppointments
         * EpicFHIRPatientEncounters
 
-### Integration Procedures (3)
+### Integration Procedures (2)
 
 * EHR/AuthAndDataParent
 
@@ -160,55 +160,71 @@ Input Options:
     4. Install the Epic on FHIR App called “**Salesforce Health Cloud - Clinical Summary**” into your Epic organization.
         1. **Client ID:** 43b0500b-ea80-41d4-be83-21230c837c15
 2. **Salesforce Pre-Installation Steps:**
-    1. Ensure your Salesforce Health Cloud org has OmniStudio installed. 
+    1. Ensure your Salesforce Health Cloud org has OmniStudio installed - either the Vlocity HINS package or Core OmniStudio. 
         1. To verify installation, please navigate to Setup > Installed Packages > OmniStudio.
-        2. If OmniStudio is not installed, please follow the instructions found here: https://help.salesforce.com/s/articleView?id=sf.os_omnistudio_release_summary_for_installation_and_upgrade.htm&type=5
-    2. Create Custom Metadata for Authentication Provider:
+    2. Enable Identity Provider according to these steps: https://help.salesforce.com/s/articleView?id=sf.identity_provider_enable.htm&type=5
+    3. Create Custom Metadata for Authentication Provider:
         1. Setup > Custom Metadata Types
-        2. New Metadata Type - ensure it is named **“ClientCredentialJWT”**
-        3. Add the following Custom fields:
+        2. New Metadata Type - ensure it is named **“ClientCredentialsJWT”**
+        3. Add the following Custom fields. All fields should be “Text” fields with a length of 255 characters.
             1. aud
-            2. callback url
+            2. callback uri
             3. cert
             4. iss
             5. jti
             6. sub
-            7. 
+
+
 ![](/images/fcimage2.png)
 
 ### Install the Accelerator 
 
-1. Use IDX to install the files located in the GitHub repository here: https://github.com/healthcare-and-life-sciences/epic-fhir-clinical-flexcards
-    1. To access the IDX workbench, please navigate to this URL: https://workbench.developerforce.com/login.php
-    2. For more information regarding IDX, please review this Trailhead: https://trailhead.salesforce.com/content/learn/modules/omnistudio-developer-tools
+1. Follow the download steps in the "Download Now" flow presented on the HLS Accelerators website for this Accelerator which downloads the following GitHub repository on your machine: https://github.com/healthcare-and-life-sciences/epic-fhir-clinical-flexcards
+2. Unzip the resulting .zip file which is downloaded to your machine. 
+3. Open the “OmniStudio” folder
+    1. If you have the Vlocity_ins package installed in your org, open the folder titled “Vlocity Version”.
+    2. If you have Core OmniStudio installed in your org, or if you have converted over from Vlocity_ins to Core, open the folder titled “Core OmniStudio Version”.
+    3. Install the appropriate DataPack into your org. 
+        1. Click on App Launcher → Search for 'OmniStudio FlexCards' and click on it.
+        2. Click on 'Import' on the right side.
+        3. Select 'Upload Files' - When the window opens, select the json file identified in the previous step. Click 'Open' then click 'Next' 3 times.
+        4. If prompted to Active, choose Activate Later. 
+4. Open the “salesforce-sfdx” folder. Use IDX or sfdx to install the files under the “salesforce-sfdx” folder.
+5. To access the IDX workbench, please navigate to this URL: https://workbench.developerforce.com/login.php
+6. For more information regarding IDX, please review this Trailhead: https://trailhead.salesforce.com/content/learn/modules/omnistudio-developer-tools
+7. Import the keystore FHIRDEMOKEYSTORE.jks from .zip file
+    1. Setup > Certificates and Key Management > Import from Keystore
+    2. Password: salesforce1
 
-### Post-Install Configuration Steps (Direct Connection to Epic FHIR APIs):
+### Post-Install Configuration Steps:
 
 1. Create a new Authentication Provider
     1. Setup > Auth Providers
     2. Create a New Authentication Provider
-        1. Provider Type: Custom
+        1. Provider Type: **ClientCredentialJWT**
         2. Name: Epic_JWT_Auth
-        3. Plugin: ClientCredentialJWT
-        4. iss: 7a88a6d4-453f-4b34-a48e-e4a5c667285a
-        5. sub: 7a88a6d4-453f-4b34-a48e-e4a5c667285a
-        6. aud: set this to the API endpoint for authentication - either the MuleSoft API or Epic FHIR API - e.g., https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
-        7. jti: salesforce
-        8. cert: fhirdemo_cert
-        9. callback url: [https://](https://%3Cyour/)<your salesforce org domain>/services/authcallback/Epic_JWT_Auth
-![](/images/fcimage3.png) 
+        3. iss: 43b0500b-ea80-41d4-be83-21230c837c15
+        4. sub: 43b0500b-ea80-41d4-be83-21230c837c15
+        5. aud: set this to the API endpoint for authentication - either the MuleSoft API or Epic FHIR API - e.g., https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
+        6. jti: salesforce
+        7. cert: fhirdemo_cert
+        8. callback url: [https://](https://%3Cyour/)<your salesforce org domain>/services/authcallback/Epic_JWT_Auth
+        9. Execute Registration As: your system administrator User
+![](/images/fcimage3.png)
 2. **Create a new Named Credential**
     1. Setup > Named Credential > New Legacy
-        1. Give your Named Credential a name 
-        2. Identity Type: Named Principal
-        3. Authentication Protocol: OAuth 2.0
-        4. Authentication Provider: the name of your Authentication Provider above
-        5. “Run Authentication Flow on Save”: Checked
+        1. Name: Must be **Epic Auth JWT**
+        2. URL: the URL of the endpoint you are going to connect to. For example, https://fhir.epic.com/interconnect-fhir-oauth/ 
+        3. Identity Type: Named Principal
+        4. Authentication Protocol: OAuth 2.0
+        5. Authentication Provider: the name of your Authentication Provider above
+        6. “Run Authentication Flow on Save”: Checked
 ![](/images/fcimage4.png)
 3. **Configure FlexCards**
     1. Open each FlexCard
         1. Deactivate the FlexCard
         2. Activate the FlexCard
+        3. For Publish Options, select “Record Page” and click Save.
     2. The following FlexCards have been pre-populated with sample data, as the [fhir.epic.com](http://fhir.epic.com/) sandbox did not provide real-time test data for validation. Therefore, in order to connect these FlexCards with your Epic instance, please follow the subsequent steps. 
         1. **EpicFHIRPatientFYI**
             1. Setup Pane:
@@ -218,6 +234,8 @@ Input Options:
                     1. ContextId = **{recordId}**
                     2. DataType = **FYI**
                 4. Click “**Save and Fetch**” to save the configuration
+            2. Activate the FlexCard
+            3. For Publish Options, select “Record Page” and click Save.
         2. **EpicFHIRCarePlanOP**
             1. Setup Pane:
                 1. Data Source Type = Integration Procedure
@@ -226,10 +244,13 @@ Input Options:
                     1. ContextId = **{recordId}**
                     2. DataType = **CarePlanOP**
                 4. Click “**Save and Fetch**” to save the configuration
-            2. Click on the Child FlexCard called “**EpicFHIRCarePlanGoalOP**”
+            2. Activate the FlexCard
+            3. For Publish Options, select “Record Page” and click Save.
+            4. Click on the Child FlexCard called “**EpicFHIRCarePlanGoalOP**”
                 1. Set the **“Data Node” = {records.Goal}**
 ![](/images/fcimage5.png)
-            3. Activate the FlexCard
+            5. Activate the FlexCard
+            6. For Publish Options, select “Record Page” and click Save.
         3. **EpicFHIRCareTeam**
             1. Setup Pane:
                 1. Data Source Type = Integration Procedure
@@ -238,11 +259,25 @@ Input Options:
                     1. ContextId = **{recordId}**
                     2. DataType = **CareTeamLong**
                 4. Click “**Save and Fetch**” to save the configuration
+            2. Activate the FlexCard
+            3. For Publish Options, select “Record Page” and click Save.
 4. **Add the following parent FlexCards to the Person Account Lightning Page:**
     1. **Patient Demographics Information** → Add “**EpicFHIRPatientInfo**”
     2. **Patient Clinical Information** → Add “**EpicFHIRHealthInfoParent**”
     3. **Patient Visit Information** → Add “**EpicFHIRVisitsParent**”
     4. Save your lightning page and activate it appropriately for your users/profiles. 
+
+* * *
+
+## Troubleshooting
+
+1. **When migrating the accelerator to your destination org, an error message that reads “LWC Activation Error >> VlocityCard [{"message":"You put 'lightning__AppPage' in the <targetConfigs> targets attribute, but it isn't specified in the <targets> section.","errorCode":"AURA_COMPILE_ERROR","fields":[]}]"**
+    1. The FlexCard should have migrated successfully but was not activated. Navigate to the FlexCard in the destination org and Activate it. Select “Record Page” in the publish options.
+2. **When migrating the accelerator to your destination org, an error message that reads that the URL is not found in the Remote Site Settings**
+    1. The FlexCard should have migrated successfully but was not activated. Navigate to the FlexCard in the destination org and Activate it. Select “Record Page” in the publish options.
+    2. On the FlexCard record list, click the “Warnings” button and add the indicated URLs as Remote Sites in Setup > Remote Site Settings
+3. **Error indicating that there is not a child LWC found when activating a FlexCard**
+    1. Please activate all child FlexCards before activating parent FlexCards. This should resolve the issue. 
 
 * * *
 
@@ -263,7 +298,8 @@ Input Options:
     * December 15, 2022 - Initial Draft
     * January 13, 2023 - Updated
     * April 7, 2023 - updated
-    * April 17, 2023 - updated with Named Credential implementation requirements
+
+* * *
 
 
 
