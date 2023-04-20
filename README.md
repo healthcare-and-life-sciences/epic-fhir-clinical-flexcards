@@ -185,10 +185,10 @@ Input Options:
     1. If you have the Vlocity_ins package installed in your org, open the folder titled “Vlocity Version”.
     2. If you have Core OmniStudio installed in your org, or if you have converted over from Vlocity_ins to Core, open the folder titled “Core OmniStudio Version”.
     3. Install the appropriate DataPack into your org. 
-        1. Click on App Launcher → Search for 'OmniStudio FlexCards' and click on it.
-        2. Click on 'Import' on the right side.
-        3. Select 'Upload Files' - When the window opens, select the json file identified in the previous step. Click 'Open' then click 'Next' 3 times.
-        4. If prompted to Active, choose Activate Later. 
+        1. Click on App Launcher → Search for 'OmniStudio DataPacks' and click on it.
+        2. Click on 'Installed' > Import > From File
+        3. When the window opens, select the json file identified in the previous step. Click 'Open' then click 'Next' 3 times.
+
 4. Open the “salesforce-sfdx” folder. Use IDX or sfdx to install the files under the “salesforce-sfdx” folder.
 5. To access the IDX workbench, please navigate to this URL: https://workbench.developerforce.com/login.php
 6. For more information regarding IDX, please review this Trailhead: https://trailhead.salesforce.com/content/learn/modules/omnistudio-developer-tools
