@@ -208,7 +208,7 @@ Input Options:
         5. aud: set this to the API endpoint for authentication - either the MuleSoft API or Epic FHIR API - e.g., https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
         6. jti: salesforce
         7. cert: fhirdemo_cert
-        8. callback url: [https://](https://%3Cyour/)<your salesforce org domain>/services/authcallback/Epic_JWT_Auth
+        8. callback uri: [https://](https://%3Cyour/)<your salesforce org domain>/services/authcallback/Epic_JWT_Auth
         9. Execute Registration As: your system administrator User
 ![](/images/fcimage3.png)
 2. **Create a new Named Credential**
