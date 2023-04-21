@@ -160,7 +160,7 @@ Input Options:
     4. Install the Epic on FHIR App called “**Salesforce Health Cloud - Clinical Summary**” into your Epic organization.
         1. **Client ID:** 43b0500b-ea80-41d4-be83-21230c837c15
 2. **Salesforce Pre-Installation Steps:**
-    1. Ensure your Salesforce Health Cloud org has OmniStudio installed - either the Vlocity HINS package or Core OmniStudio. 
+    1. Ensure your Salesforce Health Cloud org has Vlocity OmniStudio installed. A version of this accelerator for Core OmniStudio is going to be available soon.  
         1. To verify installation, please navigate to Setup > Installed Packages > OmniStudio.
     2. Enable Identity Provider according to these steps: https://help.salesforce.com/s/articleView?id=sf.identity_provider_enable.htm&type=5
     3. Create Custom Metadata for Authentication Provider:
@@ -183,8 +183,8 @@ Input Options:
 2. Unzip the resulting .zip file which is downloaded to your machine. 
 3. Open the “OmniStudio” folder
     1. If you have the Vlocity_ins package installed in your org, open the folder titled “Vlocity Version”.
-    2. If you have Core OmniStudio installed in your org, or if you have converted over from Vlocity_ins to Core, open the folder titled “Core OmniStudio Version”.
-    3. Install the appropriate DataPack into your org. 
+    2. If you have Core OmniStudio installed in your org, a version will be available soon.
+    3. Install the DataPack into your org. 
         1. Click on App Launcher → Search for 'OmniStudio DataPacks' and click on it.
         2. Click on 'Installed' > Import > From File
         3. When the window opens, select the json file identified in the previous step. Click 'Open' then click 'Next' 3 times.
@@ -211,7 +211,11 @@ Input Options:
         8. callback uri: [https://](https://%3Cyour/)<your salesforce org domain>/services/authcallback/Epic_JWT_Auth
         9. Execute Registration As: your system administrator User
 ![](/images/fcimage3.png)
-2. **Create a new Named Credential**
+2. **Add your API endpoint to Remote Site Settings**
+    1. Setup > Remote Site Settings > New
+    2. Give the Remote Site a name and paste the domain of the API endpoint into the URL field.
+    3. Click Save.
+3. **Create a new Named Credential**
     1. Setup > Named Credential > New Legacy
         1. Name: Must be **Epic Auth JWT**
         2. URL: the URL of the endpoint you are going to connect to. For example, https://fhir.epic.com/interconnect-fhir-oauth/ 
@@ -220,7 +224,7 @@ Input Options:
         5. Authentication Provider: the name of your Authentication Provider above
         6. “Run Authentication Flow on Save”: Checked
 ![](/images/fcimage4.png)
-3. **Configure FlexCards**
+4. **Configure FlexCards**
     1. Open each FlexCard
         1. Deactivate the FlexCard
         2. Activate the FlexCard
@@ -261,7 +265,7 @@ Input Options:
                 4. Click “**Save and Fetch**” to save the configuration
             2. Activate the FlexCard
             3. For Publish Options, select “Record Page” and click Save.
-4. **Add the following parent FlexCards to the Person Account Lightning Page:**
+5. **Add the following parent FlexCards to the Person Account Lightning Page:**
     1. **Patient Demographics Information** → Add “**EpicFHIRPatientInfo**”
     2. **Patient Clinical Information** → Add “**EpicFHIRHealthInfoParent**”
     3. **Patient Visit Information** → Add “**EpicFHIRVisitsParent**”
