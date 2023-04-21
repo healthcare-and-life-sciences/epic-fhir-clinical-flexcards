@@ -4,7 +4,9 @@
 
 The EHR Clinical Data FlexCards enables an organization to show read-only, external clinical data for a patient within Health Cloud. At this time, the accelerator is limited to clinical data from organization’s Epic instances. 
 
-The accelerator is compatible with both MuleSoft or via a direct connection via FHIR APIs with Epic. After a few configuration steps, an organization is ready to start using the Patient Search component in their workflows.
+The accelerator is compatible with both MuleSoft or via a direct connection via FHIR APIs with Epic. After a few configuration steps, an organization is ready to start using the Patient Search component in their workflows. 
+
+The setup instructions below detail how to connect the Accelerator directly to your Epic instance. Please contact your MuleSoft AE for support in connecting the Accelerator to MuleSoft.
 
 It is assumed that an organization has enabled the appropriate FHIR APIs (detailed below) in their Epic system which is what supports the accelerator.
 
@@ -208,7 +210,7 @@ Input Options:
         5. aud: set this to the API endpoint for authentication - either the MuleSoft API or Epic FHIR API - e.g., https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
         6. jti: salesforce
         7. cert: fhirdemo_cert
-        8. callback uri: https://<your salesforce org domain>/services/authcallback/Epic_JWT_Auth
+        8. callback uri: https://YOURDOMAIN/services/authcallback/Epic_JWT_Auth
         9. Execute Registration As: your system administrator User
 ![](/images/fcimage3.png)
 2. **Add your API endpoint to Remote Site Settings**
