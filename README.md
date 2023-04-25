@@ -160,7 +160,7 @@ Input Options:
     4. Install the Epic on FHIR App called “**Salesforce Health Cloud - Clinical Summary**” into your Epic organization.
         1. **Client ID:** 43b0500b-ea80-41d4-be83-21230c837c15
 2. **Salesforce Pre-Installation Steps:**
-    1. Ensure your Salesforce Health Cloud org has Vlocity OmniStudio installed. A version of this accelerator for Core OmniStudio is going to be available soon.  
+    1. Ensure your Salesforce Health Cloud org has Vlocity OmniStudio or Core OmniStudio installed.
         1. To verify installation, please navigate to Setup > Installed Packages > OmniStudio.
     2. Enable Identity Provider according to these steps: https://help.salesforce.com/s/articleView?id=sf.identity_provider_enable.htm&type=5
     3. Create Custom Metadata for Authentication Provider:
