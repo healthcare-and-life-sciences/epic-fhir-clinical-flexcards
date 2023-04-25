@@ -183,7 +183,7 @@ Input Options:
 2. Unzip the resulting .zip file which is downloaded to your machine. 
 3. Open the “OmniStudio” folder
     1. If you have the Vlocity_ins package installed in your org, open the folder titled “Vlocity Version”.
-    2. If you have Core OmniStudio installed in your org, a version will be available soon.
+    2. If you have Core OmniStudio installed in your org, open the folder titled "OmniStudio Version".
     3. Install the DataPack into your org. 
         1. Click on App Launcher → Search for 'OmniStudio DataPacks' and click on it.
         2. Click on 'Installed' > Import > From File
