@@ -117,23 +117,21 @@ Input Options:
 
 * EHRConnect/GetData
 
-### DataRaptors (15)
+### DataRaptors (13)
 
-* Extracts:
-    * GetPatientEHRId
-* Transforms:
-    * EpicFHIRPatientAllergiesXMLtoJSON
-    * EpicFHIRCarePlanLongXMLtoJSON
-    * EpicFHIROPCarePlanXMLtoJSON
-    * EpicFHIRPatientConditionsXMLtoJSON
-    * EpicFHIRPatientDemographicsXMLToJSON
-    * DREpicPatient2JSONtoJSON
-    * EpicFHIREncountersXMLtoJSON
-    * EpicFHIRMedicationXMLtoJSON
-    * EpicFHIRSocialHistoryXMLtoJSON
-    * EpicFHIRPatientAppointmentsXMLtoJSON
-    * DRTransformCareTeamJSONtoJSON
-    * EpicFHIRPatientFYIXMLtoJSON
+* GetPatientEHRId
+* EpicFHIRPatientAllergiesXMLtoJSON
+* EpicFHIRCarePlanLongXMLtoJSON
+* EpicFHIRMedicationXMLtoJSON
+* EpicFHIRSocialHistoryXMLtoJSON
+* EpicFHIRPatientAppointmentsXMLtoJSON
+* EpicFHIROPCarePlanXMLtoJSON
+* EpicFHIRPatientConditionsXMLtoJSON
+* EpicFHIRPatientDemographicsXMLToJSON
+* DREpicPatient2JSONtoJSON
+* EpicFHIREncountersXMLtoJSON
+* DRTransformCareTeamJSONtoJSON
+* EpicFHIRPatientFYIXMLtoJSON
 
 ### **Custom Apex Class (1)**
 
