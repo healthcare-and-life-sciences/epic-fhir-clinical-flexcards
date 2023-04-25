@@ -188,6 +188,7 @@ Input Options:
         1. Click on App Launcher → Search for 'OmniStudio DataPacks' and click on it.
         2. Click on 'Installed' > Import > From File
         3. When the window opens, select the json file identified in the previous step. Click 'Open' then click 'Next' 3 times.
+        4. When prompted, click "Activate Now".
 
 4. Open the “salesforce-sfdx” folder. Use IDX or sfdx to install the files under the “salesforce-sfdx” folder.
 5. To access the IDX workbench, please navigate to this URL: https://workbench.developerforce.com/login.php
@@ -225,7 +226,7 @@ Input Options:
         6. “Run Authentication Flow on Save”: Checked
 ![](/images/fcimage4.png)
 4. **Configure FlexCards**
-    1. Open each FlexCard
+    1. Open each FlexCard and ensure it is Activated. If it is not, do the following:
         1. Deactivate the FlexCard
         2. Activate the FlexCard
         3. For Publish Options, select “Record Page” and click Save.
