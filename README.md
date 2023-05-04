@@ -144,8 +144,8 @@ Input Options:
 ### Pre-Install Configuration Steps:
 
 1. **EHR Pre-Configuration Steps:**
-    1. Identify your [fhir.epic.com](https://fhir.epic.com/) endpoint
-    2. Confirm that your endpoint is configured such that the following APIs are active - for full reference, please refer to the [fhir.epic.com](http://fhir.epic.com/) API documentation.
+    1. If you are connecting to Epic directly, identify your [fhir.epic.com](https://fhir.epic.com/) endpoint. If you are connecting via MuleSoft, identify your MuleSoft Client ID, Secret, and authentication endpoints. 
+    2. Confirm that your endpoint is configured such that the following Epic FHIR APIs are active - for full reference, please refer to the [fhir.epic.com](http://fhir.epic.com/) API documentation.
         1. api/FHIR/R4/AllergyIntolerance
         2. api/FHIR/R4/CarePlan
         3. api/FHIR/R4/Condition
@@ -156,14 +156,14 @@ Input Options:
         8. /api/FHIR/STU3/Appointment
         9. api/FHIR/R4/CareTeam
         10. api/FHIR/R4/Flag
-    3. Ensure your EHR system's network is configured to accept traffic from your Health Cloud org
-    4. Install the Epic on FHIR App called “**Salesforce Health Cloud - Clinical Summary**” into your Epic organization.
+    3. If you are connecting to Epic directly, ensure your EHR system's network is configured to accept traffic from your Health Cloud org
+    4. If you are connecting to Epic directly, install the Epic on FHIR App called “**Salesforce Health Cloud - Clinical Summary**” into your Epic organization.
         1. **Client ID:** 43b0500b-ea80-41d4-be83-21230c837c15
 2. **Salesforce Pre-Installation Steps:**
     1. Ensure your Salesforce Health Cloud org has Vlocity OmniStudio or Core OmniStudio installed.
         1. To verify installation, please navigate to Setup > Installed Packages > OmniStudio.
-    2. Enable Identity Provider according to these steps: https://help.salesforce.com/s/articleView?id=sf.identity_provider_enable.htm&type=5
-    3. Create Custom Metadata for Authentication Provider:
+    2. Enable Identity Provider according to these steps: https://help.salesforce.com/s/articleView?id=sf.identity_provider_enable.htm&type=5. 
+    3. If you are connecting to Epic directly, create Custom Metadata for Authentication Provider. If you are connecting to Epic via MuleSoft, you can skip this step.
         1. Setup > Custom Metadata Types
         2. New Metadata Type - ensure it is named **“ClientCredentialsJWT”**
         3. Add the following Custom fields. All fields should be “Text” fields with a length of 255 characters.
@@ -190,16 +190,16 @@ Input Options:
         3. When the window opens, select the json file identified in the previous step. Click 'Open' then click 'Next' 3 times.
         4. When prompted, click "Activate Now".
 
-4. Open the “salesforce-sfdx” folder. Use IDX or sfdx to install the files under the “salesforce-sfdx” folder.
-5. To access the IDX workbench, please navigate to this URL: https://workbench.developerforce.com/login.php
-6. For more information regarding IDX, please review this Trailhead: https://trailhead.salesforce.com/content/learn/modules/omnistudio-developer-tools
-7. Import the keystore FHIRDEMOKEYSTORE.jks from .zip file
+4. If you are connecting to Epic directly, open the “salesforce-sfdx” folder. Use IDX or sfdx to install the files under the “salesforce-sfdx” folder. If you are using MuleSoft to connect to Epic, you can skip this step.
+   1. To access the IDX workbench, please navigate to this URL: https://workbench.developerforce.com/login.php
+   2. For more information regarding IDX, please review this Trailhead: https://trailhead.salesforce.com/content/learn/modules/omnistudio-developer-tools
+7. If you are connecting to Epic directly, import the keystore FHIRDEMOKEYSTORE.jks from .zip file. If you are using MuleSoft to connect to Epic, you can skip this step.
     1. Setup > Certificates and Key Management > Import from Keystore
     2. Password: salesforce1
 
 ### Post-Install Configuration Steps:
 
-1. Create a new Authentication Provider
+1. If you are connecting to Epic directly, Create a new Authentication Provider. If you are using MuleSoft to connect to Epic, you can skip this step.
     1. Setup > Auth Providers
     2. Create a New Authentication Provider
         1. Provider Type: **ClientCredentialJWT**
@@ -212,11 +212,11 @@ Input Options:
         8. callback uri: https://YOURDOMAIN/services/authcallback/Epic_JWT_Auth
         9. Execute Registration As: your system administrator User
 ![](/images/fcimage3.png)
-2. **Add your API endpoint to Remote Site Settings**
+2. **Add your API endpoint to Remote Site Settings** If you are using MuleSoft to connect to Epic, you can skip this step.
     1. Setup > Remote Site Settings > New
     2. Give the Remote Site a name and paste the domain of the API endpoint into the URL field.
     3. Click Save.
-3. **Create a new Named Credential**
+3. **Create a new Named Credential** If you are using MuleSoft to connect to Epic, you can skip this step.
     1. Setup > Named Credential > New Legacy
         1. Name: Must be **Epic Auth JWT**
         2. URL: the URL of the endpoint you are going to connect to. For example, https://fhir.epic.com/interconnect-fhir-oauth/ 
@@ -225,7 +225,19 @@ Input Options:
         5. Authentication Provider: the name of your Authentication Provider above
         6. “Run Authentication Flow on Save”: Checked
 ![](/images/fcimage4.png)
-4. **Configure FlexCards**
+
+4. If you are using MuleSoft to connect to Epic, follow these steps to configure the Integration Procedure to call MuleSoft APIs:
+   1. Follow the Epic Administration System API Setup Guide, if it has not already been completed as part of your MuleSoft implementation.
+   2. Create new Remote Site (Setup > Remote Site Settings > New Remote Site) with the URL of the newly-created MuleSoft app.
+   3. Create a Named Credential for your MuleSoft app.
+   4. Update each HTTP Action element of the Integration Procedure titled EpicFHIRGetData with the following:
+      1. Path = endpoint of your MuleSoft app.
+      2. Named Credential = the name of your MuleSoft Named Credential from step 3 above.
+      3. Use the Preview pane to test the updates to the Integration Procedure.
+      4. Activate the Integration Procedure.
+
+
+5. **Configure FlexCards**
     1. Open each FlexCard and ensure it is Activated. If it is not, do the following:
         1. Deactivate the FlexCard
         2. Activate the FlexCard
