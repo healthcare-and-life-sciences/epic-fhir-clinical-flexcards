@@ -231,7 +231,7 @@ Input Options:
    2. Create new Remote Site (Setup > Remote Site Settings > New Remote Site) with the URL of the newly-created MuleSoft app.
    3. Create a Named Credential for your MuleSoft app.
    4. Update each HTTP Action element of the Integration Procedure titled EpicFHIRGetData with the following:
-      1. Path = endpoint of your MuleSoft app.
+      1. Path = endpoint of your MuleSoft app without the domain. For example: /api/R4/Condition.
       2. Named Credential = the name of your MuleSoft Named Credential from step 3 above.
       3. Use the Preview pane to test the updates to the Integration Procedure.
       4. Activate the Integration Procedure.
