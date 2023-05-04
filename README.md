@@ -227,7 +227,7 @@ Input Options:
 ![](/images/fcimage4.png)
 
 4. If you are using MuleSoft to connect to Epic, follow these steps to configure the Integration Procedure to call MuleSoft APIs:
-   1. Follow the Epic Administration System API Setup Guide, if it has not already been completed as part of your MuleSoft implementation.
+   1. Follow the Epic Administration System API Setup Guide, if it has not already been completed as part of your MuleSoft implementation. https://anypoint.mulesoft.com/exchange/org.mule.examples/hc-accelerator-epic-us-core-administration-sys-api/minor/1.0/pages/edh-nhj/Setup%20Guide/
    2. Create new Remote Site (Setup > Remote Site Settings > New Remote Site) with the URL of the newly-created MuleSoft app.
    3. Create a Named Credential for your MuleSoft app.
    4. Update each HTTP Action element of the Integration Procedure titled EpicFHIRGetData with the following:
