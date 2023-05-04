@@ -305,6 +305,7 @@ Input Options:
 3. Data Model elements that are part of the HINS (Vlocity) Managed package or Health Cloud with OmniStudio are all available.
 4. The Accelerator uses the Lightning Design System standards and look. Customers may want to apply their own branding which can be achieved.
 5. A customer has an administrator/developer who is familiar with IDX and OmniStudio.
+6. A customer is using Epic EHR.
 
 * * *
 
@@ -315,6 +316,7 @@ Input Options:
     * December 15, 2022 - Initial Draft
     * January 13, 2023 - Updated
     * April 7, 2023 - updated
+    * May 4, 2023 - updated with configuration steps for MuleSoft customers
 
 * * *
 
