@@ -88,22 +88,22 @@ The EHR Clinical Data FlexCards enables an organization to show a patient’s or
 ### **FlexCards (14 excluding child cards)**
 
 * **Patient Demographics:**
-    * EpicFHIRPatientInfo
-        * EpicFHIRPatientFYI
+    * EpicFHIRPatientInfoCore
+        * EpicFHIRPatientFYICore
 * **Clinical Information:**
-    * EpicFHIRHealthInfoParent
-        * EpicFHIRAllergies
-        * EpicFHIRPatientConditions
-        * EpicFHIRPatientMedications
-        * EpicFHIRCarePlanOP
-        * EpicFHIRCarePlanLong
-        * EpicFHIRCareTeam
-        * EpicFHIRSocialHistoryParent
-            * EpicFHIRSocialHistory
+    * EpicFHIRHealthInfoParentCore
+        * EpicFHIRAllergiesCore
+        * EpicFHIRPatientConditionsCore
+        * EpicFHIRPatientMedicationsCore
+        * EpicFHIRCarePlanOPCore
+        * EpicFHIRCarePlanLongCore
+        * EpicFHIRCareTeamCore
+        * EpicFHIRSocialHistoryParentCore
+            * EpicFHIRSocialHistoryCore
 * **Appointment Information:**
-    * EpicFHIRVisitsParent
-        * EpicFHIRPatientAppointments
-        * EpicFHIRPatientEncounters
+    * EpicFHIRVisitsParentCore
+        * EpicFHIRPatientAppointmentsCore
+        * EpicFHIRPatientEncountersCore
 
 ### Integration Procedures (2)
 
@@ -357,9 +357,9 @@ After completing the respective integration steps, complete the following:
 
 #### Add FlexCards to Person Account Lightning Page
 * **Add the following parent FlexCards to the Person Account Lightning Page:**
-	* **Patient Demographics Information** → Add “**EpicFHIRPatientInfo**” 
-	* **Patient Clinical Information** → Add “**EpicFHIRHealthInfoParent**”
-	* **Patient Visit Information** → Add “**EpicFHIRVisitsParent**”
+	* **Patient Demographics Information** → Add “**EpicFHIRPatientInfoCore**” 
+	* **Patient Clinical Information** → Add “**EpicFHIRHealthInfoParentCore**”
+	* **Patient Visit Information** → Add “**EpicFHIRVisitsParentCore**”
 	* Save your lightning page and activate it appropriately for your users/profiles. 
 
 
