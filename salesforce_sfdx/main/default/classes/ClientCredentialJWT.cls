@@ -25,7 +25,6 @@
  * April 6, 2023
  * 
  *
- * author: Derek Cassese - Accelerate HLS - dcassese@salesforce.com
  * 
  *
  */
